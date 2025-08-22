@@ -1,0 +1,26 @@
+﻿D-sun2cr1.nx# sh cdp neighbors 
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+
+Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
+D-sun2cr1.nx.optusnet.com.au(SSI154600NB)
+                    mgmt0          150    R S I s   N5K-C5548UP        Eth1/20       
+D-sun2.cr           Eth1/1         162    R         ASR9K Series       Ten0/1/0/3    
+D-sun1.cr           Eth1/2         169    R         ASR9K Series       Ten0/1/0/4    
+SW2                 Eth1/17        178    R S I     WS-C3560G-48TS     Gig0/1        
+D-sun2cr1.nx.optusnet.com.au(SSI154600NB)
+                    Eth1/20        142    R S s     N5K-C5548UP        mgmt0         
+D-sun1cr1.nx.optusnet.com.au(SSI15420F47)
+                    Eth1/29        153    R S I s   N5K-C5548UP        Eth1/29       
+D-sun1cr1.nx.optusnet.com.au(SSI15420F47)
+                    Eth1/30        153    R S I s   N5K-C5548UP        Eth1/30       
+D-sun1cr1.nx.optusnet.com.au(SSI15420F47)
+                    Eth1/31        160    R S I s   N5K-C5548UP        Eth1/31       
+D-sun1cr1.nx.optusnet.com.au(SSI15420F47)
+                    Eth1/32        161    R S I s   N5K-C5548UP        Eth1/32       
+Switch_5            Eth101/1/36    124    S I       WS-CBS3020-HPQ     Fas0          
+Switch_6            Eth101/1/36    139    S I       WS-CBS3020-HPQ     Fas0          
+000c295374c3        Eth101/1/42    129    H         -VM-SPID           eth0          

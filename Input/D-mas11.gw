@@ -1,0 +1,28 @@
+﻿D-mas11.gw#sh cdp nei
+D-mas11.gw#sh cdp neighbors 
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
+                  D - Remote, C - CVTA, M - Two-port Mac Relay 
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+D-mas12.gw.iplab.au.singtelgroup.net
+                 Gig 9/43          124             R S I  CISCO7609 Gig 9/7
+D-mas12.gw.iplab.au.singtelgroup.net
+                 Ten 7/6           132             R S I  CISCO7609 Ten 7/6
+D-mas12.gw.iplab.au.singtelgroup.net
+                 Ten 7/2           163             R S I  CISCO7609 Ten 7/2
+d-sun2.gw        Gig 9/2           153               R    7206VXR   Gig 0/2
+D-22RRSVCFW      Gig 9/25          173             R S I  WS-C3750G Gig 1/0/1
+D-mas2.sx.optusnet.com.au
+                 Gig 9/12          121               S    WS-C3750- Fas 1/0/23
+D-mas1.sx.optusnet.com.au
+                 Gig 9/11          150               S    WS-C3750- Fas 1/0/24
+I-3560x-N10-27   Gig 9/16          122             R S I  WS-C3560X Gig 0/43
+D-BPF06RU39-MXNTI-C3750-48P-SW2
+                 Gig 9/33          159             R S I  WS-C3750G Gig 1/0/27
+i-gateway-1.ipnet.optus.com.au
+                 Gig 9/45          155             R S I  CISCO7609 Gig 1/13
+i-gateway-1.ipnet.optus.com.au
+                 Gig 9/44          158             R S I  CISCO7609 Gig 1/12
+d-mas12dc1.nx.iplab.au.singtelgroup.net(SSI15500F0Q)
+                 Ten 7/5           151             S I C  N5K-C5548 Eth 1/1
