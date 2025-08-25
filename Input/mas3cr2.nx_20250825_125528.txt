@@ -1,0 +1,33 @@
+Hostname: mas3cr2.nx
+Date: 2025-08-25 12:55:28.935996
+
+
+
+===== show cdp neigh =====
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+
+Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
+mas4cr2.nx.optusnet.com.au(SSI211401P5)
+                    mgmt0          136    R S I s   N5K-C5548UP        Eth101/1/10   
+mas3.cr             Eth1/1         171    R         ASR9K              Ten0/1/0/5    
+mas4.cr             Eth1/2         143    R         ASR9K              Ten0/1/0/6    
+mas4cr2.nx.optusnet.com.au(SSI211401P5)
+                    Eth1/16        179    R S I s   N5K-C5548UP        Eth1/16       
+medge01.syd.optusnet.com.au
+                    Eth1/18        102    H         Linux              eth1          
+medge02.syd.optusnet.com.au
+                    Eth1/19        103    H         Linux              eth1          
+mas4cr2.nx.optusnet.com.au(SSI211401P5)
+                    Eth1/24        179    R S s     N5K-C5548UP        Eth1/24       
+mas3.cr             Eth1/28        158    R         ASR9K              Ten0/2/0/4    
+mas4cr2.nx.optusnet.com.au(SSI211401P5)
+                    Eth1/32        179    R S s     N5K-C5548UP        Eth1/32       
+mas4cr2.nx.optusnet.com.au(SSI211401P5)
+                    Eth2/8         179    R S s     N5K-C5548UP        Eth2/8        
+mas4.cr             Eth2/14        127    R         ASR9K              Ten0/2/0/3    
+mas4cr2.nx.optusnet.com.au(SSI211401P5)
+                    Eth101/1/10    179    R S s     N5K-C5548UP        mgmt0         

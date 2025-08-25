@@ -1,0 +1,31 @@
+Hostname: mas15nxs.sx
+Date: 2025-08-25 12:10:11.776340
+
+
+
+===== show cdp neigh =====
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+
+Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
+mas15.gw.optusnet.com.au
+                    mgmt0          140    R S I     CISCO7609-S        Gig7/27       
+mas4.cr             Eth1/2         148    R         ASR9K              Ten0/2/0/8    
+mas3.cr             Eth1/15        130    R         ASR9K              Ten0/2/0/10   
+mas3.cr             Eth1/20        126    R         ASR9K              Ten0/2/0/9    
+mas4.cr             Eth1/28        156    R         ASR9K              Ten0/2/0/10   
+mas16nxs.sx.optusnet.com.au(SSI162404DE)
+                    Eth1/29        164    R S s     N5K-C5548UP        Eth1/29       
+mas16nxs.sx.optusnet.com.au(SSI162404DE)
+                    Eth1/30        122    R S I s   N5K-C5548UP        Eth1/30       
+mas16nxs.sx.optusnet.com.au(SSI162404DE)
+                    Eth1/31        132    R S s     N5K-C5548UP        Eth1/31       
+mas16nxs.sx.optusnet.com.au(SSI162404DE)
+                    Eth1/32        153    R S s     N5K-C5548UP        Eth1/32       
+twamp-manager01.syd.optusnet.com.au
+                    Eth101/1/20    117    R S H     Linux              eth0          
+ltedhcp01.syd.optusnet.com.au
+                    Eth103/1/16    109    H         Linux              eth1          

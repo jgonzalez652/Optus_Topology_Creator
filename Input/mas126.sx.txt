@@ -1,0 +1,40 @@
+mas126.sx#sh cdp nei
+Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
+
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+ptsbatch05.syd.optusnet.com.au
+                 Gig 0/4           104            H       Linux     eth0
+dbhsdpa-new.syd.optusnet.com.au
+                 Gig 0/6           105            H       Linux     eth0
+mail101.syd.optusnet.com.au
+                 Gig 0/12          101            H       Linux     eth0
+mas4.gw.optusnet.com.au
+                 Gig 0/49          165          R S I     CISCO7609 Gig 4/20
+mas5.gw.optusnet.com.au
+                 Gig 0/51          129          R S I     CISCO7609 Gig 4/19
+lvssnmp02.syd.optusnet.com.au
+                 Gig 0/1           114            H       Linux     eth0
+openvzint01.syd.optusnet.com.au
+                 Gig 0/14          100           S H      Linux     eth0
+popmail08.syd.optusnet.com.au
+                 Gig 0/13          126            H       Linux     eth0
+popmail08.syd.optusnet.com.au
+                 Gig 0/29          126            H       Linux     eth1
+mongo04.syd.optusnet.com.au
+                 Gig 0/2           118            H       Linux     eth0
+          
+Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
+popmail15.syd.optusnet.com.au
+                 Gig 0/27          105            H       Linux     eth1
+popmail15.syd.optusnet.com.au
+                 Gig 0/11          105            H       Linux     eth0
+dimpspoll01.syd.optusnet.com.au
+                 Gig 0/31          100            H       Linux     eth0
+ldapstaff01.syd.optusnet.com.au
+                 Gig 0/5           89             H       Linux     eth0
+openvzext01.syd.optusnet.com.au
+                 Gig 0/9           116           S H      Linux     eth0
+dbpts05.syd.optusnet.com.au
+                 Gig 0/3           92             H       Linux     eth0
+mas126.sx# 

@@ -1,20 +1,48 @@
 import networkx as nx
+import re
+
+
+def clean_device_name(device):
+    if device is None:
+        return None
+    name = str(device).lower()
+    # Only match up to .nx, .sx, .gw, .cr
+    match = re.search(r'(.+?\.(?:sx|nx|gw|cr))', name)
+    return match.group(1) if match else name
+
+def is_valid_device(device):
+    cleaned = clean_device_name(device)
+    if cleaned is None:
+        return False
+    # Exclude devices ending with .syd
+    if cleaned.endswith('.syd'):
+        return False
+    return any(cleaned.endswith(x) for x in ['.nx', '.sx', '.gw', '.cr'])
 
 def build_topology(connections):
-    """
-    Build a NetworkX graph from a list of connection dicts.
-    Each connection dict should have 'local_device' and 'neighbor_device' keys.
-    Returns the graph and a set of all devices.
-    """
     G = nx.Graph()
     devices = set()
     for conn in connections:
-        for device in [conn['local_device'], conn['neighbor_device']]:
-            if not G.has_node(device):
-                G.add_node(device, label=device, name=device)
-            devices.add(device)
-        G.add_edge(conn['local_device'], conn['neighbor_device'])
+        local = clean_device_name(conn['local_device'])
+        neighbor = clean_device_name(conn['neighbor_device'])
+        valid_local = is_valid_device(local)
+        valid_neighbor = is_valid_device(neighbor)
+        if valid_local and not G.has_node(local):
+            G.add_node(local, label=local, name=local)
+            devices.add(local)
+        if valid_neighbor and not G.has_node(neighbor):
+            G.add_node(neighbor, label=neighbor, name=neighbor)
+            devices.add(neighbor)
+        if (valid_local or valid_neighbor) and local and neighbor:
+            G.add_edge(local, neighbor)
     return G, devices
+
+def remove_syd_nodes(graph):
+    nodes_to_remove = []
+    for n, data in graph.nodes(data=True):
+        if '.syd' in str(n) or '.syd' in str(data.get('label', '')):
+            nodes_to_remove.append(n)
+    graph.remove_nodes_from(nodes_to_remove)
 
 def find_orphans(graph, devices):
     """

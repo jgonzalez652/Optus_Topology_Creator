@@ -1,0 +1,34 @@
+Hostname: mas3cr3.nx
+Date: 2025-08-25 13:11:54.743830
+
+
+
+===== show cdp neigh =====
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+Device-ID          Local Intrfce  Hldtme Capability  Platform      Port ID
+mas3cr3.nx.optusnet.com.au(FDO23440FJJ)
+                    mgmt0          122    R S I s   N9K-C93180YC- Eth1/24       
+mas3.cr             Eth1/9         142    R         ASR9K         Ten0/3/0/11   
+mas3.cr             Eth1/10        134    R         ASR9K         Ten0/3/0/12   
+mas3.cr             Eth1/11        164    R         ASR9K         Ten0/3/0/13   
+mas3.cr             Eth1/12        149    R         ASR9K         Ten0/3/0/14   
+mas3.cr             Eth1/13        138    R         ASR9K         Ten0/3/0/15   
+mas3.cr             Eth1/14        153    R         ASR9K         Ten0/3/0/16   
+mas3.cr             Eth1/15        157    R         ASR9K         Ten0/3/0/17   
+mas3.cr             Eth1/16        146    R         ASR9K         Ten0/3/0/18   
+dnsmob01.syd.optusnet.com.au
+                    Eth1/18        119    H         Linux         eth0          
+dnsmob02.syd.optusnet.com.au
+                    Eth1/19        97     H         Linux         eth0          
+mas3cr3.nx.optusnet.com.au(FDO23440FJJ)
+                    Eth1/24        122    R S s     N9K-C93180YC- mgmt0         
+mas4cr3.nx.optusnet.com.au(FDO23440FKP)
+                    Eth1/49        156    R S I s   N9K-C93180YC- Eth1/49       
+mas4cr3.nx.optusnet.com.au(FDO23440FKP)
+                    Eth1/50        169    R S I s   N9K-C93180YC- Eth1/50       
+
+Total entries displayed: 14

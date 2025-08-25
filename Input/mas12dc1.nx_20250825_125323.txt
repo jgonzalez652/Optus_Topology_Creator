@@ -1,0 +1,57 @@
+Hostname: mas12dc1.nx
+Date: 2025-08-25 12:53:23.652764
+
+
+
+===== show cdp neigh =====
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+
+Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
+mas12.gw.optusnet.com.au
+                    mgmt0          135    R S       CISCO7609-S        Gig8/2        
+mas12.gw.optusnet.com.au
+                    Eth1/1         135    R S       CISCO7609-S        Ten7/5        
+mas11.gw.optusnet.com.au
+                    Eth1/2         136    R S       CISCO7609-S        Ten3/5        
+mas401en07.nx(FOC175119ZK)
+                    Eth1/3         172    S I s     N4K-4001I-XPX      Eth1/20       
+mas401en09.nx(FOC17511A29)
+                    Eth1/4         127    S I s     N4K-4001I-XPX      Eth1/20       
+mas11dc1.nx.optusnet.com.au(SSI17350829)
+                    Eth1/24        130    R S s     N5K-C5548UP        Eth1/24       
+mas11dc1.nx.optusnet.com.au(SSI17350829)
+                    Eth1/32        130    R S s     N5K-C5548UP        Eth1/32       
+mas11dc1.nx.optusnet.com.au(SSI17350829)
+                    Eth2/8         130    R S s     N5K-C5548UP        Eth2/8        
+dbportalnsro01.syd.optusnet.com.au
+                    Eth101/1/3     136    H         Linux              eth1          
+dbportalns.syd.optusnet.com.au
+                    Eth101/1/6     144    H         Linux              eth1          
+z2customerdb01.syd.optusnet.com.au
+                    Eth101/1/7     118    H         Linux              eth1          
+dbportalnsro01.syd.optusnet.com.au
+                    Eth102/1/3     136    H         Linux              eth0          
+dbportalns.syd.optusnet.com.au
+                    Eth102/1/6     144    H         Linux              eth0          
+z2customerdb01.syd.optusnet.com.au
+                    Eth102/1/7     118    H         Linux              eth0          
+kvmsdpapp04.lvh.optusnet.com.au
+                    Eth102/1/9     115    R S H     Linux              eth0          
+apps01.syd.optusnet.com.au
+                    Eth102/1/15    109    H         Linux              eth0          
+dbportalnsro02.syd.optusnet.com.au
+                    Eth104/1/4     164    H         Linux              eth0          
+z2customerdb02.syd.optusnet.com.au
+                    Eth104/1/5     118    H         Linux              eth0          
+apps02.syd.optusnet.com.au
+                    Eth104/1/6     115    H         Linux              eth0          
+lvsservice04.syd.optusnet.com.au
+                    Eth104/1/10    90     H         Linux              eth0          
+kvmsdpsvc04.lvh.optusnet.com.au
+                    Eth104/1/12    95     R S H     Linux              eth0          
+ftpns02.syd.optusnet.com.au
+                    Eth104/1/13    172    H         Linux              eth0          

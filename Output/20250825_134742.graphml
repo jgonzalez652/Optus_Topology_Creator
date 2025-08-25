@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:graphml xmlns:ns0="http://graphml.graphdrawing.org/xmlns" xmlns:ns2="http://www.yworks.com/xml/yfiles-common/markup/3.0" xmlns:ns3="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <ns0:key id="d2" for="edge" attr.name="neighbor_interface" attr.type="string" />
+  <ns0:key id="d1" for="edge" attr.name="local_interface" attr.type="string" />
+  <ns0:key id="d0" for="node" attr.name="label" attr.type="string" />
+  <ns0:graph edgedefault="undirected">
+    <ns0:node id="D-sun1cr1.nx">
+      <ns0:data key="d0">D-sun1cr1.nx</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="D-sun1cr1.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="D-sun1.cr">
+      <ns0:data key="d0">D-sun1.cr</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="D-sun1.cr" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="000c29f2c089">
+      <ns0:data key="d0">000c29f2c089</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="000c29f2c089" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="D-sun2cr1.nx">
+      <ns0:data key="d0">D-sun2cr1.nx</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="D-sun2cr1.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="D-sun2.cr">
+      <ns0:data key="d0">D-sun2.cr</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="D-sun2.cr" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="SW2">
+      <ns0:data key="d0">SW2</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="SW2" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="Switch_5">
+      <ns0:data key="d0">Switch_5</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="Switch_5" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="Switch_6">
+      <ns0:data key="d0">Switch_6</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="Switch_6" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="000c295374c3">
+      <ns0:data key="d0">000c295374c3</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="000c295374c3" /></ns2:List></ns0:data></ns0:node>
+    <ns0:edge source="D-sun1cr1.nx" target="D-sun1.cr">
+      <ns0:data key="d1">Eth1/1</ns0:data>
+      <ns0:data key="d2">Series</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="D-sun1cr1.nx" target="000c29f2c089">
+      <ns0:data key="d1">Eth101/1/42</ns0:data>
+      <ns0:data key="d2">eth0</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="D-sun1.cr" target="D-sun2cr1.nx">
+      <ns0:data key="d1">Eth1/2</ns0:data>
+      <ns0:data key="d2">Series</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="D-sun2cr1.nx" target="D-sun2.cr">
+      <ns0:data key="d1">Eth1/1</ns0:data>
+      <ns0:data key="d2">Series</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="D-sun2cr1.nx" target="SW2">
+      <ns0:data key="d1">Eth1/17</ns0:data>
+      <ns0:data key="d2">I</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="D-sun2cr1.nx" target="Switch_5">
+      <ns0:data key="d1">Eth101/1/36</ns0:data>
+      <ns0:data key="d2">WS-CBS3020-HPQ</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="D-sun2cr1.nx" target="Switch_6">
+      <ns0:data key="d1">Eth101/1/36</ns0:data>
+      <ns0:data key="d2">WS-CBS3020-HPQ</ns0:data>
+    </ns0:edge>
+    <ns0:edge source="D-sun2cr1.nx" target="000c295374c3">
+      <ns0:data key="d1">Eth101/1/42</ns0:data>
+      <ns0:data key="d2">eth0</ns0:data>
+    </ns0:edge>
+  </ns0:graph>
+<ns0:key id="d4" for="node" attr.name="NodeLabels" /></ns0:graphml>

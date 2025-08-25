@@ -1,0 +1,966 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ns0:graphml xmlns:ns0="http://graphml.graphdrawing.org/xmlns" xmlns:ns2="http://www.yworks.com/xml/yfiles-common/markup/3.0" xmlns:ns3="http://www.yworks.com/xml/yfiles-common/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <ns0:key id="d3" for="edge" attr.name="label" attr.type="string" />
+  <ns0:key id="d2" for="node" attr.name="device_type" attr.type="string" />
+  <ns0:key id="d1" for="node" attr.name="name" attr.type="string" />
+  <ns0:key id="d0" for="node" attr.name="label" attr.type="string" />
+  <ns0:graph edgedefault="undirected">
+    <ns0:node id="mas104.sx">
+      <ns0:data key="d0">mas104.sx</ns0:data>
+      <ns0:data key="d1">mas104.sx</ns0:data>
+      <ns0:data key="d2">catalyst_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas104.sx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas11.gw">
+      <ns0:data key="d0">mas11.gw</ns0:data>
+      <ns0:data key="d1">mas11.gw</ns0:data>
+      <ns0:data key="d2">router</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas11.gw" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas12.gw">
+      <ns0:data key="d0">mas12.gw</ns0:data>
+      <ns0:data key="d1">mas12.gw</ns0:data>
+      <ns0:data key="d2">router</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas12.gw" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="z2wsmsgcharging03.syd">
+      <ns0:data key="d0">z2wsmsgcharging03.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="z2wsmsgcharging03.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="sdpbiz03.b.syd">
+      <ns0:data key="d0">sdpbiz03.b.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="sdpbiz03.b.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="opcportal01.syd">
+      <ns0:data key="d0">opcportal01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="opcportal01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="oem01.syd">
+      <ns0:data key="d0">oem01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="oem01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mobldap01.syd">
+      <ns0:data key="d0">mobldap01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mobldap01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas105.sx">
+      <ns0:data key="d0">mas105.sx</ns0:data>
+      <ns0:data key="d1">mas105.sx</ns0:data>
+      <ns0:data key="d2">catalyst_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas105.sx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="opcvcmportal02.syd">
+      <ns0:data key="d0">opcvcmportal02.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="opcvcmportal02.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="z2wsmsgcharging06.syd">
+      <ns0:data key="d0">z2wsmsgcharging06.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="z2wsmsgcharging06.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="z2wsmsgcharging05.syd">
+      <ns0:data key="d0">z2wsmsgcharging05.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="z2wsmsgcharging05.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="socks02-old.syd">
+      <ns0:data key="d0">socks02-old.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="socks02-old.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="sdpbiz04.a.syd">
+      <ns0:data key="d0">sdpbiz04.a.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="sdpbiz04.a.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="filersmount.syd">
+      <ns0:data key="d0">filersmount.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="filersmount.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="opcportal02.syd">
+      <ns0:data key="d0">opcportal02.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="opcportal02.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="Device">
+      <ns0:data key="d0">Device</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="Device" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="appdmzlvs02.syd">
+      <ns0:data key="d0">appdmzlvs02.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="appdmzlvs02.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="Hostname:">
+      <ns0:data key="d0">Hostname:</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="Hostname:" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas401en07.nx(FOC175119ZK)">
+      <ns0:data key="d0">mas401en07.nx(FOC175119ZK)</ns0:data>
+      <ns0:data key="d1">mas401en07.nx(FOC175119ZK)</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas401en07.nx(FOC175119ZK)" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas401en09.nx(FOC17511A29)">
+      <ns0:data key="d0">mas401en09.nx(FOC17511A29)</ns0:data>
+      <ns0:data key="d1">mas401en09.nx(FOC17511A29)</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas401en09.nx(FOC17511A29)" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas12dc1.nx">
+      <ns0:data key="d0">mas12dc1.nx</ns0:data>
+      <ns0:data key="d1">mas12dc1.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas12dc1.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas402en07.nx">
+      <ns0:data key="d0">mas402en07.nx</ns0:data>
+      <ns0:data key="d1">mas402en07.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas402en07.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas402en09.nx">
+      <ns0:data key="d0">mas402en09.nx</ns0:data>
+      <ns0:data key="d1">mas402en09.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas402en09.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas12dc2.nx">
+      <ns0:data key="d0">mas12dc2.nx</ns0:data>
+      <ns0:data key="d1">mas12dc2.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas12dc2.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas12dc3.nx">
+      <ns0:data key="d0">mas12dc3.nx</ns0:data>
+      <ns0:data key="d1">mas12dc3.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas12dc3.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas126.sx">
+      <ns0:data key="d0">mas126.sx</ns0:data>
+      <ns0:data key="d1">mas126.sx</ns0:data>
+      <ns0:data key="d2">catalyst_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas126.sx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="ptsbatch05.syd">
+      <ns0:data key="d0">ptsbatch05.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="ptsbatch05.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="dbhsdpa-new.syd">
+      <ns0:data key="d0">dbhsdpa-new.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="dbhsdpa-new.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mail101.syd">
+      <ns0:data key="d0">mail101.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mail101.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas4.gw">
+      <ns0:data key="d0">mas4.gw</ns0:data>
+      <ns0:data key="d1">mas4.gw</ns0:data>
+      <ns0:data key="d2">router</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas4.gw" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas5.gw">
+      <ns0:data key="d0">mas5.gw</ns0:data>
+      <ns0:data key="d1">mas5.gw</ns0:data>
+      <ns0:data key="d2">router</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas5.gw" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="lvssnmp02.syd">
+      <ns0:data key="d0">lvssnmp02.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="lvssnmp02.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="openvzint01.syd">
+      <ns0:data key="d0">openvzint01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="openvzint01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="popmail08.syd">
+      <ns0:data key="d0">popmail08.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="popmail08.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mongo04.syd">
+      <ns0:data key="d0">mongo04.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mongo04.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="popmail15.syd">
+      <ns0:data key="d0">popmail15.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="popmail15.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="dimpspoll01.syd">
+      <ns0:data key="d0">dimpspoll01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="dimpspoll01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="ldapstaff01.syd">
+      <ns0:data key="d0">ldapstaff01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="ldapstaff01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="openvzext01.syd">
+      <ns0:data key="d0">openvzext01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="openvzext01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="dbpts05.syd">
+      <ns0:data key="d0">dbpts05.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="dbpts05.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas11dc1.nx">
+      <ns0:data key="d0">mas11dc1.nx</ns0:data>
+      <ns0:data key="d1">mas11dc1.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas11dc1.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas11dc2.nx">
+      <ns0:data key="d0">mas11dc2.nx</ns0:data>
+      <ns0:data key="d1">mas11dc2.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas11dc2.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas11dc3.nx">
+      <ns0:data key="d0">mas11dc3.nx</ns0:data>
+      <ns0:data key="d1">mas11dc3.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas11dc3.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas130.sx">
+      <ns0:data key="d0">mas130.sx</ns0:data>
+      <ns0:data key="d1">mas130.sx</ns0:data>
+      <ns0:data key="d2">catalyst_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas130.sx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="repo01.syd">
+      <ns0:data key="d0">repo01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="repo01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="cvsproxy01.syd">
+      <ns0:data key="d0">cvsproxy01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="cvsproxy01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="repo04.syd">
+      <ns0:data key="d0">repo04.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="repo04.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="tacacs01.syd">
+      <ns0:data key="d0">tacacs01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="tacacs01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="sdpmsg01.syd">
+      <ns0:data key="d0">sdpmsg01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="sdpmsg01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="tftp01.syd">
+      <ns0:data key="d0">tftp01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="tftp01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="lvsmobile03-new.syd">
+      <ns0:data key="d0">lvsmobile03-new.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="lvsmobile03-new.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="servers">
+      <ns0:data key="d0">servers</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="servers" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mobilebatchdbro01.syd">
+      <ns0:data key="d0">mobilebatchdbro01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mobilebatchdbro01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="ipa01.syd">
+      <ns0:data key="d0">ipa01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="ipa01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="batch03.syd">
+      <ns0:data key="d0">batch03.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="batch03.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="lvsprov02.syd">
+      <ns0:data key="d0">lvsprov02.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="lvsprov02.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas15.gw">
+      <ns0:data key="d0">mas15.gw</ns0:data>
+      <ns0:data key="d1">mas15.gw</ns0:data>
+      <ns0:data key="d2">router</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas15.gw" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas16nxs.sx">
+      <ns0:data key="d0">mas16nxs.sx</ns0:data>
+      <ns0:data key="d1">mas16nxs.sx</ns0:data>
+      <ns0:data key="d2">catalyst_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas16nxs.sx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas16.gw">
+      <ns0:data key="d0">mas16.gw</ns0:data>
+      <ns0:data key="d1">mas16.gw</ns0:data>
+      <ns0:data key="d2">router</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas16.gw" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas15nxs.sx">
+      <ns0:data key="d0">mas15nxs.sx</ns0:data>
+      <ns0:data key="d1">mas15nxs.sx</ns0:data>
+      <ns0:data key="d2">catalyst_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas15nxs.sx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas2cr1.nx">
+      <ns0:data key="d0">mas2cr1.nx</ns0:data>
+      <ns0:data key="d1">mas2cr1.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas2cr1.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas2cr2.nx">
+      <ns0:data key="d0">mas2cr2.nx</ns0:data>
+      <ns0:data key="d1">mas2cr2.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas2cr2.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas2cr3.nx">
+      <ns0:data key="d0">mas2cr3.nx</ns0:data>
+      <ns0:data key="d1">mas2cr3.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas2cr3.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas1cr1.nx">
+      <ns0:data key="d0">mas1cr1.nx</ns0:data>
+      <ns0:data key="d1">mas1cr1.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas1cr1.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas1cr2.nx">
+      <ns0:data key="d0">mas1cr2.nx</ns0:data>
+      <ns0:data key="d1">mas1cr2.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas1cr2.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas1cr3.nx">
+      <ns0:data key="d0">mas1cr3.nx</ns0:data>
+      <ns0:data key="d1">mas1cr3.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas1cr3.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas4cr1.nx">
+      <ns0:data key="d0">mas4cr1.nx</ns0:data>
+      <ns0:data key="d1">mas4cr1.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas4cr1.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas4cr2.nx">
+      <ns0:data key="d0">mas4cr2.nx</ns0:data>
+      <ns0:data key="d1">mas4cr2.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas4cr2.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas3cr3.nx">
+      <ns0:data key="d0">mas3cr3.nx</ns0:data>
+      <ns0:data key="d1">mas3cr3.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas3cr3.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas4cr3.nx">
+      <ns0:data key="d0">mas4cr3.nx</ns0:data>
+      <ns0:data key="d1">mas4cr3.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas4cr3.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas11.gw.optusnet.com.aumgmt0">
+      <ns0:data key="d0">mas11.gw.optusnet.com.aumgmt0</ns0:data>
+      <ns0:data key="d1">mas11.gw.optusnet.com.aumgmt0</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas11.gw.optusnet.com.aumgmt0" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas11dc1.nx.optusnet.com.au(SSI17350829)Eth1/15">
+      <ns0:data key="d0">mas11dc1.nx.optusnet.com.au(SSI17350829)Eth1/15</ns0:data>
+      <ns0:data key="d1">mas11dc1.nx.optusnet.com.au(SSI17350829)Eth1/15</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas11dc1.nx.optusnet.com.au(SSI17350829)Eth1/15" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas12dc1.nx.optusnet.com.au(SSI173506RP)Eth1/20">
+      <ns0:data key="d0">mas12dc1.nx.optusnet.com.au(SSI173506RP)Eth1/20</ns0:data>
+      <ns0:data key="d1">mas12dc1.nx.optusnet.com.au(SSI173506RP)Eth1/20</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas12dc1.nx.optusnet.com.au(SSI173506RP)Eth1/20" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas12.gw.optusnet.com.aumgmt0">
+      <ns0:data key="d0">mas12.gw.optusnet.com.aumgmt0</ns0:data>
+      <ns0:data key="d1">mas12.gw.optusnet.com.aumgmt0</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas12.gw.optusnet.com.aumgmt0" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas11dc2.nx.optusnet.com.au(SSI1735084M)Eth1/15">
+      <ns0:data key="d0">mas11dc2.nx.optusnet.com.au(SSI1735084M)Eth1/15</ns0:data>
+      <ns0:data key="d1">mas11dc2.nx.optusnet.com.au(SSI1735084M)Eth1/15</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas11dc2.nx.optusnet.com.au(SSI1735084M)Eth1/15" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas12dc2.nx.optusnet.com.au(SSI173708MV)Eth1/20">
+      <ns0:data key="d0">mas12dc2.nx.optusnet.com.au(SSI173708MV)Eth1/20</ns0:data>
+      <ns0:data key="d1">mas12dc2.nx.optusnet.com.au(SSI173708MV)Eth1/20</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas12dc2.nx.optusnet.com.au(SSI173708MV)Eth1/20" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas3cr1.nx">
+      <ns0:data key="d0">mas3cr1.nx</ns0:data>
+      <ns0:data key="d1">mas3cr1.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas3cr1.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas3cr2.nx">
+      <ns0:data key="d0">mas3cr2.nx</ns0:data>
+      <ns0:data key="d1">mas3cr2.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas3cr2.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas5dc1.nx">
+      <ns0:data key="d0">mas5dc1.nx</ns0:data>
+      <ns0:data key="d1">mas5dc1.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas5dc1.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas53.sx">
+      <ns0:data key="d0">mas53.sx</ns0:data>
+      <ns0:data key="d1">mas53.sx</ns0:data>
+      <ns0:data key="d2">catalyst_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas53.sx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas4dc1.nx">
+      <ns0:data key="d0">mas4dc1.nx</ns0:data>
+      <ns0:data key="d1">mas4dc1.nx</ns0:data>
+      <ns0:data key="d2">nexus_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas4dc1.nx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas68.sx">
+      <ns0:data key="d0">mas68.sx</ns0:data>
+      <ns0:data key="d1">mas68.sx</ns0:data>
+      <ns0:data key="d2">catalyst_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas68.sx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="ldapro01.syd">
+      <ns0:data key="d0">ldapro01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="ldapro01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="radproxy02.syd">
+      <ns0:data key="d0">radproxy02.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="radproxy02.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="atmailproxyb02.syd">
+      <ns0:data key="d0">atmailproxyb02.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="atmailproxyb02.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="ldapmail02.syd">
+      <ns0:data key="d0">ldapmail02.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="ldapmail02.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="lvsdns04.syd">
+      <ns0:data key="d0">lvsdns04.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="lvsdns04.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="dbmysqlsync-new.syd">
+      <ns0:data key="d0">dbmysqlsync-new.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="dbmysqlsync-new.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="antimalware-proxy01.syd">
+      <ns0:data key="d0">antimalware-proxy01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="antimalware-proxy01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="ns0bak.syd">
+      <ns0:data key="d0">ns0bak.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="ns0bak.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="ldapstaffro04.syd">
+      <ns0:data key="d0">ldapstaffro04.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="ldapstaffro04.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="dbdimpsro01.syd">
+      <ns0:data key="d0">dbdimpsro01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="dbdimpsro01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="atmailproxy02.syd">
+      <ns0:data key="d0">atmailproxy02.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="atmailproxy02.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="lvsmisc08.syd">
+      <ns0:data key="d0">lvsmisc08.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="lvsmisc08.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="isemail02.syd">
+      <ns0:data key="d0">isemail02.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="isemail02.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="rad01.syd">
+      <ns0:data key="d0">rad01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="rad01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas69.sx">
+      <ns0:data key="d0">mas69.sx</ns0:data>
+      <ns0:data key="d1">mas69.sx</ns0:data>
+      <ns0:data key="d2">catalyst_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas69.sx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="sdpadmin01.syd">
+      <ns0:data key="d0">sdpadmin01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="sdpadmin01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="dnsinfra01.syd">
+      <ns0:data key="d0">dnsinfra01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="dnsinfra01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="lvsinfra01.syd">
+      <ns0:data key="d0">lvsinfra01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="lvsinfra01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="apmcollector01.syd">
+      <ns0:data key="d0">apmcollector01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="apmcollector01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="z2intapplvs01.syd">
+      <ns0:data key="d0">z2intapplvs01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="z2intapplvs01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="z2reverseproxy01.syd">
+      <ns0:data key="d0">z2reverseproxy01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="z2reverseproxy01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="lvsappsvc01.syd">
+      <ns0:data key="d0">lvsappsvc01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="lvsappsvc01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="esbbackup01.syd">
+      <ns0:data key="d0">esbbackup01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="esbbackup01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="dnsappsvc01.syd">
+      <ns0:data key="d0">dnsappsvc01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="dnsappsvc01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas75.sx">
+      <ns0:data key="d0">mas75.sx</ns0:data>
+      <ns0:data key="d1">mas75.sx</ns0:data>
+      <ns0:data key="d2">catalyst_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas75.sx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="ci01.syd">
+      <ns0:data key="d0">ci01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="ci01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="dbportalnsro03.syd">
+      <ns0:data key="d0">dbportalnsro03.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="dbportalnsro03.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="sdplog01.infra.syd">
+      <ns0:data key="d0">sdplog01.infra.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="sdplog01.infra.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="kvmsdpsvc03.lvh">
+      <ns0:data key="d0">kvmsdpsvc03.lvh</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="kvmsdpsvc03.lvh" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="ftpns01.syd">
+      <ns0:data key="d0">ftpns01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="ftpns01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="mas76.sx">
+      <ns0:data key="d0">mas76.sx</ns0:data>
+      <ns0:data key="d1">mas76.sx</ns0:data>
+      <ns0:data key="d2">catalyst_switch</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="mas76.sx" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="ci02.syd">
+      <ns0:data key="d0">ci02.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="ci02.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="z2wsmsgcharging02.syd">
+      <ns0:data key="d0">z2wsmsgcharging02.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="z2wsmsgcharging02.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="z2wsmsgcharging01.syd">
+      <ns0:data key="d0">z2wsmsgcharging01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="z2wsmsgcharging01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="express01.ext.syd">
+      <ns0:data key="d0">express01.ext.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="express01.ext.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="z2reverseproxy05.syd">
+      <ns0:data key="d0">z2reverseproxy05.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="z2reverseproxy05.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="sdpbiz02.b.syd">
+      <ns0:data key="d0">sdpbiz02.b.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="sdpbiz02.b.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="kvmsdpsvc01.lvh">
+      <ns0:data key="d0">kvmsdpsvc01.lvh</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="kvmsdpsvc01.lvh" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="vcmportal02.syd">
+      <ns0:data key="d0">vcmportal02.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="vcmportal02.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="apmea01.syd">
+      <ns0:data key="d0">apmea01.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="apmea01.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:node id="z2esb03.b.syd">
+      <ns0:data key="d0">z2esb03.b.syd</ns0:data>
+      <ns0:data key="d2">unknown</ns0:data>
+    <ns0:data key="d4"><ns2:List><ns3:Label Text="z2esb03.b.syd" /></ns2:List></ns0:data></ns0:node>
+    <ns0:edge source="mas104.sx" target="mas11.gw">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas104.sx" target="mas12.gw">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas104.sx" target="z2wsmsgcharging03.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas104.sx" target="sdpbiz03.b.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas104.sx" target="opcportal01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas104.sx" target="oem01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas104.sx" target="mobldap01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas11.gw" target="mas105.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas11.gw" target="Hostname:">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas11.gw" target="mas130.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas11.gw" target="mas53.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas11.gw" target="mas69.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas11.gw" target="mas75.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas11.gw" target="mas76.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas12.gw" target="mas105.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas12.gw" target="Hostname:">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas12.gw" target="mas130.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas12.gw" target="mas53.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas12.gw" target="mas69.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas12.gw" target="mas75.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas12.gw" target="mas76.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas105.sx" target="opcvcmportal02.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas105.sx" target="z2wsmsgcharging06.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas105.sx" target="z2wsmsgcharging05.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas105.sx" target="socks02-old.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas105.sx" target="sdpbiz04.a.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas105.sx" target="filersmount.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas105.sx" target="opcportal02.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas105.sx" target="Device">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas105.sx" target="appdmzlvs02.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Device" target="mas126.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Device" target="mas130.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Device" target="mas68.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Device" target="mas69.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Device" target="mas75.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Device" target="mas76.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas401en07.nx(FOC175119ZK)">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas401en09.nx(FOC17511A29)">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas12dc1.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas402en07.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas402en09.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas12dc2.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas12dc3.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas11dc1.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas11dc2.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas11dc3.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas15.gw">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas16nxs.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas16.gw">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas15nxs.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas2cr1.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas2cr2.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas2cr3.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas1cr1.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas1cr2.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas1cr3.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas4.gw">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas5.gw">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas4cr1.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas4cr2.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas3cr3.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas4cr3.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas11.gw.optusnet.com.aumgmt0">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas11dc1.nx.optusnet.com.au(SSI17350829)Eth1/15">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas12dc1.nx.optusnet.com.au(SSI173506RP)Eth1/20">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas12.gw.optusnet.com.aumgmt0">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas11dc2.nx.optusnet.com.au(SSI1735084M)Eth1/15">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas12dc2.nx.optusnet.com.au(SSI173708MV)Eth1/20">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas3cr1.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas3cr2.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas5dc1.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="Hostname:" target="mas4dc1.nx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="ptsbatch05.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="dbhsdpa-new.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="mail101.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="mas4.gw">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="mas5.gw">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="lvssnmp02.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="openvzint01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="popmail08.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="mongo04.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="popmail15.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="dimpspoll01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="ldapstaff01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="openvzext01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas126.sx" target="dbpts05.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas4.gw" target="mas68.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas5.gw" target="mas68.sx">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas130.sx" target="repo01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas130.sx" target="cvsproxy01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas130.sx" target="repo04.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas130.sx" target="tacacs01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas130.sx" target="sdpmsg01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas130.sx" target="tftp01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas130.sx" target="lvsmobile03-new.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas130.sx" target="servers">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas130.sx" target="mobilebatchdbro01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas130.sx" target="ipa01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas130.sx" target="batch03.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas130.sx" target="lvsprov02.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="ldapro01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="radproxy02.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="atmailproxyb02.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="ldapmail02.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="lvsdns04.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="dbmysqlsync-new.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="antimalware-proxy01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="ns0bak.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="ldapstaffro04.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="dbdimpsro01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="atmailproxy02.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="lvsmisc08.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="isemail02.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas68.sx" target="rad01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas69.sx" target="sdpadmin01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas69.sx" target="dnsinfra01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas69.sx" target="lvsinfra01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas69.sx" target="apmcollector01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas69.sx" target="z2intapplvs01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas69.sx" target="z2reverseproxy01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas69.sx" target="lvsappsvc01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas69.sx" target="esbbackup01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas69.sx" target="dnsappsvc01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas75.sx" target="ci01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas75.sx" target="dbportalnsro03.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas75.sx" target="sdplog01.infra.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas75.sx" target="kvmsdpsvc03.lvh">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas75.sx" target="ftpns01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas76.sx" target="ci02.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas76.sx" target="z2wsmsgcharging02.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas76.sx" target="z2wsmsgcharging01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas76.sx" target="express01.ext.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas76.sx" target="z2reverseproxy05.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas76.sx" target="sdpbiz02.b.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas76.sx" target="kvmsdpsvc01.lvh">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas76.sx" target="vcmportal02.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas76.sx" target="apmea01.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+    <ns0:edge source="mas76.sx" target="z2esb03.b.syd">
+      <ns0:data key="d3"> ↔ </ns0:data>
+    </ns0:edge>
+  </ns0:graph>
+<ns0:key id="d4" for="node" attr.name="NodeLabels" /></ns0:graphml>

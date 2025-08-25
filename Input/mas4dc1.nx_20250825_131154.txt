@@ -1,0 +1,103 @@
+Hostname: mas4dc1.nx
+Date: 2025-08-25 13:11:54.612215
+
+
+
+===== show cdp neigh =====
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+
+Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
+mas4.gw.optusnet.com.au
+                    mgmt0          129    R S I     CISCO7609-S        Gig4/12       
+mas4.gw.optusnet.com.au
+                    Eth1/1         132    R S I     CISCO7609-S        Ten8/5        
+mas5.gw.optusnet.com.au
+                    Eth1/2         169    R S I     CISCO7609-S        Ten9/5        
+masdmz01-fic-A(FOX1902GS6D)
+                    Eth1/9         155    S I s     UCS-FI-6296UP      Eth1/4        
+masdmz01-fic-A(FOX1902GS6D)
+                    Eth1/10        155    S I s     UCS-FI-6296UP      Eth1/3        
+masdmz01-fic-A(FOX1902GS6D)
+                    Eth1/11        155    S I s     UCS-FI-6296UP      Eth1/2        
+masdmz01-fic-A(FOX1902GS6D)
+                    Eth1/12        155    S I s     UCS-FI-6296UP      Eth1/1        
+masdmz01-fic-B(FOX1852G4TL)
+                    Eth1/13        132    S I s     UCS-FI-6296UP      Eth1/1        
+masdmz01-fic-B(FOX1852G4TL)
+                    Eth1/14        132    S I s     UCS-FI-6296UP      Eth1/3        
+masdmz01-fic-B(FOX1852G4TL)
+                    Eth1/15        132    S I s     UCS-FI-6296UP      Eth1/4        
+mas5dc1.nx.optusnet.com.au(SSI16080F2G)
+                    Eth1/16        126    R S s     N5K-C5548UP        Eth1/16       
+masdmz01-fic-B(FOX1852G4TL)
+                    Eth1/17        132    S I s     UCS-FI-6296UP      Eth1/2        
+mas5dc1.nx.optusnet.com.au(SSI16080F2G)
+                    Eth1/24        178    R S s     N5K-C5548UP        Eth1/24       
+dbmspeedtest01.syd.optusnet.com.au
+                    Eth1/30        109    H         Linux              eth0          
+dbmspeedtest02.syd.optusnet.com.au
+                    Eth1/31        109    H         Linux              eth0          
+mas5dc1.nx.optusnet.com.au(SSI16080F2G)
+                    Eth1/32        178    R S s     N5K-C5548UP        Eth1/32       
+t2mproxy01.syd.optusnet.com.au
+                    Eth103/1/1     118    H         Linux              eth1          
+macs01.syd.optusnet.com.au
+                    Eth103/1/2     105    H         Linux              eth1          
+mradius01.syd.optusnet.com.au
+                    Eth103/1/3     118    H         Linux              eth1          
+dbcmi01.syd.optusnet.com.au
+                    Eth103/1/4     96     H         Linux              eth1          
+dbcmi02.syd.optusnet.com.au
+                    Eth103/1/5     118    H         Linux              eth1          
+dhcpnbnh01.syd.optusnet.com.au
+                    Eth103/1/9     118    H         Linux              eth0          
+dbndh04.syd.optusnet.com.au
+                    Eth103/1/12    96     H         Linux              eth0          
+popmail25.syd.optusnet.com.au
+                    Eth103/1/14    97     H         Linux              eth0          
+popmail26.syd.optusnet.com.au
+                    Eth103/1/15    118    H         Linux              eth0          
+t2mproxy01.syd.optusnet.com.au
+                    Eth104/1/1     118    H         Linux              eth0          
+macs01.syd.optusnet.com.au
+                    Eth104/1/2     105    H         Linux              eth0          
+mradius01.syd.optusnet.com.au
+                    Eth104/1/3     118    H         Linux              eth0          
+dbcmi01.syd.optusnet.com.au
+                    Eth104/1/4     96     H         Linux              eth0          
+dbcmi02.syd.optusnet.com.au
+                    Eth104/1/5     118    H         Linux              eth0          
+popmail25.syd.optusnet.com.au
+                    Eth104/1/14    96     H         Linux              eth1          
+popmail26.syd.optusnet.com.au
+                    Eth104/1/15    118    H         Linux              eth1          
+t2mproxy02.syd.optusnet.com.au
+                    Eth105/1/1     112    H         Linux              eth1          
+macs02.syd.optusnet.com.au
+                    Eth105/1/2     112    H         Linux              eth1          
+mradius02.syd.optusnet.com.au
+                    Eth105/1/3     112    H         Linux              eth1          
+dhcpnbni02.syd.optusnet.com.au
+                    Eth105/1/7     112    H         Linux              eth0          
+dbndh03.syd.optusnet.com.au
+                    Eth105/1/12    112    H         Linux              eth0          
+popmail27.syd.optusnet.com.au
+                    Eth105/1/14    112    H         Linux              eth0          
+popmail28.syd.optusnet.com.au
+                    Eth105/1/15    112    H         Linux              eth0          
+dbreports02.syd.optusnet.com.au
+                    Eth105/1/16    112    H         Linux              eth0          
+t2mproxy02.syd.optusnet.com.au
+                    Eth106/1/1     112    H         Linux              eth0          
+macs02.syd.optusnet.com.au
+                    Eth106/1/2     112    H         Linux              eth0          
+mradius02.syd.optusnet.com.au
+                    Eth106/1/3     112    H         Linux              eth0          
+popmail27.syd.optusnet.com.au
+                    Eth106/1/14    112    H         Linux              eth1          
+popmail28.syd.optusnet.com.au
+                    Eth106/1/15    112    H         Linux              eth1          

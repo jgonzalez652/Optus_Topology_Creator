@@ -1,7 +1,7 @@
 import os
 from Helpers.file_handler import read_input_files
 from Helpers.cdp_parser import parse_cdp_output
-from Helpers.topology_builder import build_topology, find_orphans
+from Helpers.topology_builder import build_topology, find_orphans, remove_syd_nodes
 from Helpers.topology_output import save_topology_diagram, save_orphan_report
 from Helpers.helpers import get_timestamped_filename
 from Helpers.graphml_exporter import export_graphml
@@ -17,6 +17,7 @@ def main():
         all_connections.extend(parse_cdp_output(raw))
     graph, devices = build_topology(all_connections)
     orphan_devices, orphan_connections = find_orphans(graph, devices)
+    remove_syd_nodes(graph)
     filename = get_timestamped_filename()
     save_topology_diagram(graph, OUTPUT_DIR, filename)
     save_orphan_report(orphan_devices, orphan_connections, OUTPUT_DIR, filename)

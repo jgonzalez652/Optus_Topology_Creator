@@ -1,0 +1,51 @@
+Hostname: mas11dc3.nx
+Date: 2025-08-25 12:53:11.918152
+
+
+
+===== show cdp neigh =====
+Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
+                  S - Switch, H - Host, I - IGMP, r - Repeater,
+                  V - VoIP-Phone, D - Remotely-Managed-Device,
+                  s - Supports-STP-Dispute
+
+
+Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
+mas11.gw.optusnet.com.au
+                    mgmt0          147    R S       CISCO7609-S        Gig4/21       
+mas11.gw.optusnet.com.au
+                    Eth1/1         147    R S       CISCO7609-S        Ten7/1        
+mas12.gw.optusnet.com.au
+                    Eth1/2         147    R S       CISCO7609-S        Ten7/2        
+masdmz01-fic-A(FOX1902GS6D)
+                    Eth1/3         138    S I s     UCS-FI-6296UP      Eth1/9        
+masdmz01-fic-A(FOX1902GS6D)
+                    Eth1/4         138    S I s     UCS-FI-6296UP      Eth1/12       
+masdmz01-fic-A(FOX1902GS6D)
+                    Eth1/5         138    S I s     UCS-FI-6296UP      Eth1/10       
+masdmz01-fic-A(FOX1902GS6D)
+                    Eth1/6         138    S I s     UCS-FI-6296UP      Eth1/11       
+masdmz01-fic-B(FOX1852G4TL)
+                    Eth1/7         174    S I s     UCS-FI-6296UP      Eth1/11       
+masdmz01-fic-B(FOX1852G4TL)
+                    Eth1/8         174    S I s     UCS-FI-6296UP      Eth1/9        
+masdmz01-fic-B(FOX1852G4TL)
+                    Eth1/9         174    S I s     UCS-FI-6296UP      Eth1/12       
+masdmz01-fic-B(FOX1852G4TL)
+                    Eth1/10        174    S I s     UCS-FI-6296UP      Eth1/10       
+massvc01-fic-A(FOX2028GGTV)
+                    Eth1/11        139    S I s     UCS-FI-6296UP      Eth1/3        
+massvc01-fic-A(FOX2028GGTV)
+                    Eth1/12        139    S I s     UCS-FI-6296UP      Eth1/1        
+massvc01-fic-A(FOX2028GGTV)
+                    Eth1/13        142    S I s     UCS-FI-6296UP      Eth1/4        
+massvc01-fic-A(FOX2028GGTV)
+                    Eth1/14        141    S I s     UCS-FI-6296UP      Eth1/2        
+mas12dc3.nx.optusnet.com.au(SSI173508K7)
+                    Eth1/29        138    R S s     N5K-C5548UP        Eth1/29       
+mas12dc3.nx.optusnet.com.au(SSI173508K7)
+                    Eth1/30        141    R S s     N5K-C5548UP        Eth1/30       
+mas12dc3.nx.optusnet.com.au(SSI173508K7)
+                    Eth1/31        141    R S s     N5K-C5548UP        Eth1/31       
+mas12dc3.nx.optusnet.com.au(SSI173508K7)
+                    Eth1/32        141    R S s     N5K-C5548UP        Eth1/32       
