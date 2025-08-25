@@ -2,8 +2,6 @@ mas53.sx#sh cdp nei
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
 
-mas11.gw.optusnet.com.au
-                 Gig 1/0/49        133           R S      CISCO7609 Gig 8/26
-mas12.gw.optusnet.com.au
-                 Gig 1/0/50        132           R S      CISCO7609 Gig 8/26
+mas11.gw.optusnet.com.au                 Gig 1/0/49        133           R S      CISCO7609 Gig 8/26
+mas12.gw.optusnet.com.au                Gig 1/0/50        132           R S      CISCO7609 Gig 8/26
 mas53.sx#

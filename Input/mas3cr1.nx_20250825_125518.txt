@@ -6,26 +6,18 @@ Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
 
 
 Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
-mas4cr1.nx.optusnet.com.au(SSI203300H5)
-                    mgmt0          127    R S I s   N5K-C5548UP        Eth2/16       
+mas4cr1.nx.optusnet.com.au(SSI203300H5)                   mgmt0          127    R S I s   N5K-C5548UP        Eth2/16
 mas4.cr             Eth1/2         142    R         ASR9K              Ten0/1/0/8    
-acsmob01.syd.optusnet.com.au
-                    Eth1/9         96     H         Linux              eth0          
-acsmob02.syd.optusnet.com.au
-                    Eth1/10        117    H         Linux              eth0          
+acsmob01.syd.optusnet.com.au                   Eth1/9         96     H         Linux              eth0
+acsmob02.syd.optusnet.com.au                   Eth1/10        117    H         Linux              eth0
 mas3.cr             Eth1/13        129    R         ASR9K              Ten0/1/0/3    
 mas3.cr             Eth1/14        132    R         ASR9K              Ten0/1/0/4    
 mas4.cr             Eth1/15        146    R         ASR9K              Ten0/1/0/23   
-mas4cr1.nx.optusnet.com.au(SSI203300H5)
-                    Eth1/16        131    R S I s   N5K-C5548UP        Eth1/16       
+mas4cr1.nx.optusnet.com.au(SSI203300H5)                   Eth1/16        131    R S I s   N5K-C5548UP        Eth1/16
 mas4.cr             Eth1/17        149    R         ASR9K              Ten0/1/0/24   
-mas4cr1.nx.optusnet.com.au(SSI203300H5)
-                    Eth1/24        138    R S s     N5K-C5548UP        Eth1/24       
-mas4cr1.nx.optusnet.com.au(SSI203300H5)
-                    Eth1/32        147    R S I s   N5K-C5548UP        Eth1/32       
+mas4cr1.nx.optusnet.com.au(SSI203300H5)                   Eth1/24        138    R S s     N5K-C5548UP        Eth1/24
+mas4cr1.nx.optusnet.com.au(SSI203300H5)                   Eth1/32        147    R S I s   N5K-C5548UP        Eth1/32
 mas3.cr             Eth2/5         144    R         ASR9K              Ten0/3/0/5    
 mas4.cr             Eth2/6         167    R         ASR9K              Ten0/3/0/7    
-mas4cr1.nx.optusnet.com.au(SSI203300H5)
-                    Eth2/8         131    R S I s   N5K-C5548UP        Eth2/8        
-mas4cr1.nx.optusnet.com.au(SSI203300H5)
-                    Eth2/16        131    R S s     N5K-C5548UP        mgmt0         
+mas4cr1.nx.optusnet.com.au(SSI203300H5)                  Eth2/8         131    R S I s   N5K-C5548UP        Eth2/8
+mas4cr1.nx.optusnet.com.au(SSI203300H5)                   Eth2/16        131    R S s     N5K-C5548UP        mgmt0

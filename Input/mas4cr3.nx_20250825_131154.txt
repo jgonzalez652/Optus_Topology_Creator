@@ -4,9 +4,7 @@ Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
                   V - VoIP-Phone, D - Remotely-Managed-Device,
                   s - Supports-STP-Dispute
 
-Device-ID          Local Intrfce  Hldtme Capability  Platform      Port ID
-mas4cr3.nx.optusnet.com.au(FDO23440FKP)
-                    mgmt0          169    R S I s   N9K-C93180YC- Eth1/24       
+mas4cr3.nx.optusnet.com.au(FDO23440FKP)                    mgmt0          169    R S I s   N9K-C93180YC- Eth1/24
 mas4.cr             Eth1/9         172    R         ASR9K         Ten0/3/0/12   
 mas4.cr             Eth1/10        123    R         ASR9K         Ten0/3/0/13   
 mas4.cr             Eth1/11        138    R         ASR9K         Ten0/3/0/14   
@@ -15,15 +13,10 @@ mas4.cr             Eth1/13        120    R         ASR9K         Ten0/3/0/16
 mas4.cr             Eth1/14        176    R         ASR9K         Ten0/3/0/17   
 mas4.cr             Eth1/15        135    R         ASR9K         Ten0/3/0/18   
 mas4.cr             Eth1/16        142    R         ASR9K         Ten0/3/0/19   
-dnsmob01.syd.optusnet.com.au
-                    Eth1/18        119    H         Linux         eth1          
-dnsmob02.syd.optusnet.com.au
-                    Eth1/19        97     H         Linux         eth1          
-mas4cr3.nx.optusnet.com.au(FDO23440FKP)
-                    Eth1/24        169    R S s     N9K-C93180YC- mgmt0         
-mas3cr3.nx.optusnet.com.au(FDO23440FJJ)
-                    Eth1/49        122    R S I s   N9K-C93180YC- Eth1/49       
-mas3cr3.nx.optusnet.com.au(FDO23440FJJ)
-                    Eth1/50        122    R S I s   N9K-C93180YC- Eth1/50       
+dnsmob01.syd.optusnet.com.au                   Eth1/18        119    H         Linux         eth1
+dnsmob02.syd.optusnet.com.au                   Eth1/19        97     H         Linux         eth1
+mas4cr3.nx.optusnet.com.au(FDO23440FKP)                   Eth1/24        169    R S s     N9K-C93180YC- mgmt0
+mas3cr3.nx.optusnet.com.au(FDO23440FJJ                    Eth1/49        122    R S I s   N9K-C93180YC- Eth1/49
+mas3cr3.nx.optusnet.com.au(FDO23440FJJ)                   Eth1/50        122    R S I s   N9K-C93180YC- Eth1/50
 
-Total entries displayed: 14
+

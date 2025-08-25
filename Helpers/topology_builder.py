@@ -1,30 +1,34 @@
 import networkx as nx
 import re
 
-
-def clean_device_name(device):
+def extract_device_name(device):
     if device is None:
         return None
-    name = str(device).lower()
-    # Only match up to .nx, .sx, .gw, .cr
-    match = re.search(r'(.+?\.(?:sx|nx|gw|cr))', name)
-    return match.group(1) if match else name
+    name = str(device).lower().strip()
+    # Match base device names with or without domain/suffix
+    match = re.search(r'([a-z0-9]+)\.(cr|nx|sx|gw)', name)
+    if match:
+        #if "mas3" in name:
+        #    print(f"Match: {name}")
+        return f"{match.group(1)}.{match.group(2)}"
+    return name
 
 def is_valid_device(device):
-    cleaned = clean_device_name(device)
-    if cleaned is None:
+    if device is None:
         return False
-    # Exclude devices ending with .syd
-    if cleaned.endswith('.syd'):
-        return False
-    return any(cleaned.endswith(x) for x in ['.nx', '.sx', '.gw', '.cr'])
+    exclude_types = ['.syd', '.lvh']
+    for ex in exclude_types:
+        if device.endswith(ex):
+            return False
+    valid_types = ['.nx', '.sx', '.gw', '.cr']
+    return any(device.endswith(t) for t in valid_types)
 
 def build_topology(connections):
     G = nx.Graph()
     devices = set()
     for conn in connections:
-        local = clean_device_name(conn['local_device'])
-        neighbor = clean_device_name(conn['neighbor_device'])
+        local = extract_device_name(conn.get('local_device'))
+        neighbor = extract_device_name(conn.get('neighbor_device'))
         valid_local = is_valid_device(local)
         valid_neighbor = is_valid_device(neighbor)
         if valid_local and not G.has_node(local):
@@ -33,24 +37,18 @@ def build_topology(connections):
         if valid_neighbor and not G.has_node(neighbor):
             G.add_node(neighbor, label=neighbor, name=neighbor)
             devices.add(neighbor)
-        if (valid_local or valid_neighbor) and local and neighbor:
+        if valid_local and valid_neighbor and local and neighbor:
             G.add_edge(local, neighbor)
     return G, devices
 
 def remove_syd_nodes(graph):
     nodes_to_remove = []
     for n, data in graph.nodes(data=True):
-        if '.syd' in str(n) or '.syd' in str(data.get('label', '')):
-            nodes_to_remove.append(n)
-        elif '.lvh' in str(n) or '.lvh' in str(data.get('label', '')):
+        if any(x in str(n) or x in str(data.get('label', '')) for x in ['.syd', '.lvh']):
             nodes_to_remove.append(n)
     graph.remove_nodes_from(nodes_to_remove)
 
 def find_orphans(graph, devices):
-    """
-    Find orphan devices (no connections) and orphan connections (one-way).
-    Returns a list of orphan devices and a list of orphan connections.
-    """
     orphan_devices = [d for d in devices if not list(graph.neighbors(d))]
     orphan_connections = []
     for d in graph.nodes:

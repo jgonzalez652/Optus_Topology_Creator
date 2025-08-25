@@ -2,37 +2,19 @@ mas68.sx#sh cdp nei
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
 
-ldapro01.syd.optusnet.com.au
-                 Gig 0/12          93             H       Linux     eth0
-radproxy02.syd.optusnet.com.au
-                 Gig 0/15          100            H       Linux     eth0
-atmailproxyb02.syd.optusnet.com.au
-                 Gig 0/16          98             H       Linux     eth0
-ldapmail02.syd.optusnet.com.au
-                 Gig 0/3           99             H       Linux     eth0
-lvsdns04.syd.optusnet.com.au
-                 Gig 0/14          98             H       Linux     eth0
-dbmysqlsync-new.syd.optusnet.com.au
-                 Gig 0/10          100            H       Linux     eth0
-antimalware-proxy01.syd.optusnet.com.au
-                 Gig 0/17          100            H       Linux     eth0
-mas4.gw.optusnet.com.au
-                 Gig 0/49          130          R S I     CISCO7609 Gig 7/6
-mas5.gw.optusnet.com.au
-                 Gig 0/51          129          R S I     CISCO7609 Gig 7/6
-ns0bak.syd.optusnet.com.au
-                 Gig 0/9           98             H       Linux     eth0
-          
-ldapstaffro04.syd.optusnet.com.au
-                 Gig 0/8           97             H       Linux     eth0
-dbdimpsro01.syd.optusnet.com.au
-                 Gig 0/4           98             H       Linux     eth0
-atmailproxy02.syd.optusnet.com.au
-                 Gig 0/13          98             H       Linux     eth0
-lvsmisc08.syd.optusnet.com.au
-                 Gig 0/11          98             H       Linux     eth0
-isemail02.syd.optusnet.com.au
-                 Gig 0/27          95             H       Linux     eth0
-rad01.syd.optusnet.com.au
-                 Gig 0/6           98             H       Linux     eth0
-mas68.sx#  
+ldapro01.syd.optusnet.com.au                Gig 0/12          93             H       Linux     eth0
+radproxy02.syd.optusnet.com.au                Gig 0/15          100            H       Linux     eth0
+atmailproxyb02.syd.optusnet.com.au                Gig 0/16          98             H       Linux     eth0
+ldapmail02.syd.optusnet.com.au                Gig 0/3           99             H       Linux     eth0
+lvsdns04.syd.optusnet.com.au                 Gig 0/14          98             H       Linux     eth0
+dbmysqlsync-new.syd.optusnet.com.au                 Gig 0/10          100            H       Linux     eth0
+antimalware-proxy01.syd.optusnet.com.au                 Gig 0/17          100            H       Linux     eth0
+mas4.gw.optusnet.com.au                 Gig 0/49          130          R S I     CISCO7609 Gig 7/6
+mas5.gw.optusnet.com.au                 Gig 0/51          129          R S I     CISCO7609 Gig 7/6
+ns0bak.syd.optusnet.com.au                 Gig 0/9           98             H       Linux     eth0
+ldapstaffro04.syd.optusnet.com.au               Gig 0/8           97             H       Linux     eth0
+dbdimpsro01.syd.optusnet.com.au                 Gig 0/4           98             H       Linux     eth0
+atmailproxy02.syd.optusnet.com.au                 Gig 0/13          98             H       Linux     eth0
+lvsmisc08.syd.optusnet.com.au                 Gig 0/11          98             H       Linux     eth0
+isemail02.syd.optusnet.com.au                 Gig 0/27          95             H       Linux     eth0
+rad01.syd.optusnet.com.au                Gig 0/6           98             H       Linux     eth0

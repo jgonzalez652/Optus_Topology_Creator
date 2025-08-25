@@ -6,19 +6,12 @@ Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
 
 
 Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
-mas1cr1.nx.optusnet.com.au(SSI1711006N)
-                    mgmt0          174    R S I s   N5K-C5548UP        Eth1/28       
+mas1cr1.nx.optusnet.com.au(SSI1711006N                    mgmt0          174    R S I s   N5K-C5548UP        Eth1/28
 mas2.cr             Eth1/1         128    R         ASR9K Series       Ten0/1/0/3    
 mas1.cr             Eth1/2         149    R         ASR9K Series       Ten0/1/0/4    
-sigosftp01.syd.optusnet.com.au
-                    Eth1/9         102    H         Linux              eth1          
-mas1cr1.nx.optusnet.com.au(SSI1711006N)
-                    Eth1/28        128    R S s     N5K-C5548UP        mgmt0         
-mas1cr1.nx.optusnet.com.au(SSI1711006N)
-                    Eth1/29        174    R S I s   N5K-C5548UP        Eth1/29       
-mas1cr1.nx.optusnet.com.au(SSI1711006N)
-                    Eth1/30        128    R S s     N5K-C5548UP        Eth1/30       
-mas1cr1.nx.optusnet.com.au(SSI1711006N)
-                    Eth1/31        128    R S s     N5K-C5548UP        Eth1/31       
-mas1cr1.nx.optusnet.com.au(SSI1711006N)
-                    Eth1/32        174    R S s     N5K-C5548UP        Eth1/32       
+sigosftp01.syd.optusnet.com.au                  Eth1/9         102    H         Linux              eth1
+mas1cr1.nx.optusnet.com.au(SSI1711006N)                   Eth1/28        128    R S s     N5K-C5548UP        mgmt0
+mas1cr1.nx.optusnet.com.au(SSI1711006N)                   Eth1/29        174    R S I s   N5K-C5548UP        Eth1/29
+mas1cr1.nx.optusnet.com.au(SSI1711006N)                  Eth1/30        128    R S s     N5K-C5548UP        Eth1/30
+mas1cr1.nx.optusnet.com.au(SSI1711006N)                  Eth1/31        128    R S s     N5K-C5548UP        Eth1/31
+mas1cr1.nx.optusnet.com.au(SSI1711006N)                   Eth1/32        174    R S s     N5K-C5548UP        Eth1/32

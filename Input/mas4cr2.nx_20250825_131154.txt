@@ -6,23 +6,15 @@ Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
 
 
 Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
-mas3cr2.nx.optusnet.com.au(SSI2115021N)
-                    mgmt0          145    R S I s   N5K-C5548UP        Eth101/1/10   
+mas3cr2.nx.optusnet.com.au(SSI2115021N                    mgmt0          145    R S I s   N5K-C5548UP        Eth101/1/10
 mas3.cr             Eth1/1         127    R         ASR9K              Ten0/1/0/0    
 mas4.cr             Eth1/2         148    R         ASR9K              Ten0/1/0/1    
-mas3cr2.nx.optusnet.com.au(SSI2115021N)
-                    Eth1/16        154    R S s     N5K-C5548UP        Eth1/16       
-medge01.syd.optusnet.com.au
-                    Eth1/18        107    H         Linux              eth0          
-medge02.syd.optusnet.com.au
-                    Eth1/19        108    H         Linux              eth0          
-mas3cr2.nx.optusnet.com.au(SSI2115021N)
-                    Eth1/24        154    R S s     N5K-C5548UP        Eth1/24       
+mas3cr2.nx.optusnet.com.au(SSI2115021N                    Eth1/16        154    R S s     N5K-C5548UP        Eth1/16
+medge01.syd.optusnet.com.au                   Eth1/18        107    H         Linux              eth0
+medge02.syd.optusnet.com.au                    Eth1/19        108    H         Linux              eth0
+mas3cr2.nx.optusnet.com.au(SSI2115021N)                   Eth1/24        154    R S s     N5K-C5548UP        Eth1/24
 mas3.cr             Eth1/28        136    R         ASR9K              Ten0/2/0/6    
-mas3cr2.nx.optusnet.com.au(SSI2115021N)
-                    Eth1/32        154    R S I s   N5K-C5548UP        Eth1/32       
-mas3cr2.nx.optusnet.com.au(SSI2115021N)
-                    Eth2/8         154    R S s     N5K-C5548UP        Eth2/8        
+mas3cr2.nx.optusnet.com.au(SSI2115021N)                   Eth1/32        154    R S I s   N5K-C5548UP        Eth1/32
+mas3cr2.nx.optusnet.com.au(SSI2115021N)                   Eth2/8         154    R S s     N5K-C5548UP        Eth2/8
 mas4.cr             Eth2/14        158    R         ASR9K              Ten0/2/0/5    
-mas3cr2.nx.optusnet.com.au(SSI2115021N)
-                    Eth101/1/10    154    R S s     N5K-C5548UP        mgmt0         
+mas3cr2.nx.optusnet.com.au(SSI2115021N)                    Eth101/1/10    154    R S s     N5K-C5548UP        mgmt0

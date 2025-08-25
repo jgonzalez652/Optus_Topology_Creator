@@ -6,17 +6,10 @@ Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
 
 
 Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
-mas12.gw.optusnet.com.au
-                    mgmt0          147    R S       CISCO7609-S        Gig9/17       
-mas12.gw.optusnet.com.au
-                    Eth1/1         169    R S       CISCO7609-S        Ten7/1        
-mas11.gw.optusnet.com.au
-                    Eth1/2         169    R S       CISCO7609-S        Ten7/2
-mas11dc3.nx.optusnet.com.au(SSI173707JM)
-                    Eth1/29        164    R S s     N5K-C5548UP        Eth1/29       
-mas11dc3.nx.optusnet.com.au(SSI173707JM)
-                    Eth1/30        164    R S I s   N5K-C5548UP        Eth1/30       
-mas11dc3.nx.optusnet.com.au(SSI173707JM)
-                    Eth1/31        164    R S s     N5K-C5548UP        Eth1/31       
-mas11dc3.nx.optusnet.com.au(SSI173707JM)
-                    Eth1/32        164    R S s     N5K-C5548UP        Eth1/32       
+mas12.gw.optusnet.com.au                   mgmt0          147    R S       CISCO7609-S        Gig9/17
+mas12.gw.optusnet.com.au                   Eth1/1         169    R S       CISCO7609-S        Ten7/1
+mas11.gw.optusnet.com.au                   Eth1/2         169    R S       CISCO7609-S        Ten7/2
+mas11dc3.nx.optusnet.com.au(SSI173707JM)                   Eth1/29        164    R S s     N5K-C5548UP        Eth1/29
+mas11dc3.nx.optusnet.com.au(SSI173707JM)                   Eth1/30        164    R S I s   N5K-C5548UP        Eth1/30
+mas11dc3.nx.optusnet.com.au(SSI173707JM)                   Eth1/31        164    R S s     N5K-C5548UP        Eth1/31
+mas11dc3.nx.optusnet.com.au(SSI173707JM)                   Eth1/32        164    R S s     N5K-C5548UP        Eth1/32

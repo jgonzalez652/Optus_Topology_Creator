@@ -6,77 +6,40 @@ Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
 
 
 Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
-mas5.gw.optusnet.com.au
-                    mgmt0          130    R S I     CISCO7609-S        Gig4/12       
-mas5.gw.optusnet.com.au
-                    Eth1/1         160    R S I     CISCO7609-S        Ten8/5        
-mas4.gw.optusnet.com.au
-                    Eth1/2         168    R S I     CISCO7609-S        Ten9/5
-mas4dc1.nx.optusnet.com.au(SSI184802VB)
-                    Eth1/16        139    R S I s   N5K-C5548UP        Eth1/16
-mas4dc1.nx.optusnet.com.au(SSI184802VB)
-                    Eth1/24        139    R S s     N5K-C5548UP        Eth1/24       
-dbmspeedtest01.syd.optusnet.com.au
-                    Eth1/30        109    H         Linux              eth1          
-dbmspeedtest02.syd.optusnet.com.au
-                    Eth1/31        109    H         Linux              eth1          
-mas4dc1.nx.optusnet.com.au(SSI184802VB)
-                    Eth1/32        139    R S s     N5K-C5548UP        Eth1/32       
-t2mproxy01.syd.optusnet.com.au
-                    Eth103/1/1     118    H         Linux              eth1          
-macs01.syd.optusnet.com.au
-                    Eth103/1/2     105    H         Linux              eth1          
-mradius01.syd.optusnet.com.au
-                    Eth103/1/3     118    H         Linux              eth1          
-dbcmi01.syd.optusnet.com.au
-                    Eth103/1/4     96     H         Linux              eth1          
-dbcmi02.syd.optusnet.com.au
-                    Eth103/1/5     118    H         Linux              eth1          
-dhcpnbnh01.syd.optusnet.com.au
-                    Eth103/1/9     118    H         Linux              eth0          
-dbndh04.syd.optusnet.com.au
-                    Eth103/1/12    96     H         Linux              eth0          
-popmail25.syd.optusnet.com.au
-                    Eth103/1/14    97     H         Linux              eth0          
-popmail26.syd.optusnet.com.au
-                    Eth103/1/15    118    H         Linux              eth0          
-t2mproxy01.syd.optusnet.com.au
-                    Eth104/1/1     118    H         Linux              eth0          
-macs01.syd.optusnet.com.au
-                    Eth104/1/2     105    H         Linux              eth0          
-mradius01.syd.optusnet.com.au
-                    Eth104/1/3     118    H         Linux              eth0          
-dbcmi01.syd.optusnet.com.au
-                    Eth104/1/4     96     H         Linux              eth0          
-dbcmi02.syd.optusnet.com.au
-                    Eth104/1/5     118    H         Linux              eth0          
-popmail25.syd.optusnet.com.au
-                    Eth104/1/14    97     H         Linux              eth1          
-popmail26.syd.optusnet.com.au
-                    Eth104/1/15    118    H         Linux              eth1          
-t2mproxy02.syd.optusnet.com.au
-                    Eth105/1/1     113    H         Linux              eth1          
-macs02.syd.optusnet.com.au
-                    Eth105/1/2     113    H         Linux              eth1          
-mradius02.syd.optusnet.com.au
-                    Eth105/1/3     113    H         Linux              eth1          
-dhcpnbni02.syd.optusnet.com.au
-                    Eth105/1/7     113    H         Linux              eth0          
-dbndh03.syd.optusnet.com.au
-                    Eth105/1/12    113    H         Linux              eth0          
-popmail27.syd.optusnet.com.au
-                    Eth105/1/14    113    H         Linux              eth0          
-popmail28.syd.optusnet.com.au
-                    Eth105/1/15    113    H         Linux              eth0          
-dbreports02.syd.optusnet.com.au
-                    Eth105/1/16    112    H         Linux              eth0          
-t2mproxy02.syd.optusnet.com.au
-                    Eth106/1/1     113    H         Linux              eth0          
-macs02.syd.optusnet.com.au
-                    Eth106/1/2     113    H         Linux              eth0          
-mradius02.syd.optusnet.com.au
-                    Eth106/1/3     113    H         Linux              eth0          
-popmail27.syd.optusnet.com.au
-                    Eth106/1/14    113    H         Linux              eth1          
-popmail28.syd.optusnet.com.au
-                    Eth106/1/15    113    H         Linux              eth1          
+mas5.gw.optusnet.com.au                   mgmt0          130    R S I     CISCO7609-S        Gig4/12
+mas5.gw.optusnet.com.au                    Eth1/1         160    R S I     CISCO7609-S        Ten8/5
+mas4.gw.optusnet.com.au                    Eth1/2         168    R S I     CISCO7609-S        Ten9/5
+mas4dc1.nx.optusnet.com.au(SSI184802VB)                    Eth1/16        139    R S I s   N5K-C5548UP        Eth1/16
+mas4dc1.nx.optusnet.com.au(SSI184802VB)                   Eth1/24        139    R S s     N5K-C5548UP        Eth1/24
+dbmspeedtest01.syd.optusnet.com.au                    Eth1/30        109    H         Linux              eth1
+dbmspeedtest02.syd.optusnet.com.au                    Eth1/31        109    H         Linux              eth1
+mas4dc1.nx.optusnet.com.au(SSI184802VB)                    Eth1/32        139    R S s     N5K-C5548UP        Eth1/32
+t2mproxy01.syd.optusnet.com.au                    Eth103/1/1     118    H         Linux              eth1
+macs01.syd.optusnet.com.au                    Eth103/1/2     105    H         Linux              eth1
+mradius01.syd.optusnet.com.au                    Eth103/1/3     118    H         Linux              eth1
+dbcmi01.syd.optusnet.com.au                    Eth103/1/4     96     H         Linux              eth1
+dbcmi02.syd.optusnet.com.au                   Eth103/1/5     118    H         Linux              eth1
+dhcpnbnh01.syd.optusnet.com.au                    Eth103/1/9     118    H         Linux              eth0
+dbndh04.syd.optusnet.com.au                    Eth103/1/12    96     H         Linux              eth0
+popmail25.syd.optusnet.com.au                    Eth103/1/14    97     H         Linux              eth0
+popmail26.syd.optusnet.com.au                    Eth103/1/15    118    H         Linux              eth0
+t2mproxy01.syd.optusnet.com.au                   Eth104/1/1     118    H         Linux              eth0
+macs01.syd.optusnet.com.au                    Eth104/1/2     105    H         Linux              eth0
+mradius01.syd.optusnet.com.au                   Eth104/1/3     118    H         Linux              eth0
+dbcmi01.syd.optusnet.com.au                   Eth104/1/4     96     H         Linux              eth0
+dbcmi02.syd.optusnet.com.au                    Eth104/1/5     118    H         Linux              eth0
+popmail25.syd.optusnet.com.au                   Eth104/1/14    97     H         Linux              eth1
+popmail26.syd.optusnet.com.au                   Eth104/1/15    118    H         Linux              eth1
+t2mproxy02.syd.optusnet.com.au                   Eth105/1/1     113    H         Linux              eth1
+macs02.syd.optusnet.com.au                    Eth105/1/2     113    H         Linux              eth1
+mradius02.syd.optusnet.com.au                   Eth105/1/3     113    H         Linux              eth1
+dhcpnbni02.syd.optusnet.com.au                   Eth105/1/7     113    H         Linux              eth0
+dbndh03.syd.optusnet.com.au                   Eth105/1/12    113    H         Linux              eth0
+popmail27.syd.optusnet.com.au                   Eth105/1/14    113    H         Linux              eth0
+popmail28.syd.optusnet.com.au                   Eth105/1/15    113    H         Linux              eth0
+dbreports02.syd.optusnet.com.au                   Eth105/1/16    112    H         Linux              eth0
+t2mproxy02.syd.optusnet.com.au                    Eth106/1/1     113    H         Linux              eth0
+macs02.syd.optusnet.com.au                   Eth106/1/2     113    H         Linux              eth0
+mradius02.syd.optusnet.com.au                   Eth106/1/3     113    H         Linux              eth0
+popmail27.syd.optusnet.com.au                   Eth106/1/14    113    H         Linux              eth1
+popmail28.syd.optusnet.com.au                   Eth106/1/15    113    H         Linux              eth1

@@ -4,10 +4,8 @@ Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone, 
                   D - Remote, C - CVTA, M - Two-port Mac Relay 
 
-mas4.gw.optusnet.com.au
-                 Gig 0/25          139             R S I  CISCO7609 Gig 7/10
-mas5.gw.optusnet.com.au
-                 Gig 0/27          127             R S I  CISCO7609 Gig 7/10
+mas4.gw.optusnet.com.au                Gig 0/25          139             R S I  CISCO7609 Gig 7/10
+mas5.gw.optusnet.com.au                 Gig 0/27          127             R S I  CISCO7609 Gig 7/10
 mas41.sx#
 
 

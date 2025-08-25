@@ -9,3 +9,5 @@ def read_input_files(input_dir):
             with open(filepath, 'r') as f:
                 files_data.append(f.read())
     return files_data
+
+

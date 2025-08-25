@@ -2,35 +2,18 @@ mas130.sx#sh cdp nei
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
 
-repo01.syd.optusnet.com.au
-                 Gig 0/5           99             H       Linux     eth0
-cvsproxy01.syd.optusnet.com.au
-                 Gig 0/7           109           R H      Linux     eth0
-repo04.syd.optusnet.com.au
-                 Gig 0/1           110            H       Linux     eth0
-mas11.gw.optusnet.com.au
-                 Gig 0/49          123           R S      CISCO7609 Gig 9/13
-mas12.gw.optusnet.com.au
-                 Gig 0/51          158           R S      CISCO7609 Gig 9/13
-tacacs01.syd.optusnet.com.au
-                 Gig 0/16          101            H       Linux     eth1
-sdpmsg01.syd.optusnet.com.au
-                 Gig 0/22          118            H       Linux     eth3
-sdpmsg01.syd.optusnet.com.au
-                 Gig 0/8           118            H       Linux     eth0
-tftp01.syd.optusnet.com.au
-                 Gig 0/19          118            H       Linux     eth1
-lvsmobile03-new.syd.optusnet.com.au
-                 Gig 0/4           118            H       Linux     eth0
-          
-servers.optusnet.com.au
-                 Gig 0/18          99             H       Linux     eth1
-mobilebatchdbro01.syd.optusnet.com.au
-                 Gig 0/9           105            H       Linux     eth0
-ipa01.syd.optusnet.com.au
-                 Gig 0/13          98             H       Linux     eth0
-batch03.syd.optusnet.com.au
-                 Gig 0/15          95             H       Linux     eth1
-lvsprov02.syd.optusnet.com.au
-                 Gig 0/6           99             H       Linux     eth0
-mas130.sx# 
+repo01.syd.optusnet.com.au                Gig 0/5           99             H       Linux     eth0
+cvsproxy01.syd.optusnet.com.au                Gig 0/7           109           R H      Linux     eth0
+repo04.syd.optusnet.com.au                 Gig 0/1           110            H       Linux     eth0
+mas11.gw.optusnet.com.au                Gig 0/49          123           R S      CISCO7609 Gig 9/13
+mas12.gw.optusnet.com.au                 Gig 0/51          158           R S      CISCO7609 Gig 9/13
+tacacs01.syd.optusnet.com.au                 Gig 0/16          101            H       Linux     eth1
+sdpmsg01.syd.optusnet.com.au                 Gig 0/22          118            H       Linux     eth3
+sdpmsg01.syd.optusnet.com.au                 Gig 0/8           118            H       Linux     eth0
+tftp01.syd.optusnet.com.au                 Gig 0/19          118            H       Linux     eth1
+lvsmobile03-new.syd.optusnet.com.au                 Gig 0/4           118            H       Linux     eth0
+servers.optusnet.com.au                 Gig 0/18          99             H       Linux     eth1
+mobilebatchdbro01.syd.optusnet.com.au                 Gig 0/9           105            H       Linux     eth0
+ipa01.syd.optusnet.com.au                 Gig 0/13          98             H       Linux     eth0
+batch03.syd.optusnet.com.au                 Gig 0/15          95             H       Linux     eth1
+lvsprov02.syd.optusnet.com.au                 Gig 0/6           99             H       Linux     eth0

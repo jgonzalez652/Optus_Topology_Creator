@@ -2,27 +2,14 @@ mas105.sx#sh cdp nei
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
 
-mas11.gw.optusnet.com.au
-                 Gig 0/49          129           R S      CISCO7609 Gig 4/11
-mas12.gw.optusnet.com.au
-                 Gig 0/51          128           R S      CISCO7609 Gig 4/11
-opcvcmportal02.syd.optusnet.com.au
-                 Gig 0/10          137            H       Linux     eth0
-z2wsmsgcharging06.syd.optusnet.com.au
-                 Gig 0/2           103            H       Linux     eth0
-z2wsmsgcharging05.syd.optusnet.com.au
-                 Gig 0/1           92             H       Linux     eth0
-socks02-old.syd.optusnet.com.au
-                 Gig 0/16          92             H       Linux     eth0
-sdpbiz04.a.syd.optusnet.com.au
-                 Gig 0/12          101            H       Linux     eth0
-filersmount.syd.optusnet.com.au
-                 Gig 0/11          94             H       Linux     eth0
-opcportal02.syd.optusnet.com.au
-                 Gig 0/3           166            H       Linux     eth0
-posmediator02.syd.optusnet.com.au
-                 Gig 0/9           108                    Linux     eth0
-          
-appdmzlvs02.syd.optusnet.com.au
-                 Gig 0/4           89             H       Linux     eth0
-mas105.sx# 
+mas11.gw.optusnet.com.au                 Gig 0/49          129           R S      CISCO7609 Gig 4/11
+mas12.gw.optusnet.com.au                 Gig 0/51          128           R S      CISCO7609 Gig 4/11
+opcvcmportal02.syd.optusnet.com.au                 Gig 0/10          137            H       Linux     eth0
+z2wsmsgcharging06.syd.optusnet.com.au                 Gig 0/2           103            H       Linux     eth0
+z2wsmsgcharging05.syd.optusnet.com.au                 Gig 0/1           92             H       Linux     eth0
+socks02-old.syd.optusnet.com.au                Gig 0/16          92             H       Linux     eth0
+sdpbiz04.a.syd.optusnet.com.au                 Gig 0/12          101            H       Linux     eth0
+filersmount.syd.optusnet.com.au                 Gig 0/11          94             H       Linux     eth0
+opcportal02.syd.optusnet.com.au                Gig 0/3           166            H       Linux     eth0
+posmediator02.syd.optusnet.com.au                 Gig 0/9           108                    Linux     eth0
+appdmzlvs02.syd.optusnet.com.au                 Gig 0/4           89             H       Linux     eth0

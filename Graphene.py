@@ -19,7 +19,7 @@ def main():
     orphan_devices, orphan_connections = find_orphans(graph, devices)
     remove_syd_nodes(graph)
     filename = get_timestamped_filename()
-    save_topology_diagram(graph, OUTPUT_DIR, filename)
+     #save_topology_diagram(graph, OUTPUT_DIR, filename) # this is to save .PNG files - no needed for now
     save_orphan_report(orphan_devices, orphan_connections, OUTPUT_DIR, filename)
     export_graphml(graph, OUTPUT_DIR, filename)  # <-- Save as .graphml
     print(f'Topology diagram, orphan report, and GraphML file saved as {filename} in {OUTPUT_DIR}')

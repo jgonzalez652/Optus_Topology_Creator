@@ -2,21 +2,11 @@ mas104.sx#sh cdp nei
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
 
-Device ID            Local Intrfce         Holdtme   Capability    Platform   Port ID
-mas11.gw.optusnet.com.au
-                    Ten 1/49              145            R S      CISCO7609-Ten 2/6
-mas12.gw.optusnet.com.au
-                    Ten 1/50              123            R S      CISCO7609-Ten 2/6
-z2wsmsgcharging03.syd.optusnet.com.au
-                    Gig 1/1               104             H       Linux     eth0
-sdpbiz03.b.syd.optusnet.com.au
-                    Gig 1/12              114             H       Linux     eth0
-opcportal01.syd.optusnet.com.au
-                    Gig 1/3               176             H       Linux     eth0
-posmediator01.syd.optusnet.com.au
-                    Gig 1/9               102                     Linux     eth0
+mas11.gw.optusnet.com.au                    Ten 1/49              145            R S      CISCO7609-Ten 2/6
+mas12.gw.optusnet.com.au                    Ten 1/50              123            R S      CISCO7609-Ten 2/6
+z2wsmsgcharging03.syd.optusnet.com.au                    Gig 1/1               104             H       Linux     eth0
+sdpbiz03.b.syd.optusnet.com.au                    Gig 1/12              114             H       Linux     eth0
+opcportal01.syd.optusnet.com.au                   Gig 1/3               176             H       Linux     eth0
+posmediator01.syd.optusnet.com.au                    Gig 1/9               102                     Linux     eth0
 oem01.syd.optusnet.com.au
-                    Gig 1/4               174             H       Linux     eth0
-mobldap01.syd.optusnet.com.au
-                    Gig 1/8               115             H       Linux     eth0
-mas104.sx#  
+mobldap01.syd.optusnet.com.au                   Gig 1/8               115             H       Linux     eth0
