@@ -2,6 +2,7 @@
 import re
 
 def clean_device_name(name):
+    name = name.replace('ï»¿', '')
     return re.sub(
         r'\.(optusnet\.com\.au|iplab\.au\.singtelgroup\.net|ipnet\.optus\.com\.au|ipdev\.iplab\.au\.singtelgroup\.n)(\(.*\))?$',
         '',
