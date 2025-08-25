@@ -11,23 +11,9 @@ mas5.gw.optusnet.com.au
 mas5.gw.optusnet.com.au
                     Eth1/1         160    R S I     CISCO7609-S        Ten8/5        
 mas4.gw.optusnet.com.au
-                    Eth1/2         168    R S I     CISCO7609-S        Ten9/5        
-masdmz01-fic-A(FOX1902GS6D)
-                    Eth1/9         156    S I s     UCS-FI-6296UP      Eth1/6        
-masdmz01-fic-A(FOX1902GS6D)
-                    Eth1/10        156    S I s     UCS-FI-6296UP      Eth1/7        
-masdmz01-fic-A(FOX1902GS6D)
-                    Eth1/12        156    S I s     UCS-FI-6296UP      Eth1/8        
-masdmz01-fic-B(FOX1852G4TL)
-                    Eth1/13        132    S I s     UCS-FI-6296UP      Eth1/7        
-masdmz01-fic-B(FOX1852G4TL)
-                    Eth1/14        132    S I s     UCS-FI-6296UP      Eth1/5        
-masdmz01-fic-B(FOX1852G4TL)
-                    Eth1/15        132    S I s     UCS-FI-6296UP      Eth1/8        
+                    Eth1/2         168    R S I     CISCO7609-S        Ten9/5
 mas4dc1.nx.optusnet.com.au(SSI184802VB)
-                    Eth1/16        139    R S I s   N5K-C5548UP        Eth1/16       
-masdmz01-fic-B(FOX1852G4TL)
-                    Eth1/17        132    S I s     UCS-FI-6296UP      Eth1/6        
+                    Eth1/16        139    R S I s   N5K-C5548UP        Eth1/16
 mas4dc1.nx.optusnet.com.au(SSI184802VB)
                     Eth1/24        139    R S s     N5K-C5548UP        Eth1/24       
 dbmspeedtest01.syd.optusnet.com.au

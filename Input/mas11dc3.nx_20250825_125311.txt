@@ -11,31 +11,7 @@ mas11.gw.optusnet.com.au
 mas11.gw.optusnet.com.au
                     Eth1/1         147    R S       CISCO7609-S        Ten7/1        
 mas12.gw.optusnet.com.au
-                    Eth1/2         147    R S       CISCO7609-S        Ten7/2        
-masdmz01-fic-A(FOX1902GS6D)
-                    Eth1/3         138    S I s     UCS-FI-6296UP      Eth1/9        
-masdmz01-fic-A(FOX1902GS6D)
-                    Eth1/4         138    S I s     UCS-FI-6296UP      Eth1/12       
-masdmz01-fic-A(FOX1902GS6D)
-                    Eth1/5         138    S I s     UCS-FI-6296UP      Eth1/10       
-masdmz01-fic-A(FOX1902GS6D)
-                    Eth1/6         138    S I s     UCS-FI-6296UP      Eth1/11       
-masdmz01-fic-B(FOX1852G4TL)
-                    Eth1/7         174    S I s     UCS-FI-6296UP      Eth1/11       
-masdmz01-fic-B(FOX1852G4TL)
-                    Eth1/8         174    S I s     UCS-FI-6296UP      Eth1/9        
-masdmz01-fic-B(FOX1852G4TL)
-                    Eth1/9         174    S I s     UCS-FI-6296UP      Eth1/12       
-masdmz01-fic-B(FOX1852G4TL)
-                    Eth1/10        174    S I s     UCS-FI-6296UP      Eth1/10       
-massvc01-fic-A(FOX2028GGTV)
-                    Eth1/11        139    S I s     UCS-FI-6296UP      Eth1/3        
-massvc01-fic-A(FOX2028GGTV)
-                    Eth1/12        139    S I s     UCS-FI-6296UP      Eth1/1        
-massvc01-fic-A(FOX2028GGTV)
-                    Eth1/13        142    S I s     UCS-FI-6296UP      Eth1/4        
-massvc01-fic-A(FOX2028GGTV)
-                    Eth1/14        141    S I s     UCS-FI-6296UP      Eth1/2        
+                    Eth1/2         147    R S       CISCO7609-S        Ten7/2
 mas12dc3.nx.optusnet.com.au(SSI173508K7)
                     Eth1/29        138    R S s     N5K-C5548UP        Eth1/29       
 mas12dc3.nx.optusnet.com.au(SSI173508K7)

@@ -1,7 +1,7 @@
 import os
 
 INPUT_DIR = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Input'
-search_string = 'Device ID        Local Intrfce'  # Replace with the string you want to find
+search_string = 'masdmz'  # Replace with the string you want to find
 
 def find_files_with_string(directory, target):
     for filename in os.listdir(directory):
