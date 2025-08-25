@@ -1,9 +1,4 @@
-Hostname: mas16nxs.sx
-Date: 2025-08-25 12:12:33.640017
-
-
-
-===== show cdp neigh =====
+mas16nxs.sx#show cdp neigh
 Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater,
                   V - VoIP-Phone, D - Remotely-Managed-Device,

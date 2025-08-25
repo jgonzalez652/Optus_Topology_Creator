@@ -7,7 +7,6 @@ Date: 2025-08-25 12:13:05.828357
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
 
-Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
 mas4.gw.optusnet.com.au
                  Gig 0/27          147          R S I     CISCO7609 Gig 7/11
 mas5.gw.optusnet.com.au

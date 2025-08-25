@@ -1,13 +1,7 @@
-Hostname: mas141.sx
-Date: 2025-08-25 12:17:27.657844
-
-
-
-===== show cdp neigh =====
+mas141.sx#show cdp neigh
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
 
-Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
 mas11.gw.optusnet.com.au
                  Gig 0/50          157           R S      CISCO7609 Gig 9/27
 mas11.gw.optusnet.com.au

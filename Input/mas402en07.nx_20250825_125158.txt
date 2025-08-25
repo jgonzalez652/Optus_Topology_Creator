@@ -1,9 +1,4 @@
-Hostname: mas402en07.nx
-Date: 2025-08-25 12:51:58.953657
-
-
-
-===== show cdp neigh =====
+mas402en07.nx#show cdp neigh
 Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater,
                   V - VoIP-Phone, D - Remotely-Managed-Device,

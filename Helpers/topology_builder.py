@@ -42,6 +42,8 @@ def remove_syd_nodes(graph):
     for n, data in graph.nodes(data=True):
         if '.syd' in str(n) or '.syd' in str(data.get('label', '')):
             nodes_to_remove.append(n)
+        elif '.lvh' in str(n) or '.lvh' in str(data.get('label', '')):
+            nodes_to_remove.append(n)
     graph.remove_nodes_from(nodes_to_remove)
 
 def find_orphans(graph, devices):

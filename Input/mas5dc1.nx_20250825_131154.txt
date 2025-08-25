@@ -1,9 +1,4 @@
-Hostname: mas5dc1.nx
-Date: 2025-08-25 13:11:54.271475
-
-
-
-===== show cdp neigh =====
+mas5dc1.nx#show cdp neigh
 Capability Codes: R - Router, T - Trans-Bridge, B - Source-Route-Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater,
                   V - VoIP-Phone, D - Remotely-Managed-Device,

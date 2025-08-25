@@ -1,13 +1,7 @@
-Hostname: mas129.sx
-Date: 2025-08-25 12:17:57.815804
-
-
-
-===== show cdp neigh =====
+mas129.sx#show cdp neigh
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
 
-Device ID        Local Intrfce     Holdtme    Capability  Platform  Port ID
 omdiag01.syd.optusnet.com.au
                  Gig 0/14          109            H       Linux     eth0
 repo03.syd.optusnet.com.au
