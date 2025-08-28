@@ -1,0 +1,53 @@
+Hostname: mas3cr3.nx
+Date: 2025-08-28 13:15:34.978506
+
+
+
+===== sh ver =====
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (C) 2002-2019, Cisco and/or its affiliates.
+All rights reserved.
+The copyrights to certain works contained in this software are
+owned by other third parties and used and distributed under their own
+licenses, such as open source.  This software is provided "as is," and unless
+otherwise stated, there is no warranty, express or implied, including but not
+limited to warranties of merchantability and fitness for a particular purpose.
+Certain components of this software are licensed under
+the GNU General Public License (GPL) version 2.0 or 
+GNU General Public License (GPL) version 3.0  or the GNU
+Lesser General Public License (LGPL) Version 2.1 or 
+Lesser General Public License (LGPL) Version 2.0. 
+A copy of each such license is available at
+http://www.opensource.org/licenses/gpl-2.0.php and
+http://opensource.org/licenses/gpl-3.0.html and
+http://www.opensource.org/licenses/lgpl-2.1.php and
+http://www.gnu.org/licenses/old-licenses/library.txt.
+
+Software
+  BIOS: version 05.38
+  NXOS: version 7.0(3)I7(6)
+  BIOS compile time:  06/12/2019
+  NXOS image file is: bootflash:///nxos.7.0.3.I7.6.bin
+  NXOS compile time:  3/5/2019 13:00:00 [03/06/2019 09:04:55]
+
+
+Hardware
+  cisco Nexus9000 C93180YC-FX Chassis 
+  Intel(R) Xeon(R) CPU D-1528 @ 1.90GHz with 24571132 kB of memory.
+  Processor Board ID FDO23440FJJ
+
+  Device name: mas3cr3.nx
+  bootflash:  115805708 kB
+Kernel uptime is 2059 day(s), 4 hour(s), 6 minute(s), 4 second(s)
+
+Last reset at 570596 usecs after Wed Jan  8 10:07:37 2020
+  Reason: Reset due to upgrade
+  System version: 9.3(1)
+  Service: 
+
+plugin
+  Core Plugin, Ethernet Plugin
+
+Active Package(s):
+        

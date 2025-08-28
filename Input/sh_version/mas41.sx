@@ -1,0 +1,52 @@
+﻿mas41.sx#mas41.sxsh ver
+          ^
+% Invalid input detected at '^' marker.
+
+mas41.sx#sh ver
+Cisco IOS Software, C3560 Software (C3560-IPSERVICES-M), Version 12.2(50)SE5, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2010 by Cisco Systems, Inc.
+Compiled Tue 28-Sep-10 13:21 by prod_rel_team
+Image text-base: 0x01000000, data-base: 0x02B00000
+
+ROM: Bootstrap program is C3560 boot loader
+BOOTLDR: C3560 Boot Loader (C3560-HBOOT-M) Version 12.2(44)SE5, RELEASE SOFTWARE (fc1)
+
+mas41.sx uptime is 7 years, 45 weeks, 2 hours, 26 minutes
+System returned to ROM by power-on
+System restarted at 11:37:50 AEDT Thu Oct 19 2017
+System image file is "flash:c3560-ipservices-mz.122-50.SE5/c3560-ipservices-mz.122-50.SE5.bin"
+
+cisco WS-C3560G-24TS (PowerPC405) processor (revision F0) with 131072K bytes of memory.
+Processor board ID FOC1530Y0YT
+Last reset from power-on
+2 Virtual Ethernet interfaces
+28 Gigabit Ethernet interfaces
+The password-recovery mechanism is enabled.
+
+512K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address       : 64:AE:0C:A1:6A:80
+Motherboard assembly number     : 73-10215-06
+Power supply part number        : 341-0098-02
+Motherboard serial number       : FOC15286M2J
+Power supply serial number      : ALD1529036A
+Model revision number           : F0
+Motherboard revision number     : A0
+Model number                    : WS-C3560G-24TS-E
+System serial number            : FOC1530Y0YT
+Top Assembly Part Number        : 800-27480-03
+Top Assembly Revision Number    : C0
+Version ID                      : V05
+CLEI Code Number                : COMBH10BRA
+Hardware Board Revision Number  : 0x09
+
+
+Switch Ports Model              SW Version            SW Image                 
+------ ----- -----              ----------            ----------               
+*    1 28    WS-C3560G-24TS     12.2(50)SE5           C3560-IPSERVICES-M       
+
+
+Configuration register is 0xF
+
+mas41.sx#   
+mas41.sx#

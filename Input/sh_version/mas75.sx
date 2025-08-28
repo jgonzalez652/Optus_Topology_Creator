@@ -1,0 +1,29 @@
+﻿mas75.sx#
+mas75.sx#
+mas75.sx#sh ver
+Cisco IOS Software, Catalyst 4000 L3 Switch Software (cat4000-I9S-M), Version 12.2(25)EWA13, RELEASE SOFTWARE (fc1)
+Technical Support: http://www.cisco.com/techsupport
+Copyright (c) 1986-2008 by Cisco Systems, Inc.
+Compiled Tue 05-Feb-08 17:14 by kellythw
+Image text-base: 0x10000000, data-base: 0x114BD568
+
+ROM: 12.2(31r)SGA1
+Pod Revision 0, Force Revision 34, Tie Revision 20
+
+mas75.sx uptime is 17 years, 10 weeks, 2 days, 14 hours, 17 minutes
+System returned to ROM by power-on
+System restarted at 14:49:20 AEST Fri Jun 20 2008
+System image file is "bootflash:cat4000-i9s-mz.122-25.EWA13.bin"
+
+cisco WS-C4948-10GE (MPC8540) processor (revision 5) with 262144K bytes of memory.
+Processor board ID FOX1211G62P
+MPC8540 CPU at 667Mhz, Fixed Module
+Last reset from PowerUp
+2 Virtual Ethernet interfaces
+48 Gigabit Ethernet interfaces
+2 Ten Gigabit Ethernet interfaces
+511K bytes of non-volatile configuration memory.
+
+Configuration register is 0x2101
+
+mas75.sx#  exit

@@ -49,7 +49,7 @@ def remove_syd_nodes(graph):
     graph.remove_nodes_from(nodes_to_remove)
 
 def find_orphans(graph, devices):
-    orphan_devices = [d for d in devices if not list(graph.neighbors(d))]
+    orphan_devices = [d for d in devices if not list(graph.neighbors(d["name"]))]
     orphan_connections = []
     for d in graph.nodes:
         for n in graph.neighbors(d):

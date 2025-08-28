@@ -1,0 +1,53 @@
+﻿mas69.sx#
+mas69.sx#
+mas69.sx#sh ver
+Cisco IOS Software, C3560E Software (C3560E-UNIVERSAL-M), Version 12.2(35)SE5, RELEASE SOFTWARE (fc1)
+Copyright (c) 1986-2007 by Cisco Systems, Inc.
+Compiled Thu 19-Jul-07 17:18 by nachen
+Image text-base: 0x00003000, data-base: 0x01600000
+
+ROM: Bootstrap program is C3560E boot loader
+BOOTLDR: C3560E Boot Loader (C3560E-HBOOT-M) Version 12.2(44r)SE3, RELEASE SOFTWARE (fc3)
+
+mas69.sx uptime is 14 years, 20 weeks, 1 day, 8 hours, 11 minutes
+System returned to ROM by power-on
+System restarted at 10:57:37 AEST Wed Apr 13 2011
+System image file is "flash:c3560e-universal-mz.122-35.SE5/c3560e-universal-mz.122-35.SE5.bin"
+
+License Level: ipbase   Type: Permanent
+Next reboot license Level: ipbase
+
+cisco WS-C3560E-48TD (PowerPC405) processor (revision A0) with 122880K/8184K bytes of memory.
+Processor board ID FDO1344R1GY
+Last reset from power-on
+2 Virtual Ethernet interfaces
+1 FastEthernet interface
+52 Gigabit Ethernet interfaces
+2 Ten Gigabit Ethernet interfaces
+The password-recovery mechanism is enabled.
+
+512K bytes of flash-simulated non-volatile configuration memory.
+Base ethernet MAC Address       : 3C:DF:1E:60:1D:00
+Motherboard assembly number     : 73-11179-13
+Motherboard serial number       : FDO1344172Z
+Model revision number           : A0
+Motherboard revision number     : A0
+Model number                    : WS-C3560E-48TD-SD
+Daughterboard assembly number   : 800-29737-01
+Daughterboard serial number     : FDO13440J46
+System serial number            : FDO1344R1GY
+Top Assembly Part Number        : 800-30992-01
+Top Assembly Revision Number    : C0
+Version ID                      : V02
+CLEI Code Number                : COMVB00ARB
+Hardware Board Revision Number  : 0x00
+
+
+Switch   Ports  Model              SW Version              SW Image            
+------   -----  -----              ----------              ----------          
+*    1   54     WS-C3560E-48TD     12.2(35)SE5             C3560E-UNIVERSAL-M  
+
+
+Configuration register is 0xF
+
+mas69.sx#  exit

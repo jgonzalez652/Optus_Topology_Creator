@@ -1,0 +1,45 @@
+Hostname: mas402en09.nx
+Date: 2025-08-28 13:14:28.900991
+
+
+
+===== sh ver =====
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2013, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained herein are owned by
+other third parties and are used and distributed under license.
+Some parts of this software are covered under the GNU Public
+License. A copy of the license is available at
+http://www.gnu.org/licenses/gpl.html.
+
+Software
+  BIOS:      version 1.0.37
+  loader:    version N/A
+  kickstart: version 4.1(2)E1(1l)
+  system:    version 4.1(2)E1(1l)
+  BIOS compile time:       09/29/09
+  kickstart image file is: bootflash:/n4000-bk9-kickstart.4.1.2.E1.1l.bin
+  kickstart compile time:  10/31/2013 6:00:00 [11/01/2013 00:53:42]
+  system image file is:    bootflash:/n4000-bk9.4.1.2.E1.1l.bin
+  system compile time:     10/31/2013 6:00:00 [11/01/2013 00:48:50]
+
+
+Hardware
+  cisco Nexus 4000 Chassis ("20x10GE/supervisor")
+  Motorola, e500v2  with 2076512 kB of memory.
+  Processor Board ID FOC18012XCU
+
+  Device name: mas402en09.nx
+  bootflash:     594772 kB
+
+Kernel uptime is 3996 day(s), 23 hour(s), 53 minute(s), 50 second(s)
+
+Last reset at 519191 usecs after  Thu Sep 18 05:07:11 2014
+
+  Reason: Reset Requested by CLI command reload
+  System version: 4.1(2)E1(1l)
+  Service: 
+
+plugin
+  Core Plugin, Ethernet Plugin

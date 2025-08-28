@@ -7,22 +7,47 @@ from Helpers.helpers import get_timestamped_filename
 from Helpers.graphml_exporter import export_graphml
 from Helpers.add_yed_labels import add_yed_labels
 from Helpers.json_exporter import export_json
+import json
 
-INPUT_DIR = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Input'
+INPUT_DIR = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Input\sh_cdp_neigh'
 OUTPUT_DIR = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Output'
 OUTPUT_DIR_JSON = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Output\json'
 
 def main():
     files_data = read_input_files(INPUT_DIR)
     all_connections = []
+    print(f"\nINFO: Parsing cdp neighbors...")
     for raw in files_data:
         all_connections.extend(parse_cdp_output(raw))
     graph, devices = build_topology(all_connections)
+    print(f"\nINFO: Exporting JSON file...")
     export_json(devices, all_connections, OUTPUT_DIR_JSON)
+
+    # --- Enrich devices with type/model from latest JSON ---
+    json_files = [f for f in os.listdir(OUTPUT_DIR_JSON) if f.endswith('.json')]
+    json_files.sort(reverse=True)
+    latest_json = os.path.join(OUTPUT_DIR_JSON, json_files[0])
+    with open(latest_json, 'r') as f:
+        json_data = json.load(f)
+    device_models = json_data.get("device_models", {})
+    device_types = json_data.get("device_types", {})
+    devices = list(devices)
+    for i, device in enumerate(devices):
+        name = device  # device is a string
+        devices[i] = {
+            "name": name,
+            "device_model": device_models.get(name),
+            "device_type": device_types.get(name)
+        }
+    # ------------------------------------------------------
+
+    print(f"\nINFO: Finding any orphan connections...")
+    # Pass device names to graph.neighbors in find_orphans
     orphan_devices, orphan_connections = find_orphans(graph, devices)
+    print(f"\nINFO: Cleaning up a bit...")
     remove_syd_nodes(graph)
     filename = get_timestamped_filename()
-     #save_topology_diagram(graph, OUTPUT_DIR, filename) # this is to save .PNG files - no needed for now
+    #save_topology_diagram(graph, OUTPUT_DIR, filename) # this is to save .PNG files - no needed for now
     save_orphan_report(orphan_devices, orphan_connections, OUTPUT_DIR, filename)
     export_graphml(graph, OUTPUT_DIR, filename)  # <-- Save as .graphml
     print(f'Topology diagram, orphan report, and GraphML file saved as {filename} in {OUTPUT_DIR}')

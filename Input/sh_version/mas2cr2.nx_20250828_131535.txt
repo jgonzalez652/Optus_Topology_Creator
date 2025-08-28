@@ -1,0 +1,56 @@
+Hostname: mas2cr2.nx
+Date: 2025-08-28 13:15:35.087590
+
+
+
+===== sh ver =====
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Documents: http://www.cisco.com/en/US/products/ps9372/tsd_products_support_series_home.html
+Copyright (c) 2002-2021, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained herein are owned by
+other third parties and are used and distributed under license.
+Some parts of this software are covered under the GNU Public
+License. A copy of the license is available at
+http://www.gnu.org/licenses/gpl.html.
+
+Software
+  BIOS:      version 3.6.0
+  Power Sequencer Firmware: 
+             Module 1: v3.0
+             Module 1: v1.0
+             Module 2: v5.0
+  Microcontroller Firmware:        version v1.2.0.1
+  QSFP Microcontroller Firmware:   
+             Module not detected
+  CXP Microcontroller Firmware:   
+             Module not detected
+  kickstart: version 7.3(10)N1(1)
+  system:    version 7.3(10)N1(1)
+  BIOS compile time:       05/09/2012
+  kickstart image file is: bootflash:///n5000-uk9-kickstart.7.3.10.N1.1.bin
+  kickstart compile time:  7/11/2021 23:00:00 [07/12/2021 17:19:03]
+  system image file is:    bootflash:///n5000-uk9.7.3.10.N1.1.bin
+  system compile time:     7/11/2021 23:00:00 [07/12/2021 19:24:39]
+
+
+Hardware
+  cisco Nexus5548 Chassis ("O2 32X10GE/Modular Universal Platform Supervisor")
+  Intel(R) Xeon(R) CPU         with 8253792 kB of memory.
+  Processor Board ID FOC18036MGL
+
+  Device name: mas2cr2.nx
+  bootflash:    2007040 kB
+
+Kernel uptime is 573 day(s), 14 hour(s), 14 minute(s), 13 second(s)
+
+Last reset at 656780 usecs after  Fri Feb  2 00:00:17 2024
+
+  Reason: Disruptive upgrade
+  System version: 6.0(2)N2(5)
+  Service: 
+
+plugin
+  Core Plugin, Ethernet Plugin
+
+Active Package(s)

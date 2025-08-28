@@ -2,6 +2,7 @@ import os
 import json
 import re
 from datetime import datetime
+from Helpers.json_enricher import enrich_json
 
 def clean_interface_name(intf):
     pattern = r'\b(?:Gig|Ten|Eth|mgmt)\s*\d+(?:/\d+)*\b'
@@ -26,3 +27,7 @@ def export_json(devices, connections, output_dir, filename=None):
     with open(json_path, "w") as f:
         json.dump(data, f, indent=2)
     print(f"JSON file saved as {json_path}")
+
+    print(f"\nINFO: Enriching JSON file...")
+    enrich_json()
+
