@@ -6,9 +6,11 @@ from Helpers.topology_output import save_topology_diagram, save_orphan_report
 from Helpers.helpers import get_timestamped_filename
 from Helpers.graphml_exporter import export_graphml
 from Helpers.add_yed_labels import add_yed_labels
+from Helpers.json_exporter import export_json
 
 INPUT_DIR = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Input'
 OUTPUT_DIR = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Output'
+OUTPUT_DIR_JSON = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Output\json'
 
 def main():
     files_data = read_input_files(INPUT_DIR)
@@ -16,6 +18,7 @@ def main():
     for raw in files_data:
         all_connections.extend(parse_cdp_output(raw))
     graph, devices = build_topology(all_connections)
+    export_json(devices, all_connections, OUTPUT_DIR_JSON)
     orphan_devices, orphan_connections = find_orphans(graph, devices)
     remove_syd_nodes(graph)
     filename = get_timestamped_filename()

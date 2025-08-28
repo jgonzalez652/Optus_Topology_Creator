@@ -2,5 +2,6 @@ mas39.sx#show cdp neigh
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
 
+Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
 mas4.gw.optusnet.com.au                Gig 0/27          147          R S I     CISCO7609 Gig 7/11
 mas5.gw.optusnet.com.au                 Gig 0/25          144          R S I     CISCO7609 Gig 7/11

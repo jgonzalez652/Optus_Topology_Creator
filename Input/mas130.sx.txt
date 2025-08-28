@@ -2,6 +2,7 @@ mas130.sx#sh cdp nei
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
 
+Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
 repo01.syd.optusnet.com.au                Gig 0/5           99             H       Linux     eth0
 cvsproxy01.syd.optusnet.com.au                Gig 0/7           109           R H      Linux     eth0
 repo04.syd.optusnet.com.au                 Gig 0/1           110            H       Linux     eth0

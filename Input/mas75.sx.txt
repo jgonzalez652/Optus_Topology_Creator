@@ -2,6 +2,7 @@ mas75.sx#sh cdp nei
 Capability Codes: R - Router, T - Trans Bridge, B - Source Route Bridge
                   S - Switch, H - Host, I - IGMP, r - Repeater, P - Phone
 
+Device-ID             Local Intrfce Hldtme Capability  Platform         Port ID
 dbportalnssync.syd.optusnet.com.au                   Gig 1/20              98                      Linux     eth0
 dbportalnssync.syd.optusnet.com.au                    Gig 1/4               98                      Linux     eth1
 ci01.syd.optusnet.com.au                    Gig 1/8               119             H       Linux     eth0
