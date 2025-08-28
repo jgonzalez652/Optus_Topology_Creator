@@ -1,4 +1,5 @@
 import os
+import json
 from Helpers.file_handler import read_input_files
 from Helpers.cdp_parser import parse_cdp_output
 from Helpers.topology_builder import build_topology, find_orphans, remove_syd_nodes
@@ -7,7 +8,6 @@ from Helpers.helpers import get_timestamped_filename
 from Helpers.graphml_exporter import export_graphml
 from Helpers.add_yed_labels import add_yed_labels
 from Helpers.json_exporter import export_json
-import json
 
 INPUT_DIR = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Input\sh_cdp_neigh'
 OUTPUT_DIR = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Output'
@@ -31,25 +31,23 @@ def main():
         json_data = json.load(f)
     device_models = json_data.get("device_models", {})
     device_types = json_data.get("device_types", {})
-    devices = list(devices)
-    for i, device in enumerate(devices):
-        name = device  # device is a string
-        devices[i] = {
+    enriched_devices = []
+    for name in devices:
+        enriched_devices.append({
             "name": name,
             "device_model": device_models.get(name),
             "device_type": device_types.get(name)
-        }
+        })
     # ------------------------------------------------------
 
     print(f"\nINFO: Finding any orphan connections...")
-    # Pass device names to graph.neighbors in find_orphans
-    orphan_devices, orphan_connections = find_orphans(graph, devices)
+    orphan_devices, orphan_connections = find_orphans(graph, enriched_devices)
     print(f"\nINFO: Cleaning up a bit...")
     remove_syd_nodes(graph)
     filename = get_timestamped_filename()
     #save_topology_diagram(graph, OUTPUT_DIR, filename) # this is to save .PNG files - no needed for now
     save_orphan_report(orphan_devices, orphan_connections, OUTPUT_DIR, filename)
-    export_graphml(graph, OUTPUT_DIR, filename)  # <-- Save as .graphml
+    export_graphml(graph, OUTPUT_DIR, filename, device_types)  # <-- Save as .graphml
     print(f'Topology diagram, orphan report, and GraphML file saved as {filename} in {OUTPUT_DIR}')
     add_yed_labels(f"{OUTPUT_DIR}\\{filename}.graphml")
 
