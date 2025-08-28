@@ -5,7 +5,16 @@ def export_graphml(graph, output_dir, filename, device_types=None):
     for node in graph.nodes:
         graph.nodes[node]['label'] = str(node)
         device_type = device_types.get(node) if device_types else None
-        graph.nodes[node]['device_type'] = device_type if device_type is not None else 'unknown'
+        #graph.nodes[node]['device_type'] = device_type if device_type is not None else 'unknown'
+        if device_type is not None:
+            graph.nodes[node]['device_type'] = device_type
+        elif ".cr" in graph.nodes[node]['label']:
+            graph.nodes[node]['device_type'] = "ASR9K"
+        elif ".gw" in graph.nodes[node]['label']:
+            graph.nodes[node]['device_type'] = "7609"
+        else:
+            graph.nodes[node]['device_type'] = 'unknown'
+
     for u, v, data in graph.edges(data=True):
         local = data.get('local_interface', '')
         neighbor = data.get('neighbor_interface', '')
