@@ -4,6 +4,7 @@ from datetime import datetime
 from collections import defaultdict
 from Helpers.mst_enricher import enrich_json
 from Helpers.export_to_excel import export_to_excel
+from stp_state_summary import create_summary
 
 input_dir = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Input\sh_spanning_tree'
 output_dir = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Output\stp'
@@ -141,3 +142,4 @@ if __name__ == "__main__":
     main()
     enrich_json()
     export_to_excel()
+    create_summary()
