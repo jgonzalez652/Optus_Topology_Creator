@@ -1470,7 +1470,8 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": false
+          "root_bridge": false,
+          "vlans_mapped": "none"
         },
         "MST0001": {
           "priority": 24577,
@@ -1486,11 +1487,13 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "none"
         },
         "MST0001": {
           "priority": 24577,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "1-4094"
         }
       },
       "mst_instance_vlans": {
@@ -1503,11 +1506,13 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": false
+          "root_bridge": false,
+          "vlans_mapped": "none"
         },
         "MST0001": {
           "priority": 24577,
-          "root_bridge": false
+          "root_bridge": false,
+          "vlans_mapped": "1-4094"
         }
       },
       "mst_instance_vlans": {
@@ -1520,11 +1525,13 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "none"
         },
         "MST0001": {
           "priority": 24577,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "1-4094"
         }
       },
       "mst_instance_vlans": {
@@ -1537,7 +1544,8 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "none"
         },
         "MST0001": {
           "priority": 24577,
@@ -1553,11 +1561,13 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "none"
         },
         "MST0001": {
           "priority": 24577,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "1-4094"
         }
       },
       "mst_instance_vlans": {
@@ -1570,11 +1580,13 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": false
+          "root_bridge": false,
+          "vlans_mapped": "none"
         },
         "MST0001": {
           "priority": 24577,
-          "root_bridge": false
+          "root_bridge": false,
+          "vlans_mapped": "1-4094"
         }
       },
       "mst_instance_vlans": {
@@ -1587,7 +1599,8 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "none"
         },
         "MST0001": {
           "priority": 24577,
@@ -1638,11 +1651,13 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "none"
         },
         "MST0001": {
           "priority": 24577,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "1-4094"
         }
       },
       "mst_instance_vlans": {
@@ -1655,11 +1670,13 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "none"
         },
         "MST0001": {
           "priority": 24577,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "1-4094"
         }
       },
       "mst_instance_vlans": {
@@ -1672,7 +1689,8 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "1-4094"
         }
       },
       "mst_instance_vlans": {
@@ -1894,11 +1912,13 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "none"
         },
         "MST0001": {
           "priority": 24577,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "1-4094"
         }
       },
       "mst_instance_vlans": {
@@ -1911,11 +1931,13 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "none"
         },
         "MST0001": {
           "priority": 24577,
-          "root_bridge": true
+          "root_bridge": true,
+          "vlans_mapped": "1-4094"
         }
       },
       "mst_instance_vlans": {
@@ -1928,7 +1950,8 @@
       "mst_instances": {
         "MST0000": {
           "priority": 24576,
-          "root_bridge": false
+          "root_bridge": false,
+          "vlans_mapped": "1-4094"
         }
       },
       "mst_instance_vlans": {

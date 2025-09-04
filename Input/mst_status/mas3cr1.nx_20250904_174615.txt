@@ -1,0 +1,111 @@
+Hostname: mas3cr1.nx
+Date: 2025-09-04 17:46:15.407549
+
+
+
+===== sh spanning-tree mst =====
+
+##### MST0    vlans mapped:   none
+Bridge        address 0023.04ee.be0f  priority      24576 (24576 sysid 0)
+Root          this switch for the CIST
+Regional Root this switch
+Operational   hello time 2 , forward delay 15, max age 20, txholdcount 6 
+Configured    hello time 2 , forward delay 15, max age 20, max hops    20
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Desg FWD 200       128.4096 (vPC) Edge P2p 
+Po2              Desg FWD 200       128.4097 (vPC) Edge P2p 
+Po3              Root FWD 500       128.4098 (vPC peer-link) Network P2p 
+Po14             Desg FWD 1000      128.4109 Edge P2p 
+Po40             Desg FWD 200       128.4135 (vPC) P2p 
+Po41             Desg FWD 200       128.4136 (vPC) P2p 
+Eth1/7           Desg FWD 2000      128.135  P2p 
+Eth1/8           Desg FWD 2000      128.136  P2p 
+Eth1/20          Desg FWD 2000      128.148  P2p 
+Eth1/21          Desg FWD 2000      128.149  P2p 
+Eth1/22          Desg FWD 2000      128.150  P2p 
+Eth1/23          Desg FWD 2000      128.151  P2p 
+Eth1/25          Desg FWD 2000      128.153  P2p 
+Eth1/26          Desg FWD 2000      128.154  P2p 
+Eth1/27          Desg FWD 2000      128.155  P2p 
+Eth1/28          Desg FWD 2000      128.156  P2p 
+Eth1/29          Desg FWD 20000     128.157  Edge P2p 
+Eth1/30          Desg FWD 20000     128.158  Edge P2p 
+Eth1/31          Desg FWD 2000      128.159  P2p 
+Eth2/1           Desg FWD 2000      128.257  Edge P2p 
+Eth2/7           Desg FWD 2000      128.263  P2p 
+Eth2/16          Desg FWD 20000     128.272  Edge P2p 
+Eth101/1/5       Desg FWD 20000     128.1157 Edge P2p 
+Eth101/1/6       Desg FWD 20000     128.1158 Edge P2p 
+Eth101/1/7       Desg FWD 20000     128.1159 Edge P2p 
+Eth101/1/8       Desg FWD 20000     128.1160 Edge P2p 
+Eth101/1/12      Desg FWD 20000     128.1164 Edge P2p 
+Eth101/1/15      Desg FWD 20000     128.1167 Edge P2p 
+Eth101/1/17      Desg FWD 20000     128.1169 Edge P2p 
+Eth101/1/18      Desg FWD 20000     128.1170 Edge P2p 
+Eth101/1/19      Desg FWD 20000     128.1171 Edge P2p 
+Eth101/1/20      Desg FWD 20000     128.1172 Edge P2p 
+Eth101/1/21      Desg FWD 20000     128.1173 Edge P2p 
+Eth101/1/22      Desg FWD 20000     128.1174 Edge P2p 
+Eth101/1/23      Desg FWD 20000     128.1175 Edge P2p 
+Eth101/1/24      Desg FWD 20000     128.1176 Edge P2p 
+Eth101/1/25      Desg FWD 20000     128.1177 Edge P2p 
+Eth101/1/26      Desg FWD 20000     128.1178 Edge P2p 
+Eth101/1/27      Desg FWD 20000     128.1179 Edge P2p 
+Eth101/1/28      Desg FWD 20000     128.1180 Edge P2p 
+Eth101/1/29      Desg FWD 20000     128.1181 Edge P2p 
+Eth101/1/36      Desg FWD 20000     128.1188 Edge P2p 
+Eth101/1/37      Desg FWD 200000    128.1189 Edge P2p 
+
+
+##### MST1    vlans mapped:   1-4094
+Bridge        address 0023.04ee.be0f  priority      24577 (24576 sysid 1)
+Root          this switch for MST1
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Desg FWD 200       128.4096 (vPC) Edge P2p 
+Po2              Desg FWD 200       128.4097 (vPC) Edge P2p 
+Po3              Root FWD 500       128.4098 (vPC peer-link) Network P2p 
+Po14             Desg FWD 1000      128.4109 Edge P2p 
+Po40             Desg FWD 200       128.4135 (vPC) P2p 
+Po41             Desg FWD 200       128.4136 (vPC) P2p 
+Eth1/7           Desg FWD 2000      128.135  P2p 
+Eth1/8           Desg FWD 2000      128.136  P2p 
+Eth1/20          Desg FWD 2000      128.148  P2p 
+Eth1/21          Desg FWD 2000      128.149  P2p 
+Eth1/22          Desg FWD 2000      128.150  P2p 
+Eth1/23          Desg FWD 2000      128.151  P2p 
+Eth1/25          Desg FWD 2000      128.153  P2p 
+Eth1/26          Desg FWD 2000      128.154  P2p 
+Eth1/27          Desg FWD 2000      128.155  P2p 
+Eth1/28          Desg FWD 2000      128.156  P2p 
+Eth1/29          Desg FWD 20000     128.157  Edge P2p 
+Eth1/30          Desg FWD 20000     128.158  Edge P2p 
+Eth1/31          Desg FWD 2000      128.159  P2p 
+Eth2/1           Desg FWD 2000      128.257  Edge P2p 
+Eth2/7           Desg FWD 2000      128.263  P2p 
+Eth2/16          Desg FWD 20000     128.272  Edge P2p 
+Eth101/1/5       Desg FWD 20000     128.1157 Edge P2p 
+Eth101/1/6       Desg FWD 20000     128.1158 Edge P2p 
+Eth101/1/7       Desg FWD 20000     128.1159 Edge P2p 
+Eth101/1/8       Desg FWD 20000     128.1160 Edge P2p 
+Eth101/1/12      Desg FWD 20000     128.1164 Edge P2p 
+Eth101/1/15      Desg FWD 20000     128.1167 Edge P2p 
+Eth101/1/17      Desg FWD 20000     128.1169 Edge P2p 
+Eth101/1/18      Desg FWD 20000     128.1170 Edge P2p 
+Eth101/1/19      Desg FWD 20000     128.1171 Edge P2p 
+Eth101/1/20      Desg FWD 20000     128.1172 Edge P2p 
+Eth101/1/21      Desg FWD 20000     128.1173 Edge P2p 
+Eth101/1/22      Desg FWD 20000     128.1174 Edge P2p 
+Eth101/1/23      Desg FWD 20000     128.1175 Edge P2p 
+Eth101/1/24      Desg FWD 20000     128.1176 Edge P2p 
+Eth101/1/25      Desg FWD 20000     128.1177 Edge P2p 
+Eth101/1/26      Desg FWD 20000     128.1178 Edge P2p 
+Eth101/1/27      Desg FWD 20000     128.1179 Edge P2p 
+Eth101/1/28      Desg FWD 20000     128.1180 Edge P2p 
+Eth101/1/29      Desg FWD 20000     128.1181 Edge P2p 
+Eth101/1/36      Desg FWD 20000     128.1188 Edge P2p 
+Eth101/1/37      Desg FWD 200000    128.1189 Edge P2p 
+

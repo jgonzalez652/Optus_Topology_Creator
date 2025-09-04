@@ -1476,9 +1476,6 @@
           "priority": 24577,
           "root_bridge": false
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "none"
       }
     },
     "mas16nxs.sx": {
@@ -1492,10 +1489,6 @@
           "priority": 24577,
           "root_bridge": true
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "none",
-        "MST0001": "1-4094"
       }
     },
     "mas1cr1.nx": {
@@ -1509,10 +1502,6 @@
           "priority": 24577,
           "root_bridge": false
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "none",
-        "MST0001": "1-4094"
       }
     },
     "mas1cr2.nx": {
@@ -1526,10 +1515,6 @@
           "priority": 24577,
           "root_bridge": true
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "none",
-        "MST0001": "1-4094"
       }
     },
     "mas1cr3.nx": {
@@ -1543,9 +1528,6 @@
           "priority": 24577,
           "root_bridge": true
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "none"
       }
     },
     "mas2cr1.nx": {
@@ -1559,10 +1541,6 @@
           "priority": 24577,
           "root_bridge": true
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "none",
-        "MST0001": "1-4094"
       }
     },
     "mas2cr2.nx": {
@@ -1576,10 +1554,6 @@
           "priority": 24577,
           "root_bridge": false
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "none",
-        "MST0001": "1-4094"
       }
     },
     "mas2cr3.nx": {
@@ -1593,9 +1567,6 @@
           "priority": 24577,
           "root_bridge": true
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "none"
       }
     },
     "mas39.sx": {
@@ -1644,10 +1615,6 @@
           "priority": 24577,
           "root_bridge": true
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "none",
-        "MST0001": "1-4094"
       }
     },
     "mas3cr2.nx": {
@@ -1661,10 +1628,6 @@
           "priority": 24577,
           "root_bridge": true
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "none",
-        "MST0001": "1-4094"
       }
     },
     "mas3cr3.nx": {
@@ -1674,9 +1637,6 @@
           "priority": 24576,
           "root_bridge": true
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "1-4094"
       }
     },
     "mas401en07.nx": {
@@ -1900,10 +1860,6 @@
           "priority": 24577,
           "root_bridge": true
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "none",
-        "MST0001": "1-4094"
       }
     },
     "mas4cr2.nx": {
@@ -1917,10 +1873,6 @@
           "priority": 24577,
           "root_bridge": true
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "none",
-        "MST0001": "1-4094"
       }
     },
     "mas4cr3.nx": {
@@ -1930,9 +1882,6 @@
           "priority": 24576,
           "root_bridge": false
         }
-      },
-      "mst_instance_vlans": {
-        "MST0000": "1-4094"
       }
     },
     "mas4dc1.nx": {

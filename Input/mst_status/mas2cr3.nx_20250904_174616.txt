@@ -1,0 +1,25 @@
+Hostname: mas2cr3.nx
+Date: 2025-09-04 17:46:16.537551
+
+
+
+===== sh spanning-tree mst =====
+
+##### MST0    vlans mapped:   none
+Bridge        address 0023.04ee.be17  priority      24576 (24576 sysid 0)
+Root          this switch for the CIST
+Regional Root this switch
+Operational   hello time 2 , forward delay 15, max age 20, txholdcount 6 
+Configured    hello time 2 , forward delay 15, max age 20, max hops    20
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Desg FWD 200       128.4096 (vPC) Edge P2p 
+Po2              Desg FWD 200       128.4097 (vPC) Edge P2p 
+Po3              Root FWD 500       128.4098 (vPC peer-link) Network P2p 
+Po10             Desg FWD 200       128.4105 (vPC) P2p 
+Po20             Desg FWD 200       128.4115 (vPC) Edge P2p 
+Po21             Desg FWD 200       128.4116 (vPC) Edge P2p 
+Po22             Desg FWD 200       128.4117 (vPC) Edge P2p 
+Po23             Desg FWD 200       128.4118 (vPC) Edge P2p 
+Po24             Desg FWD 200       128.4119 (vPC) Edge P2p 
