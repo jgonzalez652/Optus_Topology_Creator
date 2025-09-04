@@ -1,7 +1,7 @@
 import json
 from collections import Counter
 
-json_path = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Output\json\20250828_145649.json'
+json_path = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Output\json\20250828_215934.json'
 
 with open(json_path, 'r') as f:
     data = json.load(f)

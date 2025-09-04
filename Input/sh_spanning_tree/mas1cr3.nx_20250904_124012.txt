@@ -1,0 +1,374 @@
+Hostname: mas1cr3.nx
+Date: 2025-09-04 12:40:12.987105
+
+
+
+===== show spanning-tree =====
+
+MST0000
+  Spanning tree enabled protocol mstp
+  Root ID    Priority    24576
+             Address     0023.04ee.be17
+             This bridge is the root
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    24576  (priority 24576 sys-id-ext 0)
+             Address     0023.04ee.be17
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Desg FWD 200       128.4096 (vPC) Edge P2p 
+Po2              Desg FWD 200       128.4097 (vPC) Edge P2p 
+Po3              Desg FWD 500       128.4098 (vPC peer-link) Network P2p 
+Po10             Desg FWD 200       128.4105 (vPC) P2p 
+Po20             Desg FWD 200       128.4115 (vPC) Edge P2p 
+Po21             Desg FWD 200       128.4116 (vPC) Edge P2p 
+Po22             Desg FWD 200       128.4117 (vPC) Edge P2p 
+Po23             Desg FWD 200       128.4118 (vPC) Edge P2p 
+Po24             Desg FWD 200       128.4119 (vPC) Edge P2p 
+Po25             Desg FWD 200       128.4120 (vPC) Edge P2p 
+Po26             Desg FWD 200       128.4121 (vPC) Edge P2p 
+Po27             Desg FWD 200       128.4122 (vPC) Edge P2p 
+Po28             Desg FWD 200       128.4123 (vPC) Edge P2p 
+Po29             Desg FWD 200       128.4124 (vPC) Edge P2p 
+Po30             Desg FWD 200       128.4125 (vPC) Edge P2p 
+Po31             Desg FWD 200       128.4126 (vPC) P2p 
+Po32             Desg FWD 200       128.4127 (vPC) P2p 
+Po33             Desg FWD 200       128.4128 (vPC) P2p 
+Po34             Desg FWD 200       128.4129 (vPC) P2p 
+Po35             Desg FWD 200       128.4130 (vPC) P2p 
+Po36             Desg FWD 200       128.4131 (vPC) P2p 
+Po37             Desg FWD 200       128.4132 (vPC) P2p 
+Po38             Desg FWD 200       128.4133 (vPC) P2p 
+Po39             Desg FWD 200       128.4134 (vPC) P2p 
+Po40             Desg FWD 200       128.4135 (vPC) P2p 
+Po41             Desg FWD 200       128.4136 (vPC) P2p 
+Po42             Desg FWD 200       128.4137 (vPC) P2p 
+Po76             Desg FWD 200       128.4171 (vPC) Edge P2p 
+Eth1/18          Desg FWD 20000     128.146  Edge P2p 
+Eth2/4           Desg FWD 2000      128.260  P2p 
+Eth2/5           Desg FWD 2000      128.261  P2p 
+Eth101/1/1       Desg FWD 20000     128.1153 Edge P2p 
+Eth101/1/2       Desg FWD 20000     128.1154 Edge P2p 
+Eth101/1/3       Desg FWD 20000     128.1155 Edge P2p 
+Eth101/1/4       Desg FWD 20000     128.1156 Edge P2p 
+Eth101/1/5       Desg FWD 20000     128.1157 Edge P2p 
+Eth101/1/6       Desg FWD 20000     128.1158 Edge P2p 
+Eth101/1/7       Desg FWD 20000     128.1159 Edge P2p 
+Eth101/1/8       Desg FWD 20000     128.1160 Edge P2p 
+Eth101/1/9       Desg FWD 20000     128.1161 Edge P2p 
+Eth101/1/10      Desg FWD 20000     128.1162 Edge P2p 
+Eth101/1/11      Desg FWD 20000     128.1163 Edge P2p 
+Eth101/1/12      Desg FWD 20000     128.1164 Edge P2p 
+Eth101/1/13      Desg FWD 20000     128.1165 Edge P2p 
+Eth101/1/15      Desg FWD 20000     128.1167 Edge P2p 
+Eth101/1/20      Desg FWD 20000     128.1172 Edge P2p 
+Eth101/1/21      Desg FWD 20000     128.1173 Edge P2p 
+Eth101/1/22      Desg FWD 20000     128.1174 Edge P2p 
+Eth101/1/23      Desg FWD 20000     128.1175 Edge P2p 
+Eth101/1/24      Desg FWD 20000     128.1176 Edge P2p 
+Eth101/1/25      Desg FWD 20000     128.1177 Edge P2p 
+Eth101/1/26      Desg FWD 20000     128.1178 Edge P2p 
+Eth101/1/27      Desg FWD 20000     128.1179 Edge P2p 
+Eth101/1/31      Desg FWD 20000     128.1183 Edge P2p 
+Eth101/1/38      Desg FWD 20000     128.1190 Edge P2p 
+Eth101/1/39      Desg FWD 20000     128.1191 Edge P2p 
+Eth102/1/1       Desg FWD 20000     128.1281 Edge P2p 
+Eth102/1/2       Desg FWD 20000     128.1282 Edge P2p 
+Eth102/1/3       Desg FWD 20000     128.1283 Edge P2p 
+Eth102/1/4       Desg FWD 20000     128.1284 Edge P2p 
+Eth102/1/5       Desg FWD 20000     128.1285 Edge P2p 
+Eth102/1/6       Desg FWD 20000     128.1286 Edge P2p 
+Eth102/1/7       Desg FWD 20000     128.1287 Edge P2p 
+Eth102/1/8       Desg FWD 20000     128.1288 Edge P2p 
+Eth102/1/9       Desg FWD 20000     128.1289 Edge P2p 
+Eth102/1/10      Desg FWD 20000     128.1290 Edge P2p 
+Eth102/1/11      Desg FWD 20000     128.1291 Edge P2p 
+Eth102/1/12      Desg FWD 20000     128.1292 Edge P2p 
+Eth102/1/13      Desg FWD 20000     128.1293 Edge P2p 
+Eth102/1/14      Desg FWD 20000     128.1294 Edge P2p 
+Eth102/1/15      Desg FWD 20000     128.1295 Edge P2p 
+Eth102/1/16      Desg FWD 20000     128.1296 Edge P2p 
+Eth102/1/17      Desg FWD 20000     128.1297 Edge P2p 
+Eth102/1/18      Desg FWD 20000     128.1298 Edge P2p 
+Eth102/1/19      Desg FWD 20000     128.1299 Edge P2p 
+Eth102/1/20      Desg FWD 20000     128.1300 Edge P2p 
+Eth102/1/21      Desg FWD 20000     128.1301 Edge P2p 
+Eth102/1/22      Desg FWD 20000     128.1302 Edge P2p 
+Eth102/1/23      Desg FWD 20000     128.1303 Edge P2p 
+Eth102/1/24      Desg FWD 20000     128.1304 Edge P2p 
+Eth102/1/25      Desg FWD 20000     128.1305 Edge P2p 
+Eth102/1/26      Desg FWD 20000     128.1306 Edge P2p 
+Eth102/1/27      Desg FWD 20000     128.1307 Edge P2p 
+Eth102/1/28      Desg FWD 20000     128.1308 Edge P2p 
+Eth102/1/29      Desg FWD 20000     128.1309 Edge P2p 
+Eth102/1/30      Desg FWD 20000     128.1310 Edge P2p 
+Eth102/1/31      Desg FWD 20000     128.1311 Edge P2p 
+Eth102/1/32      Desg FWD 20000     128.1312 Edge P2p 
+Eth102/1/33      Desg FWD 20000     128.1313 Edge P2p 
+Eth102/1/34      Desg FWD 20000     128.1314 Edge P2p 
+Eth102/1/35      Desg FWD 20000     128.1315 Edge P2p 
+Eth102/1/36      Desg FWD 20000     128.1316 Edge P2p 
+Eth102/1/37      Desg FWD 20000     128.1317 Edge P2p 
+Eth102/1/38      Desg FWD 20000     128.1318 Edge P2p 
+Eth102/1/39      Desg FWD 20000     128.1319 Edge P2p 
+Eth102/1/40      Desg FWD 20000     128.1320 Edge P2p 
+Eth102/1/41      Desg FWD 20000     128.1321 Edge P2p 
+Eth102/1/42      Desg FWD 20000     128.1322 Edge P2p 
+Eth102/1/43      Desg FWD 20000     128.1323 Edge P2p 
+Eth102/1/44      Desg FWD 20000     128.1324 Edge P2p 
+Eth102/1/45      Desg FWD 20000     128.1325 Edge P2p 
+Eth102/1/46      Desg FWD 20000     128.1326 Edge P2p 
+Eth102/1/47      Desg FWD 20000     128.1327 Edge P2p 
+Eth102/1/48      Desg FWD 20000     128.1328 Edge P2p 
+Eth103/1/1       Desg FWD 20000     128.1409 Edge P2p 
+Eth103/1/13      Desg FWD 20000     128.1421 Edge P2p 
+Eth104/1/1       Desg FWD 20000     128.1537 Edge P2p 
+Eth104/1/2       Desg FWD 20000     128.1538 Edge P2p 
+Eth104/1/3       Desg FWD 20000     128.1539 Edge P2p 
+Eth104/1/4       Desg FWD 20000     128.1540 Edge P2p 
+Eth104/1/5       Desg FWD 20000     128.1541 Edge P2p 
+Eth104/1/6       Desg FWD 20000     128.1542 Edge P2p 
+Eth104/1/7       Desg FWD 20000     128.1543 Edge P2p 
+Eth104/1/8       Desg FWD 20000     128.1544 Edge P2p 
+Eth104/1/9       Desg FWD 20000     128.1545 Edge P2p 
+Eth104/1/10      Desg FWD 20000     128.1546 Edge P2p 
+Eth104/1/11      Desg FWD 20000     128.1547 Edge P2p 
+Eth104/1/12      Desg FWD 20000     128.1548 Edge P2p 
+Eth104/1/13      Desg FWD 20000     128.1549 Edge P2p 
+Eth104/1/14      Desg FWD 20000     128.1550 Edge P2p 
+Eth104/1/24      Desg FWD 20000     128.1560 Edge P2p 
+Eth104/1/25      Desg FWD 20000     128.1561 Edge P2p 
+Eth104/1/26      Desg FWD 20000     128.1562 Edge P2p 
+Eth104/1/27      Desg FWD 20000     128.1563 Edge P2p 
+Eth104/1/28      Desg FWD 20000     128.1564 Edge P2p 
+Eth104/1/45      Desg FWD 20000     128.1581 Edge P2p 
+Eth104/1/46      Desg FWD 20000     128.1582 Edge P2p 
+Eth104/1/47      Desg FWD 20000     128.1583 Edge P2p 
+Eth104/1/48      Desg FWD 20000     128.1584 Edge P2p 
+Eth105/1/1       Desg FWD 20000     128.1665 Edge P2p 
+Eth105/1/2       Desg FWD 20000     128.1666 Edge P2p 
+Eth105/1/3       Desg FWD 20000     128.1667 Edge P2p 
+Eth105/1/4       Desg FWD 20000     128.1668 Edge P2p 
+Eth105/1/5       Desg FWD 20000     128.1669 Edge P2p 
+Eth105/1/6       Desg FWD 20000     128.1670 Edge P2p 
+Eth105/1/7       Desg FWD 20000     128.1671 Edge P2p 
+Eth105/1/8       Desg FWD 20000     128.1672 Edge P2p 
+Eth105/1/9       Desg FWD 20000     128.1673 Edge P2p 
+Eth105/1/10      Desg FWD 20000     128.1674 Edge P2p 
+Eth105/1/11      Desg FWD 20000     128.1675 Edge P2p 
+Eth105/1/12      Desg FWD 20000     128.1676 Edge P2p 
+Eth105/1/13      Desg FWD 20000     128.1677 Edge P2p 
+Eth105/1/14      Desg FWD 20000     128.1678 Edge P2p 
+Eth105/1/15      Desg FWD 20000     128.1679 Edge P2p 
+Eth105/1/16      Desg FWD 20000     128.1680 Edge P2p 
+Eth105/1/17      Desg FWD 20000     128.1681 Edge P2p 
+Eth105/1/18      Desg FWD 20000     128.1682 Edge P2p 
+Eth105/1/19      Desg FWD 20000     128.1683 Edge P2p 
+Eth105/1/20      Desg FWD 20000     128.1684 Edge P2p 
+Eth105/1/21      Desg FWD 20000     128.1685 Edge P2p 
+Eth105/1/22      Desg FWD 20000     128.1686 Edge P2p 
+Eth105/1/23      Desg FWD 20000     128.1687 Edge P2p 
+Eth105/1/24      Desg FWD 20000     128.1688 Edge P2p 
+Eth105/1/25      Desg FWD 20000     128.1689 Edge P2p 
+Eth105/1/26      Desg FWD 20000     128.1690 Edge P2p 
+Eth105/1/27      Desg FWD 20000     128.1691 Edge P2p 
+Eth105/1/28      Desg FWD 20000     128.1692 Edge P2p 
+Eth105/1/29      Desg FWD 20000     128.1693 Edge P2p 
+Eth105/1/30      Desg FWD 20000     128.1694 Edge P2p 
+Eth105/1/31      Desg FWD 20000     128.1695 Edge P2p 
+Eth105/1/32      Desg FWD 20000     128.1696 Edge P2p 
+Eth105/1/33      Desg FWD 20000     128.1697 Edge P2p 
+Eth105/1/41      Desg FWD 20000     128.1705 Edge P2p 
+Eth105/1/42      Desg FWD 20000     128.1706 Edge P2p 
+Eth105/1/43      Desg FWD 20000     128.1707 Edge P2p 
+Eth105/1/44      Desg FWD 20000     128.1708 Edge P2p 
+Eth105/1/46      Desg FWD 20000     128.1710 Edge P2p 
+Eth105/1/47      Desg FWD 20000     128.1711 Edge P2p 
+Eth105/1/48      Desg FWD 20000     128.1712 Edge P2p 
+
+
+MST0001
+  Spanning tree enabled protocol mstp
+  Root ID    Priority    24577
+             Address     0023.04ee.be17
+             This bridge is the root
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    24577  (priority 24576 sys-id-ext 1)
+             Address     0023.04ee.be17
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Desg FWD 200       128.4096 (vPC) Edge P2p 
+Po2              Desg FWD 200       128.4097 (vPC) Edge P2p 
+Po3              Desg FWD 500       128.4098 (vPC peer-link) Network P2p 
+Po10             Desg FWD 200       128.4105 (vPC) P2p 
+Po20             Desg FWD 200       128.4115 (vPC) Edge P2p 
+Po21             Desg FWD 200       128.4116 (vPC) Edge P2p 
+Po22             Desg FWD 200       128.4117 (vPC) Edge P2p 
+Po23             Desg FWD 200       128.4118 (vPC) Edge P2p 
+Po24             Desg FWD 200       128.4119 (vPC) Edge P2p 
+Po25             Desg FWD 200       128.4120 (vPC) Edge P2p 
+Po26             Desg FWD 200       128.4121 (vPC) Edge P2p 
+Po27             Desg FWD 200       128.4122 (vPC) Edge P2p 
+Po28             Desg FWD 200       128.4123 (vPC) Edge P2p 
+Po29             Desg FWD 200       128.4124 (vPC) Edge P2p 
+Po30             Desg FWD 200       128.4125 (vPC) Edge P2p 
+Po31             Desg FWD 200       128.4126 (vPC) P2p 
+Po32             Desg FWD 200       128.4127 (vPC) P2p 
+Po33             Desg FWD 200       128.4128 (vPC) P2p 
+Po34             Desg FWD 200       128.4129 (vPC) P2p 
+Po35             Desg FWD 200       128.4130 (vPC) P2p 
+Po36             Desg FWD 200       128.4131 (vPC) P2p 
+Po37             Desg FWD 200       128.4132 (vPC) P2p 
+Po38             Desg FWD 200       128.4133 (vPC) P2p 
+Po39             Desg FWD 200       128.4134 (vPC) P2p 
+Po40             Desg FWD 200       128.4135 (vPC) P2p 
+Po41             Desg FWD 200       128.4136 (vPC) P2p 
+Po42             Desg FWD 200       128.4137 (vPC) P2p 
+Po76             Desg FWD 200       128.4171 (vPC) Edge P2p 
+Eth1/18          Desg FWD 20000     128.146  Edge P2p 
+Eth2/4           Desg FWD 2000      128.260  P2p 
+Eth2/5           Desg FWD 2000      128.261  P2p 
+Eth101/1/1       Desg FWD 20000     128.1153 Edge P2p 
+Eth101/1/2       Desg FWD 20000     128.1154 Edge P2p 
+Eth101/1/3       Desg FWD 20000     128.1155 Edge P2p 
+Eth101/1/4       Desg FWD 20000     128.1156 Edge P2p 
+Eth101/1/5       Desg FWD 20000     128.1157 Edge P2p 
+Eth101/1/6       Desg FWD 20000     128.1158 Edge P2p 
+Eth101/1/7       Desg FWD 20000     128.1159 Edge P2p 
+Eth101/1/8       Desg FWD 20000     128.1160 Edge P2p 
+Eth101/1/9       Desg FWD 20000     128.1161 Edge P2p 
+Eth101/1/10      Desg FWD 20000     128.1162 Edge P2p 
+Eth101/1/11      Desg FWD 20000     128.1163 Edge P2p 
+Eth101/1/12      Desg FWD 20000     128.1164 Edge P2p 
+Eth101/1/13      Desg FWD 20000     128.1165 Edge P2p 
+Eth101/1/15      Desg FWD 20000     128.1167 Edge P2p 
+Eth101/1/20      Desg FWD 20000     128.1172 Edge P2p 
+Eth101/1/21      Desg FWD 20000     128.1173 Edge P2p 
+Eth101/1/22      Desg FWD 20000     128.1174 Edge P2p 
+Eth101/1/23      Desg FWD 20000     128.1175 Edge P2p 
+Eth101/1/24      Desg FWD 20000     128.1176 Edge P2p 
+Eth101/1/25      Desg FWD 20000     128.1177 Edge P2p 
+Eth101/1/26      Desg FWD 20000     128.1178 Edge P2p 
+Eth101/1/27      Desg FWD 20000     128.1179 Edge P2p 
+Eth101/1/31      Desg FWD 20000     128.1183 Edge P2p 
+Eth101/1/38      Desg FWD 20000     128.1190 Edge P2p 
+Eth101/1/39      Desg FWD 20000     128.1191 Edge P2p 
+Eth102/1/1       Desg FWD 20000     128.1281 Edge P2p 
+Eth102/1/2       Desg FWD 20000     128.1282 Edge P2p 
+Eth102/1/3       Desg FWD 20000     128.1283 Edge P2p 
+Eth102/1/4       Desg FWD 20000     128.1284 Edge P2p 
+Eth102/1/5       Desg FWD 20000     128.1285 Edge P2p 
+Eth102/1/6       Desg FWD 20000     128.1286 Edge P2p 
+Eth102/1/7       Desg FWD 20000     128.1287 Edge P2p 
+Eth102/1/8       Desg FWD 20000     128.1288 Edge P2p 
+Eth102/1/9       Desg FWD 20000     128.1289 Edge P2p 
+Eth102/1/10      Desg FWD 20000     128.1290 Edge P2p 
+Eth102/1/11      Desg FWD 20000     128.1291 Edge P2p 
+Eth102/1/12      Desg FWD 20000     128.1292 Edge P2p 
+Eth102/1/13      Desg FWD 20000     128.1293 Edge P2p 
+Eth102/1/14      Desg FWD 20000     128.1294 Edge P2p 
+Eth102/1/15      Desg FWD 20000     128.1295 Edge P2p 
+Eth102/1/16      Desg FWD 20000     128.1296 Edge P2p 
+Eth102/1/17      Desg FWD 20000     128.1297 Edge P2p 
+Eth102/1/18      Desg FWD 20000     128.1298 Edge P2p 
+Eth102/1/19      Desg FWD 20000     128.1299 Edge P2p 
+Eth102/1/20      Desg FWD 20000     128.1300 Edge P2p 
+Eth102/1/21      Desg FWD 20000     128.1301 Edge P2p 
+Eth102/1/22      Desg FWD 20000     128.1302 Edge P2p 
+Eth102/1/23      Desg FWD 20000     128.1303 Edge P2p 
+Eth102/1/24      Desg FWD 20000     128.1304 Edge P2p 
+Eth102/1/25      Desg FWD 20000     128.1305 Edge P2p 
+Eth102/1/26      Desg FWD 20000     128.1306 Edge P2p 
+Eth102/1/27      Desg FWD 20000     128.1307 Edge P2p 
+Eth102/1/28      Desg FWD 20000     128.1308 Edge P2p 
+Eth102/1/29      Desg FWD 20000     128.1309 Edge P2p 
+Eth102/1/30      Desg FWD 20000     128.1310 Edge P2p 
+Eth102/1/31      Desg FWD 20000     128.1311 Edge P2p 
+Eth102/1/32      Desg FWD 20000     128.1312 Edge P2p 
+Eth102/1/33      Desg FWD 20000     128.1313 Edge P2p 
+Eth102/1/34      Desg FWD 20000     128.1314 Edge P2p 
+Eth102/1/35      Desg FWD 20000     128.1315 Edge P2p 
+Eth102/1/36      Desg FWD 20000     128.1316 Edge P2p 
+Eth102/1/37      Desg FWD 20000     128.1317 Edge P2p 
+Eth102/1/38      Desg FWD 20000     128.1318 Edge P2p 
+Eth102/1/39      Desg FWD 20000     128.1319 Edge P2p 
+Eth102/1/40      Desg FWD 20000     128.1320 Edge P2p 
+Eth102/1/41      Desg FWD 20000     128.1321 Edge P2p 
+Eth102/1/42      Desg FWD 20000     128.1322 Edge P2p 
+Eth102/1/43      Desg FWD 20000     128.1323 Edge P2p 
+Eth102/1/44      Desg FWD 20000     128.1324 Edge P2p 
+Eth102/1/45      Desg FWD 20000     128.1325 Edge P2p 
+Eth102/1/46      Desg FWD 20000     128.1326 Edge P2p 
+Eth102/1/47      Desg FWD 20000     128.1327 Edge P2p 
+Eth102/1/48      Desg FWD 20000     128.1328 Edge P2p 
+Eth103/1/1       Desg FWD 20000     128.1409 Edge P2p 
+Eth103/1/13      Desg FWD 20000     128.1421 Edge P2p 
+Eth104/1/1       Desg FWD 20000     128.1537 Edge P2p 
+Eth104/1/2       Desg FWD 20000     128.1538 Edge P2p 
+Eth104/1/3       Desg FWD 20000     128.1539 Edge P2p 
+Eth104/1/4       Desg FWD 20000     128.1540 Edge P2p 
+Eth104/1/5       Desg FWD 20000     128.1541 Edge P2p 
+Eth104/1/6       Desg FWD 20000     128.1542 Edge P2p 
+Eth104/1/7       Desg FWD 20000     128.1543 Edge P2p 
+Eth104/1/8       Desg FWD 20000     128.1544 Edge P2p 
+Eth104/1/9       Desg FWD 20000     128.1545 Edge P2p 
+Eth104/1/10      Desg FWD 20000     128.1546 Edge P2p 
+Eth104/1/11      Desg FWD 20000     128.1547 Edge P2p 
+Eth104/1/12      Desg FWD 20000     128.1548 Edge P2p 
+Eth104/1/13      Desg FWD 20000     128.1549 Edge P2p 
+Eth104/1/14      Desg FWD 20000     128.1550 Edge P2p 
+Eth104/1/24      Desg FWD 20000     128.1560 Edge P2p 
+Eth104/1/25      Desg FWD 20000     128.1561 Edge P2p 
+Eth104/1/26      Desg FWD 20000     128.1562 Edge P2p 
+Eth104/1/27      Desg FWD 20000     128.1563 Edge P2p 
+Eth104/1/28      Desg FWD 20000     128.1564 Edge P2p 
+Eth104/1/45      Desg FWD 20000     128.1581 Edge P2p 
+Eth104/1/46      Desg FWD 20000     128.1582 Edge P2p 
+Eth104/1/47      Desg FWD 20000     128.1583 Edge P2p 
+Eth104/1/48      Desg FWD 20000     128.1584 Edge P2p 
+Eth105/1/1       Desg FWD 20000     128.1665 Edge P2p 
+Eth105/1/2       Desg FWD 20000     128.1666 Edge P2p 
+Eth105/1/3       Desg FWD 20000     128.1667 Edge P2p 
+Eth105/1/4       Desg FWD 20000     128.1668 Edge P2p 
+Eth105/1/5       Desg FWD 20000     128.1669 Edge P2p 
+Eth105/1/6       Desg FWD 20000     128.1670 Edge P2p 
+Eth105/1/7       Desg FWD 20000     128.1671 Edge P2p 
+Eth105/1/8       Desg FWD 20000     128.1672 Edge P2p 
+Eth105/1/9       Desg FWD 20000     128.1673 Edge P2p 
+Eth105/1/10      Desg FWD 20000     128.1674 Edge P2p 
+Eth105/1/11      Desg FWD 20000     128.1675 Edge P2p 
+Eth105/1/12      Desg FWD 20000     128.1676 Edge P2p 
+Eth105/1/13      Desg FWD 20000     128.1677 Edge P2p 
+Eth105/1/14      Desg FWD 20000     128.1678 Edge P2p 
+Eth105/1/15      Desg FWD 20000     128.1679 Edge P2p 
+Eth105/1/16      Desg FWD 20000     128.1680 Edge P2p 
+Eth105/1/17      Desg FWD 20000     128.1681 Edge P2p 
+Eth105/1/18      Desg FWD 20000     128.1682 Edge P2p 
+Eth105/1/19      Desg FWD 20000     128.1683 Edge P2p 
+Eth105/1/20      Desg FWD 20000     128.1684 Edge P2p 
+Eth105/1/21      Desg FWD 20000     128.1685 Edge P2p 
+Eth105/1/22      Desg FWD 20000     128.1686 Edge P2p 
+Eth105/1/23      Desg FWD 20000     128.1687 Edge P2p 
+Eth105/1/24      Desg FWD 20000     128.1688 Edge P2p 
+Eth105/1/25      Desg FWD 20000     128.1689 Edge P2p 
+Eth105/1/26      Desg FWD 20000     128.1690 Edge P2p 
+Eth105/1/27      Desg FWD 20000     128.1691 Edge P2p 
+Eth105/1/28      Desg FWD 20000     128.1692 Edge P2p 
+Eth105/1/29      Desg FWD 20000     128.1693 Edge P2p 
+Eth105/1/30      Desg FWD 20000     128.1694 Edge P2p 
+Eth105/1/31      Desg FWD 20000     128.1695 Edge P2p 
+Eth105/1/32      Desg FWD 20000     128.1696 Edge P2p 
+Eth105/1/33      Desg FWD 20000     128.1697 Edge P2p 
+Eth105/1/41      Desg FWD 20000     128.1705 Edge P2p 
+Eth105/1/42      Desg FWD 20000     128.1706 Edge P2p 
+Eth105/1/43      Desg FWD 20000     128.1707 Edge P2p 
+Eth105/1/44      Desg FWD 20000     128.1708 Edge P2p 
+Eth105/1/46      Desg FWD 20000     128.1710 Edge P2p 
+Eth105/1/47      Desg FWD 20000     128.1711 Edge P2p 
+Eth105/1/48      Desg FWD 20000     128.1712 Edge P2p 
+

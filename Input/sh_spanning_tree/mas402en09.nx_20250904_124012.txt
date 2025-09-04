@@ -1,0 +1,143 @@
+Hostname: mas402en09.nx
+Date: 2025-09-04 12:40:12.585537
+
+
+
+===== show spanning-tree =====
+
+VLAN0821
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9013
+             Address     0027.0dca.7a40
+             Cost        1200
+             Port        4096 (port-channel1)
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33589  (priority 32768 sys-id-ext 821)
+             Address     c08c.604d.69a0
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Root FWD 1000      128.4096 P2p 
+
+
+VLAN0829
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9021
+             Address     0027.0dca.7a40
+             Cost        1200
+             Port        4096 (port-channel1)
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33597  (priority 32768 sys-id-ext 829)
+             Address     c08c.604d.69a0
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Root FWD 1000      128.4096 P2p 
+
+
+VLAN0861
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9053
+             Address     0027.0dca.7a40
+             Cost        1200
+             Port        4096 (port-channel1)
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33629  (priority 32768 sys-id-ext 861)
+             Address     c08c.604d.69a0
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Root FWD 1000      128.4096 P2p 
+
+
+VLAN0868
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9060
+             Address     0027.0dca.7a40
+             Cost        1200
+             Port        4096 (port-channel1)
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33636  (priority 32768 sys-id-ext 868)
+             Address     c08c.604d.69a0
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Root FWD 1000      128.4096 P2p 
+
+
+VLAN0951
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9143
+             Address     0027.0dca.7a40
+             Cost        1200
+             Port        4096 (port-channel1)
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33719  (priority 32768 sys-id-ext 951)
+             Address     c08c.604d.69a0
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Root FWD 1000      128.4096 P2p 
+
+
+VLAN0952
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9144
+             Address     0027.0dca.7a40
+             Cost        1200
+             Port        4096 (port-channel1)
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33720  (priority 32768 sys-id-ext 952)
+             Address     c08c.604d.69a0
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Root FWD 1000      128.4096 P2p 
+
+
+VLAN0953
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9145
+             Address     0027.0dca.7a40
+             Cost        1200
+             Port        4096 (port-channel1)
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33721  (priority 32768 sys-id-ext 953)
+             Address     c08c.604d.69a0
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Root FWD 1000      128.4096 P2p 
+
+
+VLAN1115
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9307
+             Address     0027.0dfd.b380
+             Cost        1200
+             Port        4096 (port-channel1)
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33883  (priority 32768 sys-id-ext 1115)
+             Address     c08c.604d.69a0
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Root FWD 1000      128.4096 P2p 
+Eth1/1           Desg FWD 2000      128.129  Edge P2p 
+

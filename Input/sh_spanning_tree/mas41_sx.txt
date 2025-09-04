@@ -1,0 +1,67 @@
+﻿mas41.sx#sh spann
+mas41.sx#sh spanning-tree 
+
+VLAN0001
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8193
+             Address     001f.9ed2.cb40
+             Cost        3004
+             Port        27 (GigabitEthernet0/27)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    49153  (priority 49152 sys-id-ext 1)
+             Address     64ae.0ca1.6a80
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time  300 sec
+  UplinkFast enabled but inactive in rapid-pvst mode
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi0/24              Desg FWD 3019      128.24   Shr Edge 
+Gi0/25              Altn BLK 3004      128.25   P2p 
+Gi0/27              Root FWD 3004      128.27   P2p 
+
+
+
+VLAN0300
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8492
+             Address     001f.9ed2.cb40
+             Cost        3004
+             Port        27 (GigabitEthernet0/27)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    49452  (priority 49152 sys-id-ext 300)
+             Address     64ae.0ca1.6a80
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time  300 sec
+  UplinkFast enabled but inactive in rapid-pvst mode
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi0/7               Desg FWD 3100      128.7    P2p Edge 
+Gi0/25              Altn BLK 3004      128.25   P2p 
+Gi0/27              Root FWD 3004      128.27   P2p 
+
+
+
+VLAN0521
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8713
+             Address     001f.9ed2.cb40
+             Cost        3004
+             Port        27 (GigabitEthernet0/27)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    49673  (priority 49152 sys-id-ext 521)
+             Address     64ae.0ca1.6a80
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time  300 sec
+  UplinkFast enabled but inactive in rapid-pvst mode
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi0/25              Altn BLK 3004      128.25   P2p 
+Gi0/27              Root FWD 3004      128.27   P2p 
+
+

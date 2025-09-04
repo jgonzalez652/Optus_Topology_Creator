@@ -1,0 +1,495 @@
+﻿mas76.sx#sh spann
+mas76.sx#sh spanning-tree 
+
+VLAN0001
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    12289
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32769  (priority 32768 sys-id-ext 1)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0035
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8227
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32803  (priority 32768 sys-id-ext 35)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0045
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8237
+             Address     0027.0dfd.b380
+             Cost        4
+             Port        49 (TenGigabitEthernet1/49)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32813  (priority 32768 sys-id-ext 45)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/1            Desg FWD 4         128.1    Edge P2p 
+Te1/49           Root FWD 4         128.49   P2p 
+Te1/50           Altn BLK 4         128.50   P2p 
+
+
+VLAN0050
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    16434
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32818  (priority 32768 sys-id-ext 50)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0051
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8243
+             Address     0027.0dfd.b380
+             Cost        4
+             Port        49 (TenGigabitEthernet1/49)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32819  (priority 32768 sys-id-ext 51)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Root FWD 4         128.49   P2p 
+Te1/50           Altn BLK 4         128.50   P2p 
+
+
+VLAN0052
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8244
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32820  (priority 32768 sys-id-ext 52)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0056
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8248
+             Address     0027.0dfd.b380
+             Cost        4
+             Port        49 (TenGigabitEthernet1/49)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32824  (priority 32768 sys-id-ext 56)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Root FWD 4         128.49   P2p 
+Te1/50           Altn BLK 4         128.50   P2p 
+
+
+VLAN0057
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8249
+             Address     0027.0dfd.b380
+             Cost        4
+             Port        49 (TenGigabitEthernet1/49)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32825  (priority 32768 sys-id-ext 57)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Root FWD 4         128.49   P2p 
+Te1/50           Altn BLK 4         128.50   P2p 
+
+
+VLAN0058
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8250
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32826  (priority 32768 sys-id-ext 58)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0151
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8343
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32919  (priority 32768 sys-id-ext 151)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/5            Desg FWD 4         128.5    Edge P2p 
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0221
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8413
+             Address     0027.0dfd.b380
+             Cost        4
+             Port        49 (TenGigabitEthernet1/49)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32989  (priority 32768 sys-id-ext 221)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/3            Desg FWD 4         128.3    Edge P2p 
+Gi1/4            Desg FWD 4         128.4    Edge P2p 
+Gi1/17           Desg FWD 4         128.17   P2p 
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Root FWD 4         128.49   P2p 
+Te1/50           Altn BLK 4         128.50   P2p 
+
+
+VLAN0251
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8443
+             Address     0027.0dfd.b380
+             Cost        4
+             Port        49 (TenGigabitEthernet1/49)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33019  (priority 32768 sys-id-ext 251)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/13           Desg FWD 4         128.13   Edge P2p 
+Gi1/14           Desg FWD 4         128.14   Edge P2p 
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Root FWD 4         128.49   P2p 
+Te1/50           Altn BLK 4         128.50   P2p 
+
+
+VLAN0252
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8444
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33020  (priority 32768 sys-id-ext 252)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0571
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8763
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33339  (priority 32768 sys-id-ext 571)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0821
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9013
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33589  (priority 32768 sys-id-ext 821)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/33           Desg FWD 4         128.33   P2p 
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0828
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9020
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33596  (priority 32768 sys-id-ext 828)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/47           Desg FWD 19        128.47   P2p 
+Gi1/48           Desg FWD 19        128.48   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0829
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9021
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33597  (priority 32768 sys-id-ext 829)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/2            Desg FWD 4         128.2    P2p 
+Gi1/8            Desg FWD 4         128.8    P2p 
+Gi1/9            Desg FWD 4         128.9    Edge P2p 
+Gi1/10           Desg FWD 4         128.10   Edge P2p 
+Gi1/11           Desg FWD 4         128.11   Edge P2p 
+Gi1/12           Desg FWD 4         128.12   Edge P2p 
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0861
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9053
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33629  (priority 32768 sys-id-ext 861)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0868
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9060
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33636  (priority 32768 sys-id-ext 868)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/16           Desg FWD 4         128.16   P2p 
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0902
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9094
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33670  (priority 32768 sys-id-ext 902)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0921
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9113
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33689  (priority 32768 sys-id-ext 921)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0951
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9143
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33719  (priority 32768 sys-id-ext 951)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0952
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9144
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33720  (priority 32768 sys-id-ext 952)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+
+VLAN0953
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9145
+             Address     0027.0dca.7a40
+             Cost        4
+             Port        50 (TenGigabitEthernet1/50)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33721  (priority 32768 sys-id-ext 953)
+             Address     0021.55c6.7840
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi1/35           Desg FWD 4         128.35   P2p 
+Te1/49           Altn BLK 4         128.49   P2p 
+Te1/50           Root FWD 4         128.50   P2p 
+
+mas76.sx# exit

@@ -1,0 +1,106 @@
+﻿mas68.sx#sh span
+mas68.sx#sh spanning-tree 
+
+VLAN0001
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8193
+             Address     001f.9ed2.cb40
+             Cost        3004
+             Port        51 (GigabitEthernet0/51)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    49153  (priority 49152 sys-id-ext 1)
+             Address     c47d.4f41.9700
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+  UplinkFast enabled but inactive in rapid-pvst mode
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi0/49           Altn BLK 3004      128.49   P2p 
+Gi0/51           Root FWD 3004      128.51   P2p 
+
+
+VLAN0300
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8492
+             Address     001f.9ed2.cb40
+             Cost        3004
+             Port        51 (GigabitEthernet0/51)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    49452  (priority 49152 sys-id-ext 300)
+             Address     c47d.4f41.9700
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+  UplinkFast enabled but inactive in rapid-pvst mode
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi0/1            Desg FWD 3004      128.1    Edge P2p 
+Gi0/2            Desg FWD 3004      128.2    Edge P2p 
+Gi0/3            Desg FWD 3004      128.3    Edge P2p 
+Gi0/4            Desg FWD 3004      128.4    Edge P2p 
+Gi0/5            Desg FWD 3004      128.5    Edge P2p 
+Gi0/6            Desg FWD 3004      128.6    Edge P2p 
+Gi0/7            Desg FWD 3004      128.7    Edge P2p 
+Gi0/8            Desg FWD 3004      128.8    Edge P2p 
+Gi0/9            Desg FWD 3004      128.9    Edge P2p 
+Gi0/10           Desg FWD 3004      128.10   Edge P2p 
+Gi0/11           Desg FWD 3004      128.11   Edge P2p 
+Gi0/12           Desg FWD 3004      128.12   Edge P2p 
+Gi0/13           Desg FWD 3004      128.13   Edge P2p 
+Gi0/14           Desg FWD 3004      128.14   Edge P2p 
+Gi0/15           Desg FWD 3004      128.15   Edge P2p 
+Gi0/16           Desg FWD 3004      128.16   Edge P2p 
+Gi0/27           Desg FWD 3004      128.27   Edge P2p 
+Gi0/49           Altn BLK 3004      128.49   P2p 
+Gi0/51           Root FWD 3004      128.51   P2p 
+
+
+VLAN0350
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8542
+             Address     001f.9ed2.cb40
+             Cost        3004
+             Port        51 (GigabitEthernet0/51)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    49502  (priority 49152 sys-id-ext 350)
+             Address     c47d.4f41.9700
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+  UplinkFast enabled but inactive in rapid-pvst mode
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi0/17           Desg FWD 3004      128.17   Edge P2p 
+Gi0/21           Desg FWD 3004      128.21   Edge P2p 
+Gi0/22           Desg FWD 3004      128.22   Edge P2p 
+Gi0/23           Desg FWD 3004      128.23   Edge P2p 
+Gi0/49           Altn BLK 3004      128.49   P2p 
+Gi0/51           Root FWD 3004      128.51   P2p 
+
+
+VLAN0740
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8932
+             Address     001f.9ed2.cb40
+             Cost        3004
+             Port        51 (GigabitEthernet0/51)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    49892  (priority 49152 sys-id-ext 740)
+             Address     c47d.4f41.9700
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 300
+  UplinkFast enabled but inactive in rapid-pvst mode
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Gi0/47           Desg FWD 3004      128.47   Edge P2p 
+Gi0/48           Desg FWD 3004      128.48   Edge P2p 
+Gi0/49           Altn BLK 3004      128.49   P2p 
+Gi0/51           Root FWD 3004      128.51   P2p 
+
+mas68.sx#exit

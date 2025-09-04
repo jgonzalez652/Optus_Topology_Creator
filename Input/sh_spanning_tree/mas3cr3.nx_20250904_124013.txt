@@ -1,0 +1,37 @@
+Hostname: mas3cr3.nx
+Date: 2025-09-04 12:40:13.101138
+
+
+
+===== show spanning-tree =====
+
+MST0000
+  Spanning tree enabled protocol mstp
+  Root ID    Priority    24576
+             Address     6c31.0e7a.b7a7
+             This bridge is the root
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    24576  (priority 24576 sys-id-ext 0)
+             Address     6c31.0e7a.b7a7
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Desg FWD 250       128.4096 Edge P2p 
+Po3              Desg FWD 100       128.4098 Network P2p 
+Po10             Desg FWD 2000      128.4105 Edge P2p 
+Eth1/17          Desg FWD 20000     128.65   Edge P2p 
+Eth1/18          Desg FWD 2000      128.69   Edge P2p 
+Eth1/19          Desg FWD 2000      128.73   Edge P2p 
+Eth1/20          Desg FWD 20000     128.77   P2p 
+Eth1/21          Desg FWD 20000     128.81   Edge P2p 
+Eth1/22          Desg FWD 20000     128.85   Edge P2p 
+Eth1/23          Desg FWD 20000     128.89   Edge P2p 
+Eth1/24          Desg FWD 20000     128.93   Edge P2p 
+Eth1/26          Desg FWD 200000    128.101  Edge P2p 
+Eth1/27          Desg FWD 20000     128.105  Edge P2p 
+Eth1/40          Desg FWD 20000     128.157  Edge P2p 
+Eth1/41          Desg FWD 20000     128.161  Edge P2p 
+Eth1/44          Desg FWD 20000     128.173  Edge P2p 
+

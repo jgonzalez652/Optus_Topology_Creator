@@ -1,0 +1,78 @@
+Hostname: mas4cr2.nx
+Date: 2025-09-04 12:40:12.439518
+
+
+
+===== show spanning-tree =====
+
+MST0000
+  Spanning tree enabled protocol mstp
+  Root ID    Priority    24576
+             Address     0023.04ee.be26
+             This bridge is the root
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    24576  (priority 24576 sys-id-ext 0)
+             Address     0023.04ee.be26
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Desg FWD 200       128.4096 (vPC) Edge P2p 
+Po2              Desg FWD 200       128.4097 (vPC) Edge P2p 
+Po3              Desg FWD 500       128.4098 (vPC peer-link) Network P2p 
+Po10             Desg FWD 1000      128.4105 Edge P2p 
+Po11             Desg FWD 1000      128.4106 Edge P2p 
+Po45             Desg FWD 200       128.4140 (vPC) P2p 
+Po46             Desg FWD 200       128.4141 (vPC) P2p 
+Po50             Desg FWD 200       128.4145 (vPC) P2p 
+Eth1/13          Desg FWD 20000     128.141  Edge P2p 
+Eth2/5           Desg FWD 2000      128.261  Edge P2p 
+Eth2/7           Desg FWD 2000      128.263  Edge P2p 
+Eth101/1/9       Desg FWD 20000     128.1161 Edge P2p 
+Eth101/1/10      Desg FWD 20000     128.1162 Edge P2p 
+Eth101/1/11      Desg FWD 20000     128.1163 Edge P2p 
+Eth101/1/12      Desg FWD 20000     128.1164 Edge P2p 
+Eth101/1/35      Desg FWD 20000     128.1187 Edge P2p 
+Eth101/1/36      Desg FWD 20000     128.1188 Edge P2p 
+Eth101/1/38      Desg FWD 20000     128.1190 Edge P2p 
+Eth101/1/46      Desg FWD 20000     128.1198 Edge P2p 
+Eth101/1/47      Desg FWD 20000     128.1199 Edge P2p 
+Eth101/1/48      Desg FWD 20000     128.1200 Edge P2p 
+
+
+MST0001
+  Spanning tree enabled protocol mstp
+  Root ID    Priority    24577
+             Address     0023.04ee.be26
+             This bridge is the root
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    24577  (priority 24576 sys-id-ext 1)
+             Address     0023.04ee.be26
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Desg FWD 200       128.4096 (vPC) Edge P2p 
+Po2              Desg FWD 200       128.4097 (vPC) Edge P2p 
+Po3              Desg FWD 500       128.4098 (vPC peer-link) Network P2p 
+Po10             Desg FWD 1000      128.4105 Edge P2p 
+Po11             Desg FWD 1000      128.4106 Edge P2p 
+Po45             Desg FWD 200       128.4140 (vPC) P2p 
+Po46             Desg FWD 200       128.4141 (vPC) P2p 
+Po50             Desg FWD 200       128.4145 (vPC) P2p 
+Eth1/13          Desg FWD 20000     128.141  Edge P2p 
+Eth2/5           Desg FWD 2000      128.261  Edge P2p 
+Eth2/7           Desg FWD 2000      128.263  Edge P2p 
+Eth101/1/9       Desg FWD 20000     128.1161 Edge P2p 
+Eth101/1/10      Desg FWD 20000     128.1162 Edge P2p 
+Eth101/1/11      Desg FWD 20000     128.1163 Edge P2p 
+Eth101/1/12      Desg FWD 20000     128.1164 Edge P2p 
+Eth101/1/35      Desg FWD 20000     128.1187 Edge P2p 
+Eth101/1/36      Desg FWD 20000     128.1188 Edge P2p 
+Eth101/1/38      Desg FWD 20000     128.1190 Edge P2p 
+Eth101/1/46      Desg FWD 20000     128.1198 Edge P2p 
+Eth101/1/47      Desg FWD 20000     128.1199 Edge P2p 
+Eth101/1/48      Desg FWD 20000     128.1200 Edge P2p 
+

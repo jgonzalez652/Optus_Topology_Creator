@@ -1,0 +1,148 @@
+Hostname: mas16nxs.sx
+Date: 2025-09-04 12:40:13.704301
+
+
+
+===== show spanning-tree =====
+
+MST0000
+  Spanning tree enabled protocol mstp
+  Root ID    Priority    24576
+             Address     547f.eeca.e0fc
+             This bridge is the root
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    24576  (priority 24576 sys-id-ext 0)
+             Address     547f.eeca.e0fc
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Desg FWD 200       128.4096 (vPC) Edge P2p 
+Po2              Desg FWD 200       128.4097 (vPC) Edge P2p 
+Po3              Desg FWD 500       128.4098 (vPC peer-link) Network P2p 
+Po10             Desg FWD 200       128.4105 (vPC) Edge P2p 
+Po11             Desg FWD 200       128.4106 (vPC) Edge P2p 
+Po52             Desg FWD 200       128.4147 (vPC) Edge P2p 
+Po53             Desg FWD 200       128.4148 (vPC) Edge P2p 
+Po56             Desg FWD 200       128.4151 (vPC) Edge P2p 
+Po57             Desg FWD 200       128.4152 (vPC) Edge P2p 
+Po60             Desg FWD 200       128.4155 (vPC) Edge P2p 
+Po61             Desg FWD 200       128.4156 (vPC) Edge P2p 
+Po91             Desg FWD 1000      128.4186 Edge P2p 
+Eth2/2           Desg FWD 2000      128.258  P2p 
+Eth2/3           Desg FWD 2000      128.259  P2p 
+Eth101/1/1       Desg FWD 200000    128.1153 Edge P2p 
+Eth101/1/2       Desg FWD 20000     128.1154 Edge P2p 
+Eth101/1/3       Desg FWD 200000    128.1155 Edge P2p 
+Eth101/1/4       Desg FWD 200000    128.1156 Edge P2p 
+Eth101/1/5       Desg FWD 200000    128.1157 Edge P2p 
+Eth101/1/6       Desg FWD 200000    128.1158 Edge P2p 
+Eth101/1/7       Desg FWD 200000    128.1159 Edge P2p 
+Eth101/1/8       Desg FWD 200000    128.1160 Edge P2p 
+Eth101/1/9       Desg FWD 200000    128.1161 Edge P2p 
+Eth101/1/10      Desg FWD 200000    128.1162 Edge P2p 
+Eth101/1/14      Desg FWD 20000     128.1166 Edge P2p 
+Eth101/1/16      Desg FWD 20000     128.1168 Edge P2p 
+Eth101/1/18      Desg FWD 20000     128.1170 Edge P2p 
+Eth101/1/19      Desg FWD 20000     128.1171 Edge P2p 
+Eth101/1/21      Desg FWD 20000     128.1173 Edge P2p 
+Eth101/1/22      Desg FWD 20000     128.1174 Edge P2p 
+Eth101/1/23      Desg FWD 20000     128.1175 Edge P2p 
+Eth101/1/24      Desg FWD 20000     128.1176 Edge P2p 
+Eth101/1/27      Desg FWD 20000     128.1179 Edge P2p 
+Eth101/1/28      Desg FWD 20000     128.1180 Edge P2p 
+Eth101/1/32      Desg FWD 20000     128.1184 Edge P2p 
+Eth103/1/1       Desg FWD 20000     128.1409 Edge P2p 
+Eth103/1/2       Desg FWD 20000     128.1410 Edge P2p 
+Eth103/1/3       Desg FWD 20000     128.1411 Edge P2p 
+Eth103/1/4       Desg FWD 20000     128.1412 Edge P2p 
+Eth103/1/5       Desg FWD 20000     128.1413 Edge P2p 
+Eth103/1/6       Desg FWD 20000     128.1414 Edge P2p 
+Eth103/1/7       Desg FWD 200000    128.1415 Edge P2p 
+Eth103/1/10      Desg FWD 20000     128.1418 Edge P2p 
+Eth103/1/11      Desg FWD 200000    128.1419 Edge P2p 
+Eth103/1/12      Desg FWD 20000     128.1420 Edge P2p 
+Eth103/1/15      Desg FWD 2000000   128.1423 Edge P2p 
+Eth103/1/16      Desg FWD 20000     128.1424 Edge P2p 
+Eth103/1/28      Desg FWD 200000    128.1436 Edge P2p 
+Eth103/1/29      Desg FWD 20000     128.1437 Edge P2p 
+Eth103/1/30      Desg FWD 20000     128.1438 Edge P2p 
+Eth103/1/31      Desg FWD 20000     128.1439 Edge P2p 
+Eth103/1/32      Desg FWD 20000     128.1440 Edge P2p 
+Eth103/1/45      Desg FWD 20000     128.1453 Edge P2p 
+Eth103/1/46      Desg FWD 20000     128.1454 Edge P2p 
+Eth103/1/47      Desg FWD 20000     128.1455 Edge P2p 
+Eth103/1/48      Desg FWD 20000     128.1456 Edge P2p 
+
+
+MST0001
+  Spanning tree enabled protocol mstp
+  Root ID    Priority    24577
+             Address     547f.eeca.e0fc
+             This bridge is the root
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    24577  (priority 24576 sys-id-ext 1)
+             Address     547f.eeca.e0fc
+             Hello Time  2  sec  Max Age 20 sec  Forward Delay 15 sec
+
+Interface        Role Sts Cost      Prio.Nbr Type
+---------------- ---- --- --------- -------- --------------------------------
+Po1              Desg FWD 200       128.4096 (vPC) Edge P2p 
+Po2              Desg FWD 200       128.4097 (vPC) Edge P2p 
+Po3              Desg FWD 500       128.4098 (vPC peer-link) Network P2p 
+Po10             Desg FWD 200       128.4105 (vPC) Edge P2p 
+Po11             Desg FWD 200       128.4106 (vPC) Edge P2p 
+Po52             Desg FWD 200       128.4147 (vPC) Edge P2p 
+Po53             Desg FWD 200       128.4148 (vPC) Edge P2p 
+Po56             Desg FWD 200       128.4151 (vPC) Edge P2p 
+Po57             Desg FWD 200       128.4152 (vPC) Edge P2p 
+Po60             Desg FWD 200       128.4155 (vPC) Edge P2p 
+Po61             Desg FWD 200       128.4156 (vPC) Edge P2p 
+Po91             Desg FWD 1000      128.4186 Edge P2p 
+Eth2/2           Desg FWD 2000      128.258  P2p 
+Eth2/3           Desg FWD 2000      128.259  P2p 
+Eth101/1/1       Desg FWD 200000    128.1153 Edge P2p 
+Eth101/1/2       Desg FWD 20000     128.1154 Edge P2p 
+Eth101/1/3       Desg FWD 200000    128.1155 Edge P2p 
+Eth101/1/4       Desg FWD 200000    128.1156 Edge P2p 
+Eth101/1/5       Desg FWD 200000    128.1157 Edge P2p 
+Eth101/1/6       Desg FWD 200000    128.1158 Edge P2p 
+Eth101/1/7       Desg FWD 200000    128.1159 Edge P2p 
+Eth101/1/8       Desg FWD 200000    128.1160 Edge P2p 
+Eth101/1/9       Desg FWD 200000    128.1161 Edge P2p 
+Eth101/1/10      Desg FWD 200000    128.1162 Edge P2p 
+Eth101/1/14      Desg FWD 20000     128.1166 Edge P2p 
+Eth101/1/16      Desg FWD 20000     128.1168 Edge P2p 
+Eth101/1/18      Desg FWD 20000     128.1170 Edge P2p 
+Eth101/1/19      Desg FWD 20000     128.1171 Edge P2p 
+Eth101/1/21      Desg FWD 20000     128.1173 Edge P2p 
+Eth101/1/22      Desg FWD 20000     128.1174 Edge P2p 
+Eth101/1/23      Desg FWD 20000     128.1175 Edge P2p 
+Eth101/1/24      Desg FWD 20000     128.1176 Edge P2p 
+Eth101/1/27      Desg FWD 20000     128.1179 Edge P2p 
+Eth101/1/28      Desg FWD 20000     128.1180 Edge P2p 
+Eth101/1/32      Desg FWD 20000     128.1184 Edge P2p 
+Eth103/1/1       Desg FWD 20000     128.1409 Edge P2p 
+Eth103/1/2       Desg FWD 20000     128.1410 Edge P2p 
+Eth103/1/3       Desg FWD 20000     128.1411 Edge P2p 
+Eth103/1/4       Desg FWD 20000     128.1412 Edge P2p 
+Eth103/1/5       Desg FWD 20000     128.1413 Edge P2p 
+Eth103/1/6       Desg FWD 20000     128.1414 Edge P2p 
+Eth103/1/7       Desg FWD 200000    128.1415 Edge P2p 
+Eth103/1/10      Desg FWD 20000     128.1418 Edge P2p 
+Eth103/1/11      Desg FWD 200000    128.1419 Edge P2p 
+Eth103/1/12      Desg FWD 20000     128.1420 Edge P2p 
+Eth103/1/15      Desg FWD 2000000   128.1423 Edge P2p 
+Eth103/1/16      Desg FWD 20000     128.1424 Edge P2p 
+Eth103/1/28      Desg FWD 200000    128.1436 Edge P2p 
+Eth103/1/29      Desg FWD 20000     128.1437 Edge P2p 
+Eth103/1/30      Desg FWD 20000     128.1438 Edge P2p 
+Eth103/1/31      Desg FWD 20000     128.1439 Edge P2p 
+Eth103/1/32      Desg FWD 20000     128.1440 Edge P2p 
+Eth103/1/45      Desg FWD 20000     128.1453 Edge P2p 
+Eth103/1/46      Desg FWD 20000     128.1454 Edge P2p 
+Eth103/1/47      Desg FWD 20000     128.1455 Edge P2p 
+Eth103/1/48      Desg FWD 20000     128.1456 Edge P2p 
+
