@@ -10,6 +10,11 @@ def parse_stp_file(filepath):
     with open(filepath, 'r') as f:
         lines = f.readlines()
     stp_mode = None
+    for line in lines:
+        if 'Spanning tree enabled protocol' in line:
+            stp_mode = line.strip().split()[-1]
+            break
+
     vlan_data = {}
     mst_instances = {}
     current_instance = None
@@ -19,17 +24,14 @@ def parse_stp_file(filepath):
     vlan_priority = None
 
     for line in lines:
-        if 'Spanning tree enabled protocol' in line:
-            stp_mode = line.strip().split()[-1]
         if stp_mode == 'mstp':
-            # Match lines like 'MST0000', 'MST0001', etc.
             if line.strip().startswith('MST') and line.strip()[3:].isdigit():
                 current_instance = line.strip()
                 instance_priority = None
                 root_bridge = False
-            if 'This bridge is the root' in line and current_instance:
+            elif 'This bridge is the root' in line and current_instance:
                 root_bridge = True
-            if line.strip().startswith('Bridge ID  Priority') and current_instance:
+            elif line.strip().startswith('Bridge ID  Priority') and current_instance:
                 parts = line.strip().split()
                 if len(parts) >= 4:
                     try:
@@ -48,29 +50,25 @@ def parse_stp_file(filepath):
                 current_vlan = line.strip().replace('VLAN', '').lstrip('0')
                 vlan_priority = None
                 root_bridge = False
-            if 'This bridge is the root' in line and current_vlan:
+            elif 'This bridge is the root' in line and current_vlan:
                 root_bridge = True
-            if line.strip().startswith('Bridge ID  Priority') and current_vlan:
+            elif line.strip().startswith('Bridge ID  Priority') and current_vlan:
                 parts = line.strip().split()
                 if len(parts) >= 4:
                     try:
                         vlan_priority = int(parts[3])
                     except ValueError:
                         vlan_priority = None
+                vlan_id = int(current_vlan)
+                adjusted_vlan_priority = vlan_priority - vlan_id if vlan_priority is not None else None
                 vlan_data[current_vlan] = {
                     'vlan_priority': vlan_priority,
-                    'root_bridge': root_bridge
+                    'root_bridge': root_bridge,
+                    'adjusted_vlan_priority': adjusted_vlan_priority
                 }
                 current_vlan = None
                 vlan_priority = None
                 root_bridge = False
-
-    # Ensure all expected MST instances are present (optional, adjust range as needed)
-    if stp_mode == 'mstp':
-        expected_instances = [f'MST{str(i).zfill(4)}' for i in range(0, 2)]
-        for inst in expected_instances:
-            if inst not in mst_instances:
-                mst_instances[inst] = {'priority': None, 'root_bridge': False}
 
     device_info = {'stp_mode': stp_mode}
     if stp_mode == 'mstp':
@@ -123,9 +121,7 @@ def summarize_stp_json(json_path):
             print(f"  VLANs: {len(vlans)}")
             adjusted_priority_groups = defaultdict(list)
             for vlan, vlan_data in vlans.items():
-                vlan_id = int(vlan)
-                raw_priority = vlan_data['vlan_priority']
-                adjusted_priority = raw_priority - vlan_id
+                adjusted_priority = vlan_data['adjusted_vlan_priority']
                 root = vlan_data['root_bridge']
                 adjusted_priority_groups[adjusted_priority].append((vlan, root))
             for priority, vlan_list in adjusted_priority_groups.items():
