@@ -1,0 +1,4634 @@
+{
+  "device": {
+    "mas104.sx": {
+      "stp_mode": "ieee",
+      "vlan_data": {
+        "1": {
+          "vlan_priority": 49153,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "35": {
+          "vlan_priority": 49187,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "45": {
+          "vlan_priority": 49197,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "151": {
+          "vlan_priority": 49303,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "555": {
+          "vlan_priority": 49707,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "560": {
+          "vlan_priority": 49712,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "598": {
+          "vlan_priority": 49750,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "821": {
+          "vlan_priority": 49973,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "823": {
+          "vlan_priority": 49975,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "828": {
+          "vlan_priority": 49980,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "829": {
+          "vlan_priority": 49981,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "861": {
+          "vlan_priority": 50013,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "868": {
+          "vlan_priority": 50020,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "883": {
+          "vlan_priority": 50035,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "884": {
+          "vlan_priority": 50036,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "885": {
+          "vlan_priority": 50037,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "887": {
+          "vlan_priority": 50039,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "902": {
+          "vlan_priority": 50054,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "951": {
+          "vlan_priority": 50103,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "952": {
+          "vlan_priority": 50104,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "953": {
+          "vlan_priority": 50105,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        }
+      }
+    },
+    "mas105.sx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "1": {
+          "vlan_priority": 49153,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "35": {
+          "vlan_priority": 49187,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "45": {
+          "vlan_priority": 49197,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "151": {
+          "vlan_priority": 49303,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "404": {
+          "vlan_priority": 49556,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 49152
+        },
+        "598": {
+          "vlan_priority": 49750,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "821": {
+          "vlan_priority": 49973,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "828": {
+          "vlan_priority": 49980,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "829": {
+          "vlan_priority": 49981,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "834": {
+          "vlan_priority": 49986,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "861": {
+          "vlan_priority": 50013,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "902": {
+          "vlan_priority": 50054,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "952": {
+          "vlan_priority": 50104,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        }
+      }
+    },
+    "mas11.gw": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "1": {
+          "vlan_priority": 16385,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "2": {
+          "vlan_priority": 32770,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "10": {
+          "vlan_priority": 32778,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "17": {
+          "vlan_priority": 16401,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "23": {
+          "vlan_priority": 32791,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "24": {
+          "vlan_priority": 16408,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "27": {
+          "vlan_priority": 8219,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "28": {
+          "vlan_priority": 8220,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "29": {
+          "vlan_priority": 8221,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "35": {
+          "vlan_priority": 8227,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "45": {
+          "vlan_priority": 8237,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "48": {
+          "vlan_priority": 8240,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "49": {
+          "vlan_priority": 8241,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "50": {
+          "vlan_priority": 32818,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "51": {
+          "vlan_priority": 8243,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "52": {
+          "vlan_priority": 16436,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "54": {
+          "vlan_priority": 8246,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "55": {
+          "vlan_priority": 8247,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "56": {
+          "vlan_priority": 8248,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "57": {
+          "vlan_priority": 8249,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "58": {
+          "vlan_priority": 16442,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "59": {
+          "vlan_priority": 8251,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "63": {
+          "vlan_priority": 8255,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "64": {
+          "vlan_priority": 8256,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "65": {
+          "vlan_priority": 8257,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "126": {
+          "vlan_priority": 16510,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "129": {
+          "vlan_priority": 16513,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "130": {
+          "vlan_priority": 16514,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "131": {
+          "vlan_priority": 16515,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "132": {
+          "vlan_priority": 16516,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "133": {
+          "vlan_priority": 8325,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "134": {
+          "vlan_priority": 8326,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "137": {
+          "vlan_priority": 32905,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "138": {
+          "vlan_priority": 32906,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "151": {
+          "vlan_priority": 8343,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "156": {
+          "vlan_priority": 16540,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "157": {
+          "vlan_priority": 8349,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "158": {
+          "vlan_priority": 16542,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "171": {
+          "vlan_priority": 8363,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "211": {
+          "vlan_priority": 8403,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "212": {
+          "vlan_priority": 8404,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "213": {
+          "vlan_priority": 8405,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "214": {
+          "vlan_priority": 8406,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "221": {
+          "vlan_priority": 8413,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "251": {
+          "vlan_priority": 8443,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "252": {
+          "vlan_priority": 33020,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "253": {
+          "vlan_priority": 33021,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "256": {
+          "vlan_priority": 8448,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "257": {
+          "vlan_priority": 8449,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "258": {
+          "vlan_priority": 33026,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "305": {
+          "vlan_priority": 8497,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "367": {
+          "vlan_priority": 33135,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "392": {
+          "vlan_priority": 16776,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "393": {
+          "vlan_priority": 16777,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "394": {
+          "vlan_priority": 16778,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "402": {
+          "vlan_priority": 8594,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "403": {
+          "vlan_priority": 16787,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "405": {
+          "vlan_priority": 33173,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "406": {
+          "vlan_priority": 33174,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "505": {
+          "vlan_priority": 8697,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "513": {
+          "vlan_priority": 16897,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "514": {
+          "vlan_priority": 16898,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "515": {
+          "vlan_priority": 16899,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "516": {
+          "vlan_priority": 16900,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "517": {
+          "vlan_priority": 16901,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "518": {
+          "vlan_priority": 16902,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "519": {
+          "vlan_priority": 8711,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "520": {
+          "vlan_priority": 16904,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "521": {
+          "vlan_priority": 16905,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "527": {
+          "vlan_priority": 16911,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "528": {
+          "vlan_priority": 16912,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "540": {
+          "vlan_priority": 8732,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "549": {
+          "vlan_priority": 16933,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "551": {
+          "vlan_priority": 8743,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "552": {
+          "vlan_priority": 16936,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "553": {
+          "vlan_priority": 16937,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "554": {
+          "vlan_priority": 8746,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "555": {
+          "vlan_priority": 16939,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "556": {
+          "vlan_priority": 16940,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "557": {
+          "vlan_priority": 8749,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "558": {
+          "vlan_priority": 16942,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "559": {
+          "vlan_priority": 8751,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "560": {
+          "vlan_priority": 16944,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "561": {
+          "vlan_priority": 8753,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "571": {
+          "vlan_priority": 8763,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "572": {
+          "vlan_priority": 16956,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "573": {
+          "vlan_priority": 8765,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "574": {
+          "vlan_priority": 16958,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "580": {
+          "vlan_priority": 8772,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "581": {
+          "vlan_priority": 8773,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "582": {
+          "vlan_priority": 8774,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "583": {
+          "vlan_priority": 8775,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "584": {
+          "vlan_priority": 8776,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "585": {
+          "vlan_priority": 8777,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "598": {
+          "vlan_priority": 8790,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "599": {
+          "vlan_priority": 8791,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "600": {
+          "vlan_priority": 8792,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "703": {
+          "vlan_priority": 8895,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "710": {
+          "vlan_priority": 8902,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "712": {
+          "vlan_priority": 8904,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "713": {
+          "vlan_priority": 8905,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "714": {
+          "vlan_priority": 8906,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "715": {
+          "vlan_priority": 8907,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "726": {
+          "vlan_priority": 8918,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "790": {
+          "vlan_priority": 17174,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "811": {
+          "vlan_priority": 9003,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "812": {
+          "vlan_priority": 17196,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "813": {
+          "vlan_priority": 9005,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "821": {
+          "vlan_priority": 17205,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "823": {
+          "vlan_priority": 17207,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "828": {
+          "vlan_priority": 9020,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "829": {
+          "vlan_priority": 17213,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "831": {
+          "vlan_priority": 9023,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "832": {
+          "vlan_priority": 9024,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "833": {
+          "vlan_priority": 9025,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "834": {
+          "vlan_priority": 17218,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "835": {
+          "vlan_priority": 17219,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "836": {
+          "vlan_priority": 9028,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "837": {
+          "vlan_priority": 17221,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "838": {
+          "vlan_priority": 9030,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "842": {
+          "vlan_priority": 17226,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "843": {
+          "vlan_priority": 17227,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "844": {
+          "vlan_priority": 9036,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "845": {
+          "vlan_priority": 9037,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "846": {
+          "vlan_priority": 9038,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "853": {
+          "vlan_priority": 9045,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "854": {
+          "vlan_priority": 9046,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "858": {
+          "vlan_priority": 9050,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "861": {
+          "vlan_priority": 17245,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "863": {
+          "vlan_priority": 17247,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "864": {
+          "vlan_priority": 9056,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "865": {
+          "vlan_priority": 17249,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "868": {
+          "vlan_priority": 17252,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "871": {
+          "vlan_priority": 17255,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "872": {
+          "vlan_priority": 17256,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "873": {
+          "vlan_priority": 17257,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "876": {
+          "vlan_priority": 17260,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "877": {
+          "vlan_priority": 9069,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "881": {
+          "vlan_priority": 17265,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "882": {
+          "vlan_priority": 17266,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "883": {
+          "vlan_priority": 33651,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "884": {
+          "vlan_priority": 33652,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "885": {
+          "vlan_priority": 33653,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "886": {
+          "vlan_priority": 33654,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "887": {
+          "vlan_priority": 33655,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "890": {
+          "vlan_priority": 17274,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "897": {
+          "vlan_priority": 17281,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "898": {
+          "vlan_priority": 17282,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "901": {
+          "vlan_priority": 17285,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "902": {
+          "vlan_priority": 17286,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "921": {
+          "vlan_priority": 9113,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "922": {
+          "vlan_priority": 17306,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "931": {
+          "vlan_priority": 17315,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "932": {
+          "vlan_priority": 17316,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "933": {
+          "vlan_priority": 17317,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "951": {
+          "vlan_priority": 17335,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "952": {
+          "vlan_priority": 17336,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "953": {
+          "vlan_priority": 17337,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "960": {
+          "vlan_priority": 17344,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "963": {
+          "vlan_priority": 9155,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "964": {
+          "vlan_priority": 9156,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "965": {
+          "vlan_priority": 9157,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "966": {
+          "vlan_priority": 9158,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "969": {
+          "vlan_priority": 17353,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "971": {
+          "vlan_priority": 33739,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "973": {
+          "vlan_priority": 33741,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "975": {
+          "vlan_priority": 33743,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "980": {
+          "vlan_priority": 17364,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "991": {
+          "vlan_priority": 17375,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "993": {
+          "vlan_priority": 17377,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "994": {
+          "vlan_priority": 33762,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "996": {
+          "vlan_priority": 17380,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "997": {
+          "vlan_priority": 9189,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "998": {
+          "vlan_priority": 17382,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "999": {
+          "vlan_priority": 9191,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 8192
+        },
+        "1000": {
+          "vlan_priority": 17384,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "1101": {
+          "vlan_priority": 9293,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1102": {
+          "vlan_priority": 33870,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1103": {
+          "vlan_priority": 9295,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1104": {
+          "vlan_priority": 33872,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1105": {
+          "vlan_priority": 9297,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1106": {
+          "vlan_priority": 33874,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1107": {
+          "vlan_priority": 9299,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1108": {
+          "vlan_priority": 33876,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1109": {
+          "vlan_priority": 9301,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1110": {
+          "vlan_priority": 33878,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1111": {
+          "vlan_priority": 9303,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1112": {
+          "vlan_priority": 33880,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1113": {
+          "vlan_priority": 9305,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1114": {
+          "vlan_priority": 33882,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1115": {
+          "vlan_priority": 9307,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1116": {
+          "vlan_priority": 33884,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1117": {
+          "vlan_priority": 9309,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1118": {
+          "vlan_priority": 33886,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1119": {
+          "vlan_priority": 9311,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1120": {
+          "vlan_priority": 33888,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1215": {
+          "vlan_priority": 33983,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "2001": {
+          "vlan_priority": 10193,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "2002": {
+          "vlan_priority": 10194,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "2003": {
+          "vlan_priority": 10195,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "2004": {
+          "vlan_priority": 10196,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "2005": {
+          "vlan_priority": 10197,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "3099": {
+          "vlan_priority": 35867,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "3101": {
+          "vlan_priority": 11293,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "3115": {
+          "vlan_priority": 19499,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "3116": {
+          "vlan_priority": 19500,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "3117": {
+          "vlan_priority": 19501,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "3121": {
+          "vlan_priority": 35889,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "3216": {
+          "vlan_priority": 19600,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "3219": {
+          "vlan_priority": 11411,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        }
+      }
+    },
+    "mas11dc1.nx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "221": {
+          "vlan_priority": 24797,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "251": {
+          "vlan_priority": 24827,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "258": {
+          "vlan_priority": 24834,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "367": {
+          "vlan_priority": 24943,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "821": {
+          "vlan_priority": 25397,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "828": {
+          "vlan_priority": 25404,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "829": {
+          "vlan_priority": 25405,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "861": {
+          "vlan_priority": 25437,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "868": {
+          "vlan_priority": 25444,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "871": {
+          "vlan_priority": 25447,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "872": {
+          "vlan_priority": 25448,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "886": {
+          "vlan_priority": 25462,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "932": {
+          "vlan_priority": 25508,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "933": {
+          "vlan_priority": 25509,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "951": {
+          "vlan_priority": 25527,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "952": {
+          "vlan_priority": 25528,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "953": {
+          "vlan_priority": 25529,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1115": {
+          "vlan_priority": 25691,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1215": {
+          "vlan_priority": 25791,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        }
+      }
+    },
+    "mas11dc2.nx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "49": {
+          "vlan_priority": 24625,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "50": {
+          "vlan_priority": 24626,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "51": {
+          "vlan_priority": 24627,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "52": {
+          "vlan_priority": 24628,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "56": {
+          "vlan_priority": 24632,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "57": {
+          "vlan_priority": 24633,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "58": {
+          "vlan_priority": 24634,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "151": {
+          "vlan_priority": 24727,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "221": {
+          "vlan_priority": 24797,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "251": {
+          "vlan_priority": 24827,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "571": {
+          "vlan_priority": 25147,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "821": {
+          "vlan_priority": 25397,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "828": {
+          "vlan_priority": 25404,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "829": {
+          "vlan_priority": 25405,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "861": {
+          "vlan_priority": 25437,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "868": {
+          "vlan_priority": 25444,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "902": {
+          "vlan_priority": 25478,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "921": {
+          "vlan_priority": 25497,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "951": {
+          "vlan_priority": 25527,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "952": {
+          "vlan_priority": 25528,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "953": {
+          "vlan_priority": 25529,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1115": {
+          "vlan_priority": 25691,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        }
+      }
+    },
+    "mas11dc3.nx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "45": {
+          "vlan_priority": 24621,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "49": {
+          "vlan_priority": 24625,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "50": {
+          "vlan_priority": 24626,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "51": {
+          "vlan_priority": 24627,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "52": {
+          "vlan_priority": 24628,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "54": {
+          "vlan_priority": 24630,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "55": {
+          "vlan_priority": 24631,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "56": {
+          "vlan_priority": 24632,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "57": {
+          "vlan_priority": 24633,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "58": {
+          "vlan_priority": 24634,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "151": {
+          "vlan_priority": 24727,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "221": {
+          "vlan_priority": 24797,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "251": {
+          "vlan_priority": 24827,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "252": {
+          "vlan_priority": 24828,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "392": {
+          "vlan_priority": 24968,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "393": {
+          "vlan_priority": 24969,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "555": {
+          "vlan_priority": 25131,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "598": {
+          "vlan_priority": 25174,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "821": {
+          "vlan_priority": 25397,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "828": {
+          "vlan_priority": 25404,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "829": {
+          "vlan_priority": 25405,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "861": {
+          "vlan_priority": 25437,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "868": {
+          "vlan_priority": 25444,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "873": {
+          "vlan_priority": 25449,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "876": {
+          "vlan_priority": 25452,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "897": {
+          "vlan_priority": 25473,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "898": {
+          "vlan_priority": 25474,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "902": {
+          "vlan_priority": 25478,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "951": {
+          "vlan_priority": 25527,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "952": {
+          "vlan_priority": 25528,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "953": {
+          "vlan_priority": 25529,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "971": {
+          "vlan_priority": 25547,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "973": {
+          "vlan_priority": 25549,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "975": {
+          "vlan_priority": 25551,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "976": {
+          "vlan_priority": 25552,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 24576
+        },
+        "977": {
+          "vlan_priority": 25553,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 24576
+        },
+        "993": {
+          "vlan_priority": 25569,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1102": {
+          "vlan_priority": 25678,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1103": {
+          "vlan_priority": 25679,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1106": {
+          "vlan_priority": 25682,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1107": {
+          "vlan_priority": 25683,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1109": {
+          "vlan_priority": 25685,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1110": {
+          "vlan_priority": 25686,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1113": {
+          "vlan_priority": 25689,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1114": {
+          "vlan_priority": 25690,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1115": {
+          "vlan_priority": 25691,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1116": {
+          "vlan_priority": 25692,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1117": {
+          "vlan_priority": 25693,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1118": {
+          "vlan_priority": 25694,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1119": {
+          "vlan_priority": 25695,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "2000": {
+          "vlan_priority": 26576,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 24576
+        },
+        "2001": {
+          "vlan_priority": 26577,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "2002": {
+          "vlan_priority": 26578,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "2003": {
+          "vlan_priority": 26579,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "2004": {
+          "vlan_priority": 26580,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "2005": {
+          "vlan_priority": 26581,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        }
+      }
+    },
+    "mas12.gw": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "1": {
+          "vlan_priority": 12289,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 12288
+        },
+        "10": {
+          "vlan_priority": 8202,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "17": {
+          "vlan_priority": 8209,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "23": {
+          "vlan_priority": 8215,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "24": {
+          "vlan_priority": 8216,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "27": {
+          "vlan_priority": 16411,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "28": {
+          "vlan_priority": 16412,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "29": {
+          "vlan_priority": 16413,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "35": {
+          "vlan_priority": 8227,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "45": {
+          "vlan_priority": 16429,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "48": {
+          "vlan_priority": 16432,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "49": {
+          "vlan_priority": 16433,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "50": {
+          "vlan_priority": 16434,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 16384
+        },
+        "51": {
+          "vlan_priority": 16435,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "52": {
+          "vlan_priority": 8244,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "54": {
+          "vlan_priority": 16438,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "55": {
+          "vlan_priority": 16439,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "56": {
+          "vlan_priority": 16440,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "57": {
+          "vlan_priority": 16441,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "58": {
+          "vlan_priority": 8250,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "59": {
+          "vlan_priority": 16443,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "63": {
+          "vlan_priority": 16447,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "64": {
+          "vlan_priority": 16448,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "65": {
+          "vlan_priority": 16449,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "126": {
+          "vlan_priority": 8318,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "129": {
+          "vlan_priority": 8321,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "130": {
+          "vlan_priority": 8322,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "131": {
+          "vlan_priority": 8323,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "132": {
+          "vlan_priority": 8324,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "133": {
+          "vlan_priority": 16517,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "134": {
+          "vlan_priority": 16518,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "137": {
+          "vlan_priority": 8329,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "138": {
+          "vlan_priority": 8330,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "151": {
+          "vlan_priority": 8343,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "156": {
+          "vlan_priority": 8348,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "157": {
+          "vlan_priority": 8349,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "158": {
+          "vlan_priority": 8350,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "171": {
+          "vlan_priority": 16555,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "211": {
+          "vlan_priority": 8403,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "212": {
+          "vlan_priority": 8404,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "213": {
+          "vlan_priority": 8405,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "214": {
+          "vlan_priority": 8406,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "221": {
+          "vlan_priority": 16605,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "251": {
+          "vlan_priority": 16635,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "252": {
+          "vlan_priority": 8444,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "253": {
+          "vlan_priority": 8445,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "256": {
+          "vlan_priority": 16640,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "257": {
+          "vlan_priority": 16641,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "258": {
+          "vlan_priority": 8450,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "305": {
+          "vlan_priority": 16689,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "367": {
+          "vlan_priority": 33135,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "392": {
+          "vlan_priority": 8584,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "393": {
+          "vlan_priority": 8585,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "394": {
+          "vlan_priority": 8586,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "402": {
+          "vlan_priority": 16786,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "403": {
+          "vlan_priority": 8595,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "405": {
+          "vlan_priority": 33173,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 32768
+        },
+        "406": {
+          "vlan_priority": 33174,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 32768
+        },
+        "505": {
+          "vlan_priority": 8697,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "513": {
+          "vlan_priority": 8705,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "514": {
+          "vlan_priority": 8706,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "515": {
+          "vlan_priority": 8707,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "516": {
+          "vlan_priority": 8708,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "517": {
+          "vlan_priority": 8709,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "518": {
+          "vlan_priority": 8710,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "519": {
+          "vlan_priority": 8711,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "520": {
+          "vlan_priority": 8712,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "521": {
+          "vlan_priority": 8713,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "527": {
+          "vlan_priority": 12815,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 12288
+        },
+        "528": {
+          "vlan_priority": 12816,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 12288
+        },
+        "540": {
+          "vlan_priority": 8732,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "549": {
+          "vlan_priority": 8741,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "551": {
+          "vlan_priority": 8743,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "552": {
+          "vlan_priority": 8744,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "553": {
+          "vlan_priority": 8745,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "554": {
+          "vlan_priority": 8746,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "555": {
+          "vlan_priority": 8747,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "556": {
+          "vlan_priority": 8748,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "557": {
+          "vlan_priority": 8749,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "558": {
+          "vlan_priority": 8750,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "559": {
+          "vlan_priority": 8751,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "560": {
+          "vlan_priority": 8752,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "561": {
+          "vlan_priority": 16945,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "571": {
+          "vlan_priority": 8763,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "572": {
+          "vlan_priority": 8764,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "573": {
+          "vlan_priority": 8765,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "574": {
+          "vlan_priority": 8766,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "580": {
+          "vlan_priority": 16964,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "581": {
+          "vlan_priority": 16965,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "582": {
+          "vlan_priority": 16966,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "583": {
+          "vlan_priority": 16967,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "584": {
+          "vlan_priority": 16968,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "585": {
+          "vlan_priority": 16969,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "598": {
+          "vlan_priority": 16982,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "599": {
+          "vlan_priority": 16983,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "600": {
+          "vlan_priority": 16984,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "703": {
+          "vlan_priority": 17087,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "710": {
+          "vlan_priority": 17094,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 16384
+        },
+        "712": {
+          "vlan_priority": 17096,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "713": {
+          "vlan_priority": 17097,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 16384
+        },
+        "714": {
+          "vlan_priority": 17098,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 16384
+        },
+        "715": {
+          "vlan_priority": 17099,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "726": {
+          "vlan_priority": 17110,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "790": {
+          "vlan_priority": 8982,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "811": {
+          "vlan_priority": 9003,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "812": {
+          "vlan_priority": 9004,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "813": {
+          "vlan_priority": 17197,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "821": {
+          "vlan_priority": 9013,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "823": {
+          "vlan_priority": 9015,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "828": {
+          "vlan_priority": 9020,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "829": {
+          "vlan_priority": 9021,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "831": {
+          "vlan_priority": 9023,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "832": {
+          "vlan_priority": 17216,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "833": {
+          "vlan_priority": 9025,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "834": {
+          "vlan_priority": 9026,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "835": {
+          "vlan_priority": 9027,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "836": {
+          "vlan_priority": 17220,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "837": {
+          "vlan_priority": 9029,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "838": {
+          "vlan_priority": 17222,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "842": {
+          "vlan_priority": 9034,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "843": {
+          "vlan_priority": 9035,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "844": {
+          "vlan_priority": 17228,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "845": {
+          "vlan_priority": 17229,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "846": {
+          "vlan_priority": 17230,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "853": {
+          "vlan_priority": 17237,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "854": {
+          "vlan_priority": 17238,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "858": {
+          "vlan_priority": 17242,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "861": {
+          "vlan_priority": 9053,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "863": {
+          "vlan_priority": 9055,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "864": {
+          "vlan_priority": 9056,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "865": {
+          "vlan_priority": 9057,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "868": {
+          "vlan_priority": 9060,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "871": {
+          "vlan_priority": 9063,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "872": {
+          "vlan_priority": 9064,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "873": {
+          "vlan_priority": 9065,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "876": {
+          "vlan_priority": 9068,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "877": {
+          "vlan_priority": 17261,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "881": {
+          "vlan_priority": 9073,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "882": {
+          "vlan_priority": 9074,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "883": {
+          "vlan_priority": 9075,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "884": {
+          "vlan_priority": 9076,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "885": {
+          "vlan_priority": 9077,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "886": {
+          "vlan_priority": 9078,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "887": {
+          "vlan_priority": 9079,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "890": {
+          "vlan_priority": 9082,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "897": {
+          "vlan_priority": 9089,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "898": {
+          "vlan_priority": 9090,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "901": {
+          "vlan_priority": 9093,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "902": {
+          "vlan_priority": 9094,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "921": {
+          "vlan_priority": 9113,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "922": {
+          "vlan_priority": 9114,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "931": {
+          "vlan_priority": 9123,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "932": {
+          "vlan_priority": 9124,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "933": {
+          "vlan_priority": 9125,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "951": {
+          "vlan_priority": 9143,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "952": {
+          "vlan_priority": 9144,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "953": {
+          "vlan_priority": 9145,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "960": {
+          "vlan_priority": 9152,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "963": {
+          "vlan_priority": 9155,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "964": {
+          "vlan_priority": 17348,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "965": {
+          "vlan_priority": 17349,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "966": {
+          "vlan_priority": 17350,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "969": {
+          "vlan_priority": 9161,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "971": {
+          "vlan_priority": 9163,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "973": {
+          "vlan_priority": 9165,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "975": {
+          "vlan_priority": 9167,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "980": {
+          "vlan_priority": 9172,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "991": {
+          "vlan_priority": 9183,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "993": {
+          "vlan_priority": 9185,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "994": {
+          "vlan_priority": 9186,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "996": {
+          "vlan_priority": 9188,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "997": {
+          "vlan_priority": 9189,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "998": {
+          "vlan_priority": 9190,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "999": {
+          "vlan_priority": 9191,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1000": {
+          "vlan_priority": 9192,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1101": {
+          "vlan_priority": 33869,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1102": {
+          "vlan_priority": 9294,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1103": {
+          "vlan_priority": 33871,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1104": {
+          "vlan_priority": 9296,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1105": {
+          "vlan_priority": 33873,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1106": {
+          "vlan_priority": 9298,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1107": {
+          "vlan_priority": 33875,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1108": {
+          "vlan_priority": 9300,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1109": {
+          "vlan_priority": 33877,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1110": {
+          "vlan_priority": 9302,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1111": {
+          "vlan_priority": 33879,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1112": {
+          "vlan_priority": 9304,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1113": {
+          "vlan_priority": 33881,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1114": {
+          "vlan_priority": 9306,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1115": {
+          "vlan_priority": 33883,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1116": {
+          "vlan_priority": 9308,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1117": {
+          "vlan_priority": 33885,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1118": {
+          "vlan_priority": 9310,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1119": {
+          "vlan_priority": 33887,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1120": {
+          "vlan_priority": 9312,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1215": {
+          "vlan_priority": 33983,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "2001": {
+          "vlan_priority": 18385,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "2002": {
+          "vlan_priority": 18386,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "2003": {
+          "vlan_priority": 18387,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "2004": {
+          "vlan_priority": 18388,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "2005": {
+          "vlan_priority": 18389,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "3099": {
+          "vlan_priority": 35867,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 32768
+        },
+        "3101": {
+          "vlan_priority": 19485,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        },
+        "3115": {
+          "vlan_priority": 11307,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "3116": {
+          "vlan_priority": 11308,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "3117": {
+          "vlan_priority": 11309,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "3121": {
+          "vlan_priority": 35889,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 32768
+        },
+        "3216": {
+          "vlan_priority": 11408,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "3219": {
+          "vlan_priority": 19603,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 16384
+        }
+      }
+    },
+    "mas126.sx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "1": {
+          "vlan_priority": 32769,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "300": {
+          "vlan_priority": 33068,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "310": {
+          "vlan_priority": 33078,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "320": {
+          "vlan_priority": 33088,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "560": {
+          "vlan_priority": 33328,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "600": {
+          "vlan_priority": 33368,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "740": {
+          "vlan_priority": 33508,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "770": {
+          "vlan_priority": 33538,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "950": {
+          "vlan_priority": 33718,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        }
+      }
+    },
+    "mas129.sx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "35": {
+          "vlan_priority": 32803,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "45": {
+          "vlan_priority": 32813,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "50": {
+          "vlan_priority": 32818,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "56": {
+          "vlan_priority": 32824,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "57": {
+          "vlan_priority": 32825,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "58": {
+          "vlan_priority": 32826,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "251": {
+          "vlan_priority": 33019,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "790": {
+          "vlan_priority": 33558,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "821": {
+          "vlan_priority": 33589,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "828": {
+          "vlan_priority": 33596,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "829": {
+          "vlan_priority": 33597,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "858": {
+          "vlan_priority": 33626,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "861": {
+          "vlan_priority": 33629,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "868": {
+          "vlan_priority": 33636,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "902": {
+          "vlan_priority": 33670,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1109": {
+          "vlan_priority": 33877,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1115": {
+          "vlan_priority": 33883,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        }
+      }
+    },
+    "mas12dc1.nx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "221": {
+          "vlan_priority": 24797,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "251": {
+          "vlan_priority": 24827,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "258": {
+          "vlan_priority": 24834,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "367": {
+          "vlan_priority": 24943,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 24576
+        },
+        "821": {
+          "vlan_priority": 25397,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "828": {
+          "vlan_priority": 25404,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "829": {
+          "vlan_priority": 25405,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "861": {
+          "vlan_priority": 25437,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "868": {
+          "vlan_priority": 25444,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "871": {
+          "vlan_priority": 25447,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "872": {
+          "vlan_priority": 25448,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "886": {
+          "vlan_priority": 25462,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "932": {
+          "vlan_priority": 25508,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "933": {
+          "vlan_priority": 25509,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "951": {
+          "vlan_priority": 25527,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "952": {
+          "vlan_priority": 25528,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "953": {
+          "vlan_priority": 25529,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1115": {
+          "vlan_priority": 25691,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1215": {
+          "vlan_priority": 25791,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 24576
+        }
+      }
+    },
+    "mas12dc2.nx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "49": {
+          "vlan_priority": 24625,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "50": {
+          "vlan_priority": 24626,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "51": {
+          "vlan_priority": 24627,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "52": {
+          "vlan_priority": 24628,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "56": {
+          "vlan_priority": 24632,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "57": {
+          "vlan_priority": 24633,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "58": {
+          "vlan_priority": 24634,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "151": {
+          "vlan_priority": 24727,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "221": {
+          "vlan_priority": 24797,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "251": {
+          "vlan_priority": 24827,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "571": {
+          "vlan_priority": 25147,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "821": {
+          "vlan_priority": 25397,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "828": {
+          "vlan_priority": 25404,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "829": {
+          "vlan_priority": 25405,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "861": {
+          "vlan_priority": 25437,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "868": {
+          "vlan_priority": 25444,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "902": {
+          "vlan_priority": 25478,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "921": {
+          "vlan_priority": 25497,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "951": {
+          "vlan_priority": 25527,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "952": {
+          "vlan_priority": 25528,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "953": {
+          "vlan_priority": 25529,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1115": {
+          "vlan_priority": 25691,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        }
+      }
+    },
+    "mas12dc3.nx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "45": {
+          "vlan_priority": 24621,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "49": {
+          "vlan_priority": 24625,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "50": {
+          "vlan_priority": 24626,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "51": {
+          "vlan_priority": 24627,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "52": {
+          "vlan_priority": 24628,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "54": {
+          "vlan_priority": 24630,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "55": {
+          "vlan_priority": 24631,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "56": {
+          "vlan_priority": 24632,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "57": {
+          "vlan_priority": 24633,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "58": {
+          "vlan_priority": 24634,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "151": {
+          "vlan_priority": 24727,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "221": {
+          "vlan_priority": 24797,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "251": {
+          "vlan_priority": 24827,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "252": {
+          "vlan_priority": 24828,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "392": {
+          "vlan_priority": 24968,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "393": {
+          "vlan_priority": 24969,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "555": {
+          "vlan_priority": 25131,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "598": {
+          "vlan_priority": 25174,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "821": {
+          "vlan_priority": 25397,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "828": {
+          "vlan_priority": 25404,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "829": {
+          "vlan_priority": 25405,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "861": {
+          "vlan_priority": 25437,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "868": {
+          "vlan_priority": 25444,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "873": {
+          "vlan_priority": 25449,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "876": {
+          "vlan_priority": 25452,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "897": {
+          "vlan_priority": 25473,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "898": {
+          "vlan_priority": 25474,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "902": {
+          "vlan_priority": 25478,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "951": {
+          "vlan_priority": 25527,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "952": {
+          "vlan_priority": 25528,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "953": {
+          "vlan_priority": 25529,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "971": {
+          "vlan_priority": 25547,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "973": {
+          "vlan_priority": 25549,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "975": {
+          "vlan_priority": 25551,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "976": {
+          "vlan_priority": 25552,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "977": {
+          "vlan_priority": 25553,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "993": {
+          "vlan_priority": 25569,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1102": {
+          "vlan_priority": 25678,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1103": {
+          "vlan_priority": 25679,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1106": {
+          "vlan_priority": 25682,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1107": {
+          "vlan_priority": 25683,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1109": {
+          "vlan_priority": 25685,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1110": {
+          "vlan_priority": 25686,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1113": {
+          "vlan_priority": 25689,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1114": {
+          "vlan_priority": 25690,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1115": {
+          "vlan_priority": 25691,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1116": {
+          "vlan_priority": 25692,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1117": {
+          "vlan_priority": 25693,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1118": {
+          "vlan_priority": 25694,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1119": {
+          "vlan_priority": 25695,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "2000": {
+          "vlan_priority": 26576,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "2001": {
+          "vlan_priority": 26577,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "2002": {
+          "vlan_priority": 26578,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "2003": {
+          "vlan_priority": 26579,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "2004": {
+          "vlan_priority": 26580,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "2005": {
+          "vlan_priority": 26581,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        }
+      }
+    },
+    "mas130.sx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "35": {
+          "vlan_priority": 32803,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "49": {
+          "vlan_priority": 32817,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "50": {
+          "vlan_priority": 32818,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "51": {
+          "vlan_priority": 32819,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "56": {
+          "vlan_priority": 32824,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "57": {
+          "vlan_priority": 32825,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "58": {
+          "vlan_priority": 32826,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "251": {
+          "vlan_priority": 33019,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "790": {
+          "vlan_priority": 33558,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "821": {
+          "vlan_priority": 33589,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "828": {
+          "vlan_priority": 33596,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "829": {
+          "vlan_priority": 33597,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "858": {
+          "vlan_priority": 33626,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "861": {
+          "vlan_priority": 33629,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "868": {
+          "vlan_priority": 33636,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "902": {
+          "vlan_priority": 33670,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1115": {
+          "vlan_priority": 33883,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        }
+      }
+    },
+    "mas141.sx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "35": {
+          "vlan_priority": 32803,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "129": {
+          "vlan_priority": 32897,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "130": {
+          "vlan_priority": 32898,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "131": {
+          "vlan_priority": 32899,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "132": {
+          "vlan_priority": 32900,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "221": {
+          "vlan_priority": 32989,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "571": {
+          "vlan_priority": 33339,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "572": {
+          "vlan_priority": 33340,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "828": {
+          "vlan_priority": 33596,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "993": {
+          "vlan_priority": 33761,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        }
+      }
+    },
+    "mas39.sx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "1": {
+          "vlan_priority": 49153,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "300": {
+          "vlan_priority": 49452,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "310": {
+          "vlan_priority": 49462,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "600": {
+          "vlan_priority": 49752,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "730": {
+          "vlan_priority": 49882,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "740": {
+          "vlan_priority": 49892,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        }
+      }
+    },
+    "mas401en07.nx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "251": {
+          "vlan_priority": 33019,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "821": {
+          "vlan_priority": 33589,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "829": {
+          "vlan_priority": 33597,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "861": {
+          "vlan_priority": 33629,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "868": {
+          "vlan_priority": 33636,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "951": {
+          "vlan_priority": 33719,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "952": {
+          "vlan_priority": 33720,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "953": {
+          "vlan_priority": 33721,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1115": {
+          "vlan_priority": 33883,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        }
+      }
+    },
+    "mas401en09.nx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "821": {
+          "vlan_priority": 33589,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "829": {
+          "vlan_priority": 33597,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "861": {
+          "vlan_priority": 33629,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "868": {
+          "vlan_priority": 33636,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "951": {
+          "vlan_priority": 33719,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "952": {
+          "vlan_priority": 33720,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "953": {
+          "vlan_priority": 33721,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1115": {
+          "vlan_priority": 33883,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        }
+      }
+    },
+    "mas402en07.nx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "251": {
+          "vlan_priority": 33019,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "821": {
+          "vlan_priority": 33589,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "829": {
+          "vlan_priority": 33597,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "861": {
+          "vlan_priority": 33629,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "868": {
+          "vlan_priority": 33636,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "951": {
+          "vlan_priority": 33719,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "952": {
+          "vlan_priority": 33720,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "953": {
+          "vlan_priority": 33721,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1115": {
+          "vlan_priority": 33883,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        }
+      }
+    },
+    "mas402en09.nx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "821": {
+          "vlan_priority": 33589,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "829": {
+          "vlan_priority": 33597,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "861": {
+          "vlan_priority": 33629,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "868": {
+          "vlan_priority": 33636,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "951": {
+          "vlan_priority": 33719,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "952": {
+          "vlan_priority": 33720,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "953": {
+          "vlan_priority": 33721,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1115": {
+          "vlan_priority": 33883,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        }
+      }
+    },
+    "mas41.sx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "1": {
+          "vlan_priority": 49153,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "300": {
+          "vlan_priority": 49452,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "521": {
+          "vlan_priority": 49673,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        }
+      }
+    },
+    "mas5.gw": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "1": {
+          "vlan_priority": 8193,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "2": {
+          "vlan_priority": 8194,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "30": {
+          "vlan_priority": 8222,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "35": {
+          "vlan_priority": 8227,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "100": {
+          "vlan_priority": 8292,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "200": {
+          "vlan_priority": 8392,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "300": {
+          "vlan_priority": 8492,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "301": {
+          "vlan_priority": 8493,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "302": {
+          "vlan_priority": 8494,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "305": {
+          "vlan_priority": 8497,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "310": {
+          "vlan_priority": 8502,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "320": {
+          "vlan_priority": 8512,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "340": {
+          "vlan_priority": 8532,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "341": {
+          "vlan_priority": 8533,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "350": {
+          "vlan_priority": 8542,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "400": {
+          "vlan_priority": 8592,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "410": {
+          "vlan_priority": 8602,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "420": {
+          "vlan_priority": 8612,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "430": {
+          "vlan_priority": 8622,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "500": {
+          "vlan_priority": 8692,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "510": {
+          "vlan_priority": 8702,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "520": {
+          "vlan_priority": 8712,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "521": {
+          "vlan_priority": 8713,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "560": {
+          "vlan_priority": 8752,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "562": {
+          "vlan_priority": 8754,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "600": {
+          "vlan_priority": 8792,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "650": {
+          "vlan_priority": 8842,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "700": {
+          "vlan_priority": 8892,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "730": {
+          "vlan_priority": 8922,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "740": {
+          "vlan_priority": 8932,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "750": {
+          "vlan_priority": 8942,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "760": {
+          "vlan_priority": 8952,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "770": {
+          "vlan_priority": 8962,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "790": {
+          "vlan_priority": 8982,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "800": {
+          "vlan_priority": 8992,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "850": {
+          "vlan_priority": 9042,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "900": {
+          "vlan_priority": 9092,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "950": {
+          "vlan_priority": 9142,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1100": {
+          "vlan_priority": 9292,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "1101": {
+          "vlan_priority": 9293,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        },
+        "2501": {
+          "vlan_priority": 10693,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 8192
+        }
+      }
+    },
+    "mas53.sx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "1": {
+          "vlan_priority": 32769,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "35": {
+          "vlan_priority": 32803,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "63": {
+          "vlan_priority": 32831,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "126": {
+          "vlan_priority": 32894,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "257": {
+          "vlan_priority": 33025,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "505": {
+          "vlan_priority": 33273,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "517": {
+          "vlan_priority": 33285,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "549": {
+          "vlan_priority": 33317,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "581": {
+          "vlan_priority": 33349,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "582": {
+          "vlan_priority": 33350,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "583": {
+          "vlan_priority": 33351,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "584": {
+          "vlan_priority": 33352,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "703": {
+          "vlan_priority": 33471,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "712": {
+          "vlan_priority": 33480,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "715": {
+          "vlan_priority": 33483,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "716": {
+          "vlan_priority": 33484,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 32768
+        },
+        "717": {
+          "vlan_priority": 33485,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 32768
+        },
+        "718": {
+          "vlan_priority": 33486,
+          "root_bridge": true,
+          "adjusted_vlan_priority": 32768
+        },
+        "726": {
+          "vlan_priority": 33494,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "790": {
+          "vlan_priority": 33558,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "811": {
+          "vlan_priority": 33579,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "821": {
+          "vlan_priority": 33589,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "833": {
+          "vlan_priority": 33601,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "863": {
+          "vlan_priority": 33631,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "881": {
+          "vlan_priority": 33649,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "890": {
+          "vlan_priority": 33658,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "901": {
+          "vlan_priority": 33669,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "902": {
+          "vlan_priority": 33670,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "921": {
+          "vlan_priority": 33689,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "922": {
+          "vlan_priority": 33690,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "991": {
+          "vlan_priority": 33759,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "996": {
+          "vlan_priority": 33764,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "999": {
+          "vlan_priority": 33767,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "1000": {
+          "vlan_priority": 33768,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        }
+      }
+    },
+    "mas5dc1.nx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "300": {
+          "vlan_priority": 24876,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "310": {
+          "vlan_priority": 24886,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "320": {
+          "vlan_priority": 24896,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "600": {
+          "vlan_priority": 25176,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "730": {
+          "vlan_priority": 25306,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "750": {
+          "vlan_priority": 25326,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "770": {
+          "vlan_priority": 25346,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "950": {
+          "vlan_priority": 25526,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1100": {
+          "vlan_priority": 25676,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        },
+        "1101": {
+          "vlan_priority": 25677,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 24576
+        }
+      }
+    },
+    "mas68.sx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "1": {
+          "vlan_priority": 49153,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "300": {
+          "vlan_priority": 49452,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "350": {
+          "vlan_priority": 49502,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        },
+        "740": {
+          "vlan_priority": 49892,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 49152
+        }
+      }
+    },
+    "mas69.sx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "1": {
+          "vlan_priority": 32769,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "35": {
+          "vlan_priority": 32803,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "45": {
+          "vlan_priority": 32813,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "51": {
+          "vlan_priority": 32819,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "52": {
+          "vlan_priority": 32820,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "56": {
+          "vlan_priority": 32824,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "57": {
+          "vlan_priority": 32825,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "151": {
+          "vlan_priority": 32919,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "221": {
+          "vlan_priority": 32989,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "251": {
+          "vlan_priority": 33019,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "600": {
+          "vlan_priority": 33368,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "821": {
+          "vlan_priority": 33589,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "828": {
+          "vlan_priority": 33596,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "829": {
+          "vlan_priority": 33597,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "861": {
+          "vlan_priority": 33629,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "868": {
+          "vlan_priority": 33636,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "902": {
+          "vlan_priority": 33670,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        }
+      }
+    },
+    "mas75.sx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "1": {
+          "vlan_priority": 32769,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "35": {
+          "vlan_priority": 32803,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "50": {
+          "vlan_priority": 32818,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "51": {
+          "vlan_priority": 32819,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "52": {
+          "vlan_priority": 32820,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "56": {
+          "vlan_priority": 32824,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "57": {
+          "vlan_priority": 32825,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "58": {
+          "vlan_priority": 32826,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "151": {
+          "vlan_priority": 32919,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "221": {
+          "vlan_priority": 32989,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "251": {
+          "vlan_priority": 33019,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "252": {
+          "vlan_priority": 33020,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "555": {
+          "vlan_priority": 33323,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "560": {
+          "vlan_priority": 33328,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "571": {
+          "vlan_priority": 33339,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "821": {
+          "vlan_priority": 33589,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "823": {
+          "vlan_priority": 33591,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "828": {
+          "vlan_priority": 33596,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "829": {
+          "vlan_priority": 33597,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "861": {
+          "vlan_priority": 33629,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "868": {
+          "vlan_priority": 33636,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "902": {
+          "vlan_priority": 33670,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "921": {
+          "vlan_priority": 33689,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "951": {
+          "vlan_priority": 33719,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "952": {
+          "vlan_priority": 33720,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "953": {
+          "vlan_priority": 33721,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        }
+      }
+    },
+    "mas76.sx": {
+      "stp_mode": "rstp",
+      "vlan_data": {
+        "1": {
+          "vlan_priority": 32769,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "35": {
+          "vlan_priority": 32803,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "45": {
+          "vlan_priority": 32813,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "50": {
+          "vlan_priority": 32818,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "51": {
+          "vlan_priority": 32819,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "52": {
+          "vlan_priority": 32820,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "56": {
+          "vlan_priority": 32824,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "57": {
+          "vlan_priority": 32825,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "58": {
+          "vlan_priority": 32826,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "151": {
+          "vlan_priority": 32919,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "221": {
+          "vlan_priority": 32989,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "251": {
+          "vlan_priority": 33019,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "252": {
+          "vlan_priority": 33020,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "571": {
+          "vlan_priority": 33339,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "821": {
+          "vlan_priority": 33589,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "828": {
+          "vlan_priority": 33596,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "829": {
+          "vlan_priority": 33597,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "861": {
+          "vlan_priority": 33629,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "868": {
+          "vlan_priority": 33636,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "902": {
+          "vlan_priority": 33670,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "921": {
+          "vlan_priority": 33689,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "951": {
+          "vlan_priority": 33719,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "952": {
+          "vlan_priority": 33720,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        },
+        "953": {
+          "vlan_priority": 33721,
+          "root_bridge": false,
+          "adjusted_vlan_priority": 32768
+        }
+      }
+    }
+  }
+}

@@ -140,6 +140,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-    enrich_json()
+    # enrich_json() # this to enrich mst but no mst to consider for now
     export_to_excel()
     create_summary()

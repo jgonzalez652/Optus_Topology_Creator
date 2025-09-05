@@ -8,8 +8,7 @@ from datetime import datetime
 
 output_dir = r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Output\stp'
 
-
-def save_analysis_to_excel(device_vlans, device_ranges, output_dir):
+def save_analysis_to_excel(device_vlans, device_ranges, output_dir, group_name=""):
     wb = Workbook()
     # Sheet 1: Summary
     ws1 = wb.active
@@ -69,7 +68,8 @@ def save_analysis_to_excel(device_vlans, device_ranges, output_dir):
 
     # Save file
     dt_str = datetime.now().strftime("%Y%m%d_%H%M%S")
-    filename = f"stp_migration_analysis_{dt_str}.xlsx"
+    group_tag = f"_{group_name}" if group_name else ""
+    filename = f"stp_migration_analysis{group_tag}_{dt_str}.xlsx"
     filepath = os.path.join(output_dir, filename)
     wb.save(filepath)
     print(f"Excel file saved to {filepath}")
@@ -153,34 +153,29 @@ def print_summary(device_vlans, device_ranges):
                     print(f"{dev1}, {dev2} (Similarity: {intersection/union:.2f}, VLANs in common: {', '.join(sorted(set1 & set2))})")
                     checked.add(pair)
 
+def recommend_migration_order(device_vlans, device_ranges, group_idx=1):
+    all_devices = list(device_vlans.keys())
+    print(f"Group {group_idx}: Devices")
+    for dev in all_devices:
+        print(f"  {dev}")
 
-def recommend_migration_order(device_vlans, device_ranges):
-    vlan_hash = defaultdict(list)
-    group_vlans = {}
-    for dev, vlans in device_vlans.items():
-        key = (frozenset(vlans), tuple(device_ranges[dev]))
-        vlan_hash[key].append(dev)
-        group_vlans[key] = (vlans, device_ranges[dev])
-    # Sort by total VLAN count (individual + ranges), ascending
-    def vlan_count(key):
-        vlans, ranges = group_vlans[key]
-        return len(vlans) + len(ranges)
-    migration_keys = sorted(vlan_hash.keys(), key=vlan_count)
-    print("Recommended VLAN Migration Order (least VLANs first):")
-    for idx, key in enumerate(migration_keys, 1):
-        group = vlan_hash[key]
-        vlans, ranges = group_vlans[key]
-        if len(group) > 1:
-            if ranges:
-                print(f"Group {idx}: {', '.join(group)} (migrate together) - VLAN ranges: {', '.join(ranges)}")
-            else:
-                print(f"Group {idx}: {', '.join(group)} (migrate together) - VLANs: {', '.join(sorted(vlans))}")
+def split_device_groups(device_vlans, device_ranges):
+    group1_names = {
+        "mas126.sx", "mas39.sx", "mas5dc1.nx", "mas41.sx",
+        "mas68.sx", "mas4dc1.nx"
+    }
+    group1_vlans, group1_ranges = {}, {}
+    group2_vlans, group2_ranges = {}, {}
+    for dev in device_vlans:
+        if ".gw" in dev:
+            continue
+        if dev in group1_names:
+            group1_vlans[dev] = device_vlans[dev]
+            group1_ranges[dev] = device_ranges[dev]
         else:
-            if ranges:
-                print(f"Group {idx}: {group[0]} (single switch) - VLAN ranges: {', '.join(ranges)}")
-            else:
-                print(f"Group {idx}: {group[0]} (single switch) - VLANs: {', '.join(sorted(vlans))}")
-
+            group2_vlans[dev] = device_vlans[dev]
+            group2_ranges[dev] = device_ranges[dev]
+    return (group1_vlans, group1_ranges), (group2_vlans, group2_ranges)
 
 def create_summary():
     json_file = get_latest_json_file(output_dir)
@@ -190,16 +185,23 @@ def create_summary():
     with open(json_file, 'r') as f:
         data = json.load(f)
     device_vlans, device_ranges = get_device_vlans(data)
-    print_summary(device_vlans, device_ranges)
+    (g1_vlans, g1_ranges), (g2_vlans, g2_ranges) = split_device_groups(device_vlans, device_ranges)
 
-    print("\n\n########################################################################")
-    print("####################### VLAN MIGRATION ORDER #############################")
-    print("########################################################################\n")
-    recommend_migration_order(device_vlans, device_ranges)
-
-    print("")
-    save_analysis_to_excel(device_vlans, device_ranges,
-                           r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Output\excel_output')
-
+    for idx, (vlans, ranges) in enumerate([(g1_vlans, g1_ranges), (g2_vlans, g2_ranges)], 1):
+        if not vlans:  # Skip empty groups
+            continue
+        group_name = f"group{idx}"
+        print(f"\n\n================= GROUP {idx} =================")
+        print_summary(vlans, ranges)
+        print("\n\n########################################################################")
+        print("####################### VLAN MIGRATION ORDER #############################")
+        print("########################################################################\n")
+        recommend_migration_order(vlans, ranges, group_idx=idx)
+        print("")
+        save_analysis_to_excel(
+            vlans, ranges,
+            r'C:\Users\JuanNava\PycharmProjects\PythonProject\Optus_Topology_Creator\Output\excel_output',
+            group_name=group_name
+        )
 if __name__ == "__main__":
     create_summary()
