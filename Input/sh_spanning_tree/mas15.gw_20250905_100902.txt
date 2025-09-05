@@ -1,0 +1,132 @@
+Hostname: mas15.gw
+Date: 2025-09-05 10:09:02.034290
+
+
+
+===== show spanning-tree =====
+
+VLAN0001
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    16385
+             Address     0021.d8cb.2780
+             Cost        3
+             Port        3331 (Port-channel3)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16385  (priority 16384 sys-id-ext 1)
+             Address     0021.d8cb.28c0
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi7/16              Altn BLK 5         128.1552 P2p 
+Po3                 Root FWD 3         128.3331 P2p 
+
+
+VLAN0121
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8313
+             Address     0021.d8cb.28c0
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8313   (priority 8192 sys-id-ext 121)
+             Address     0021.d8cb.28c0
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi7/15              Desg FWD 4         128.1551 Edge P2p 
+Gi7/25              Desg FWD 4         128.1561 Edge P2p 
+
+
+VLAN0221
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    32989
+             Address     0021.d8cb.28c0
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32989  (priority 32768 sys-id-ext 221)
+             Address     0021.d8cb.28c0
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi7/16              Desg FWD 5         128.1552 P2p 
+Po3                 Desg FWD 3         128.3331 P2p 
+
+
+VLAN0222
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    32990
+             Address     0021.d8cb.28c0
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    32990  (priority 32768 sys-id-ext 222)
+             Address     0021.d8cb.28c0
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi7/16              Desg FWD 5         128.1552 P2p 
+Po3                 Desg FWD 3         128.3331 P2p 
+
+
+VLAN0543
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8735
+             Address     0021.d8cb.28c0
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8735   (priority 8192 sys-id-ext 543)
+             Address     0021.d8cb.28c0
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi7/16              Desg FWD 5         128.1552 P2p 
+Po3                 Desg FWD 3         128.3331 P2p 
+
+
+VLAN0544
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8736
+             Address     0021.d8cb.28c0
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8736   (priority 8192 sys-id-ext 544)
+             Address     0021.d8cb.28c0
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi7/16              Desg FWD 5         128.1552 P2p 
+Po3                 Desg FWD 3         128.3331 P2p 
+
+
+VLAN0545
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8737
+             Address     0021.d8cb.28c0
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8737   (priority 8192 sys-id-ext 545)
+             Address     0021.d8cb.28c0
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi7/16              Desg FWD 5         128.1552 P2p 
+Po3                 Desg FWD 3         128.3331 P2p 

@@ -1,0 +1,4453 @@
+Hostname: mas12.gw
+Date: 2025-09-05 10:09:03.187034
+
+
+
+===== show spanning-tree =====
+
+VLAN0001
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    12289
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    12289  (priority 12288 sys-id-ext 1)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p Peer(STP) 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/1               Desg FWD 4         128.1793 P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Gi8/29              Desg FWD 4         128.1821 P2p 
+Gi8/30              Desg FWD 4         128.1822 P2p 
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Gi8/33              Desg FWD 4         128.1825 P2p 
+Gi8/34              Desg FWD 4         128.1826 P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Gi9/1               Desg FWD 4         128.2049 P2p 
+Gi9/2               Desg FWD 4         128.2050 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0010
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8202
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8202   (priority 8192 sys-id-ext 10)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0017
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8209
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8209   (priority 8192 sys-id-ext 17)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0023
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8215
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8215   (priority 8192 sys-id-ext 23)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0024
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8216
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8216   (priority 8192 sys-id-ext 24)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0027
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8219
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16411  (priority 16384 sys-id-ext 27)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0028
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8220
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16412  (priority 16384 sys-id-ext 28)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0029
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8221
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16413  (priority 16384 sys-id-ext 29)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0035
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8227
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8227   (priority 8192 sys-id-ext 35)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p Peer(STP) 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/1               Desg FWD 4         128.1793 P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Gi8/29              Desg FWD 4         128.1821 P2p 
+Gi8/30              Desg FWD 4         128.1822 P2p 
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Gi8/33              Desg FWD 4         128.1825 P2p 
+Gi8/34              Desg FWD 4         128.1826 P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Gi9/1               Desg FWD 4         128.2049 P2p 
+Gi9/2               Desg FWD 4         128.2050 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po12                Desg FWD 3         128.3335 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0045
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8237
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16429  (priority 16384 sys-id-ext 45)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/4               Desg FWD 4         128.4    P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0048
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8240
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16432  (priority 16384 sys-id-ext 48)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0049
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8241
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16433  (priority 16384 sys-id-ext 49)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0050
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    16434
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16434  (priority 16384 sys-id-ext 50)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0051
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8243
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16435  (priority 16384 sys-id-ext 51)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0052
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8244
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8244   (priority 8192 sys-id-ext 52)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0054
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8246
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16438  (priority 16384 sys-id-ext 54)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0055
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8247
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16439  (priority 16384 sys-id-ext 55)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0056
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8248
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16440  (priority 16384 sys-id-ext 56)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0057
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8249
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16441  (priority 16384 sys-id-ext 57)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0058
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8250
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8250   (priority 8192 sys-id-ext 58)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0059
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8251
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16443  (priority 16384 sys-id-ext 59)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te2/1               Desg FWD 4         128.257  P2p 
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0063
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8255
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16447  (priority 16384 sys-id-ext 63)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/29              Desg FWD 4         128.1821 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0064
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8256
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16448  (priority 16384 sys-id-ext 64)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0065
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8257
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16449  (priority 16384 sys-id-ext 65)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0126
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8318
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8318   (priority 8192 sys-id-ext 126)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0129
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8321
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8321   (priority 8192 sys-id-ext 129)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po12                Desg FWD 3         128.3335 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0130
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8322
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8322   (priority 8192 sys-id-ext 130)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po12                Desg FWD 3         128.3335 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0131
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8323
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8323   (priority 8192 sys-id-ext 131)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po12                Desg FWD 3         128.3335 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0132
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8324
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8324   (priority 8192 sys-id-ext 132)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po12                Desg FWD 3         128.3335 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0133
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8325
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16517  (priority 16384 sys-id-ext 133)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0134
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8326
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16518  (priority 16384 sys-id-ext 134)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po51                Desg FWD 3         128.3337 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0137
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8329
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8329   (priority 8192 sys-id-ext 137)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po51                Desg FWD 3         128.3337 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0138
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8330
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8330   (priority 8192 sys-id-ext 138)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po51                Desg FWD 3         128.3337 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0151
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8343
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8343   (priority 8192 sys-id-ext 151)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0156
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8348
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8348   (priority 8192 sys-id-ext 156)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0157
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8349
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8349   (priority 8192 sys-id-ext 157)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0158
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8350
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8350   (priority 8192 sys-id-ext 158)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0171
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8363
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16555  (priority 16384 sys-id-ext 171)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0211
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8403
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8403   (priority 8192 sys-id-ext 211)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0212
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8404
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8404   (priority 8192 sys-id-ext 212)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0213
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8405
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8405   (priority 8192 sys-id-ext 213)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/34              Desg FWD 4         128.1826 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0214
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8406
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8406   (priority 8192 sys-id-ext 214)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/33              Desg FWD 4         128.1825 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0221
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8413
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16605  (priority 16384 sys-id-ext 221)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po12                Desg FWD 3         128.3335 P2p 
+Po60                Desg FWD 1         128.3342 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0251
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8443
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16635  (priority 16384 sys-id-ext 251)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po60                Desg FWD 1         128.3342 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0252
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8444
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8444   (priority 8192 sys-id-ext 252)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0253
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8445
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8445   (priority 8192 sys-id-ext 253)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0256
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8448
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16640  (priority 16384 sys-id-ext 256)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0257
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8449
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16641  (priority 16384 sys-id-ext 257)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0258
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8450
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8450   (priority 8192 sys-id-ext 258)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po60                Desg FWD 1         128.3342 P2p 
+
+
+VLAN0305
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8497
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16689  (priority 16384 sys-id-ext 305)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0367
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    24943
+             Address     002a.6a75.d43c
+             Cost        1
+             Port        3342 (Port-channel60)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33135  (priority 32768 sys-id-ext 367)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po60                Root FWD 1         128.3342 P2p 
+
+
+VLAN0392
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8584
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8584   (priority 8192 sys-id-ext 392)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0393
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8585
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8585   (priority 8192 sys-id-ext 393)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0394
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8586
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8586   (priority 8192 sys-id-ext 394)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0402
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8594
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16786  (priority 16384 sys-id-ext 402)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0403
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8595
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8595   (priority 8192 sys-id-ext 403)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0405
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    33173
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33173  (priority 32768 sys-id-ext 405)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0406
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    33174
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33174  (priority 32768 sys-id-ext 406)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0505
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8697
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8697   (priority 8192 sys-id-ext 505)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Gi8/30              Desg FWD 4         128.1822 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0513
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8705
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8705   (priority 8192 sys-id-ext 513)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0514
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8706
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8706   (priority 8192 sys-id-ext 514)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0515
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8707
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8707   (priority 8192 sys-id-ext 515)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0516
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8708
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8708   (priority 8192 sys-id-ext 516)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0517
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8709
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8709   (priority 8192 sys-id-ext 517)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0518
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8710
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8710   (priority 8192 sys-id-ext 518)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0519
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8711
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8711   (priority 8192 sys-id-ext 519)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0520
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8712
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8712   (priority 8192 sys-id-ext 520)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0521
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8713
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8713   (priority 8192 sys-id-ext 521)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0527
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    12815
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    12815  (priority 12288 sys-id-ext 527)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0528
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    12816
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    12816  (priority 12288 sys-id-ext 528)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0540
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8732
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8732   (priority 8192 sys-id-ext 540)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0549
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8741
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8741   (priority 8192 sys-id-ext 549)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0551
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8743
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8743   (priority 8192 sys-id-ext 551)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/6               Desg FWD 3         128.6    P2p 
+Te2/7               Desg FWD 3         128.263  P2p 
+
+
+VLAN0552
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8744
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8744   (priority 8192 sys-id-ext 552)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/6               Desg FWD 3         128.6    P2p 
+Te2/7               Desg FWD 3         128.263  P2p 
+
+
+VLAN0553
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8745
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8745   (priority 8192 sys-id-ext 553)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/6               Desg FWD 3         128.6    P2p 
+Te2/7               Desg FWD 3         128.263  P2p 
+
+
+VLAN0554
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8746
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8746   (priority 8192 sys-id-ext 554)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/6               Desg FWD 3         128.6    P2p 
+Te2/7               Desg FWD 3         128.263  P2p 
+
+
+VLAN0555
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8747
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8747   (priority 8192 sys-id-ext 555)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p Peer(STP) 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0556
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8748
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8748   (priority 8192 sys-id-ext 556)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0557
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8749
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8749   (priority 8192 sys-id-ext 557)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0558
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8750
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8750   (priority 8192 sys-id-ext 558)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0559
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8751
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8751   (priority 8192 sys-id-ext 559)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0560
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8752
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8752   (priority 8192 sys-id-ext 560)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p Peer(STP) 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0561
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8753
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16945  (priority 16384 sys-id-ext 561)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0571
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8763
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8763   (priority 8192 sys-id-ext 571)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Po12                Desg FWD 3         128.3335 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0572
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8764
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8764   (priority 8192 sys-id-ext 572)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Po12                Desg FWD 3         128.3335 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0573
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8765
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8765   (priority 8192 sys-id-ext 573)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0574
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8766
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8766   (priority 8192 sys-id-ext 574)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0580
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8772
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16964  (priority 16384 sys-id-ext 580)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0581
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8773
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16965  (priority 16384 sys-id-ext 581)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0582
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8774
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16966  (priority 16384 sys-id-ext 582)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0583
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8775
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16967  (priority 16384 sys-id-ext 583)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi9/1               Desg FWD 4         128.2049 P2p 
+Gi9/2               Desg FWD 4         128.2050 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0584
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8776
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16968  (priority 16384 sys-id-ext 584)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi9/1               Desg FWD 4         128.2049 P2p 
+Gi9/2               Desg FWD 4         128.2050 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0585
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8777
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16969  (priority 16384 sys-id-ext 585)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0598
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8790
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16982  (priority 16384 sys-id-ext 598)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0599
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8791
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16983  (priority 16384 sys-id-ext 599)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0600
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8792
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    16984  (priority 16384 sys-id-ext 600)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0703
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8895
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17087  (priority 16384 sys-id-ext 703)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0710
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    17094
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17094  (priority 16384 sys-id-ext 710)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po60                Desg FWD 1         128.3342 P2p 
+
+
+VLAN0712
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8904
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17096  (priority 16384 sys-id-ext 712)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0713
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    17097
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17097  (priority 16384 sys-id-ext 713)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po60                Desg FWD 1         128.3342 P2p 
+
+
+VLAN0714
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    17098
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17098  (priority 16384 sys-id-ext 714)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po60                Desg FWD 1         128.3342 P2p 
+
+
+VLAN0715
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8907
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17099  (priority 16384 sys-id-ext 715)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0726
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8918
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17110  (priority 16384 sys-id-ext 726)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi9/1               Desg FWD 4         128.2049 P2p 
+Gi9/2               Desg FWD 4         128.2050 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0790
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    8982
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    8982   (priority 8192 sys-id-ext 790)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Gi8/29              Desg FWD 4         128.1821 P2p 
+Gi8/30              Desg FWD 4         128.1822 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0811
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9003
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9003   (priority 8192 sys-id-ext 811)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Gi8/30              Desg FWD 4         128.1822 P2p 
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0812
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9004
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9004   (priority 8192 sys-id-ext 812)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0813
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9005
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17197  (priority 16384 sys-id-ext 813)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0821
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9013
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9013   (priority 8192 sys-id-ext 821)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p Peer(STP) 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/29              Desg FWD 4         128.1821 P2p 
+Gi8/30              Desg FWD 4         128.1822 P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po60                Desg FWD 1         128.3342 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0823
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9015
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9015   (priority 8192 sys-id-ext 823)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p Peer(STP) 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0828
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9020
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9020   (priority 8192 sys-id-ext 828)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p Peer(STP) 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po12                Desg FWD 3         128.3335 P2p 
+Po60                Desg FWD 1         128.3342 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0829
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9021
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9021   (priority 8192 sys-id-ext 829)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p Peer(STP) 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po60                Desg FWD 1         128.3342 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0831
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9023
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9023   (priority 8192 sys-id-ext 831)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0832
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9024
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17216  (priority 16384 sys-id-ext 832)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0833
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9025
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9025   (priority 8192 sys-id-ext 833)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0834
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9026
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9026   (priority 8192 sys-id-ext 834)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi8/33              Desg FWD 4         128.1825 P2p 
+Gi8/34              Desg FWD 4         128.1826 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0835
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9027
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9027   (priority 8192 sys-id-ext 835)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0836
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9028
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17220  (priority 16384 sys-id-ext 836)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0837
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9029
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9029   (priority 8192 sys-id-ext 837)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0838
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9030
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17222  (priority 16384 sys-id-ext 838)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0842
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9034
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9034   (priority 8192 sys-id-ext 842)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0843
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9035
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9035   (priority 8192 sys-id-ext 843)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0844
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9036
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17228  (priority 16384 sys-id-ext 844)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0845
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9037
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17229  (priority 16384 sys-id-ext 845)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0846
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9038
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17230  (priority 16384 sys-id-ext 846)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0853
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9045
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17237  (priority 16384 sys-id-ext 853)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0854
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9046
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17238  (priority 16384 sys-id-ext 854)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0858
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9050
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17242  (priority 16384 sys-id-ext 858)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0861
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9053
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9053   (priority 8192 sys-id-ext 861)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p Peer(STP) 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Gi8/29              Desg FWD 4         128.1821 P2p 
+Gi8/30              Desg FWD 4         128.1822 P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po60                Desg FWD 1         128.3342 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0863
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9055
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9055   (priority 8192 sys-id-ext 863)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0864
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9056
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9056   (priority 8192 sys-id-ext 864)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/4               Desg FWD 4         128.1796 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0865
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9057
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9057   (priority 8192 sys-id-ext 865)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0868
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9060
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9060   (priority 8192 sys-id-ext 868)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p Peer(STP) 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po60                Desg FWD 1         128.3342 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0871
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9063
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9063   (priority 8192 sys-id-ext 871)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po60                Desg FWD 1         128.3342 P2p 
+
+
+VLAN0872
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9064
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9064   (priority 8192 sys-id-ext 872)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po60                Desg FWD 1         128.3342 P2p 
+
+
+VLAN0873
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9065
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9065   (priority 8192 sys-id-ext 873)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0876
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9068
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9068   (priority 8192 sys-id-ext 876)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0877
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9069
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17261  (priority 16384 sys-id-ext 877)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0881
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9073
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9073   (priority 8192 sys-id-ext 881)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0882
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9074
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9074   (priority 8192 sys-id-ext 882)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0883
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9075
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9075   (priority 8192 sys-id-ext 883)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0884
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9076
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9076   (priority 8192 sys-id-ext 884)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0885
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9077
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9077   (priority 8192 sys-id-ext 885)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0886
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9078
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9078   (priority 8192 sys-id-ext 886)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po60                Desg FWD 1         128.3342 P2p 
+
+
+VLAN0887
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9079
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9079   (priority 8192 sys-id-ext 887)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0890
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9082
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9082   (priority 8192 sys-id-ext 890)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0897
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9089
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9089   (priority 8192 sys-id-ext 897)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0898
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9090
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9090   (priority 8192 sys-id-ext 898)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0901
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9093
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9093   (priority 8192 sys-id-ext 901)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/30              Desg FWD 4         128.1822 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0902
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9094
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9094   (priority 8192 sys-id-ext 902)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi4/20              Desg FWD 4         128.788  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/5               Desg FWD 4         128.1797 P2p 
+Gi8/11              Desg FWD 4         128.1803 P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/30              Desg FWD 4         128.1822 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Gi9/14              Desg FWD 4         128.2062 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0921
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9113
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9113   (priority 8192 sys-id-ext 921)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Gi8/29              Desg FWD 4         128.1821 P2p 
+Gi8/30              Desg FWD 4         128.1822 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0922
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9114
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9114   (priority 8192 sys-id-ext 922)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0931
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9123
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9123   (priority 8192 sys-id-ext 931)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0932
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9124
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9124   (priority 8192 sys-id-ext 932)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po60                Desg FWD 1         128.3342 P2p 
+
+
+VLAN0933
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9125
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9125   (priority 8192 sys-id-ext 933)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po60                Desg FWD 1         128.3342 P2p 
+
+
+VLAN0951
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9143
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9143   (priority 8192 sys-id-ext 951)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p Peer(STP) 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Po60                Desg FWD 1         128.3342 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0952
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9144
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9144   (priority 8192 sys-id-ext 952)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p Peer(STP) 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Po60                Desg FWD 1         128.3342 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0953
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9145
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9145   (priority 8192 sys-id-ext 953)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te1/1               Desg FWD 4         128.1    P2p 
+Te1/2               Desg FWD 4         128.2    P2p 
+Te1/3               Desg FWD 4         128.3    P2p 
+Te1/4               Desg FWD 4         128.4    P2p 
+Te1/5               Desg FWD 4         128.5    P2p 
+Te1/7               Desg FWD 2         128.7    P2p 
+Te2/1               Desg FWD 4         128.257  P2p 
+Te2/2               Desg FWD 4         128.258  P2p 
+Te2/3               Desg FWD 4         128.259  P2p 
+Te2/4               Desg FWD 4         128.260  P2p 
+Te2/5               Desg FWD 4         128.261  P2p Peer(STP) 
+Te2/6               Desg FWD 4         128.262  P2p Peer(STP) 
+Te3/7               Desg FWD 2         128.519  P2p 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/11              Desg FWD 4         128.779  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/40              Desg FWD 4         128.1832 P2p 
+Po60                Desg FWD 1         128.3342 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0960
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9152
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9152   (priority 8192 sys-id-ext 960)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0963
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9155
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9155   (priority 8192 sys-id-ext 963)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/29              Desg FWD 4         128.1821 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0964
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9156
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17348  (priority 16384 sys-id-ext 964)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0965
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9157
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17349  (priority 16384 sys-id-ext 965)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0966
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9158
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    17350  (priority 16384 sys-id-ext 966)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/31              Desg FWD 4         128.1823 P2p 
+Gi8/32              Desg FWD 4         128.1824 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN0969
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9161
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9161   (priority 8192 sys-id-ext 969)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0971
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9163
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9163   (priority 8192 sys-id-ext 971)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0973
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9165
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9165   (priority 8192 sys-id-ext 973)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0975
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9167
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9167   (priority 8192 sys-id-ext 975)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0980
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9172
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9172   (priority 8192 sys-id-ext 980)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0991
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9183
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9183   (priority 8192 sys-id-ext 991)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Gi8/30              Desg FWD 4         128.1822 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0993
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9185
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9185   (priority 8192 sys-id-ext 993)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po12                Desg FWD 3         128.3335 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0994
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9186
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9186   (priority 8192 sys-id-ext 994)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0996
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9188
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9188   (priority 8192 sys-id-ext 996)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/25              Desg FWD 4         128.1817 P2p 
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0997
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9189
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9189   (priority 8192 sys-id-ext 997)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/30              Desg FWD 4         128.1822 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0998
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9190
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9190   (priority 8192 sys-id-ext 998)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/30              Desg FWD 4         128.1822 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN0999
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9191
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9191   (priority 8192 sys-id-ext 999)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN1000
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9192
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9192   (priority 8192 sys-id-ext 1000)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/26              Desg FWD 4         128.1818 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN1101
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9293
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33869  (priority 32768 sys-id-ext 1101)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN1102
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9294
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9294   (priority 8192 sys-id-ext 1102)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN1103
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9295
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33871  (priority 32768 sys-id-ext 1103)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN1104
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9296
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9296   (priority 8192 sys-id-ext 1104)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN1105
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9297
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33873  (priority 32768 sys-id-ext 1105)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN1106
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9298
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9298   (priority 8192 sys-id-ext 1106)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN1107
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9299
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33875  (priority 32768 sys-id-ext 1107)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN1108
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9300
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9300   (priority 8192 sys-id-ext 1108)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN1109
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9301
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33877  (priority 32768 sys-id-ext 1109)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/16              Desg FWD 4         128.2064 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN1110
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9302
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9302   (priority 8192 sys-id-ext 1110)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN1111
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9303
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33879  (priority 32768 sys-id-ext 1111)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN1112
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9304
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9304   (priority 8192 sys-id-ext 1112)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN1113
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9305
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33881  (priority 32768 sys-id-ext 1113)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN1114
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9306
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9306   (priority 8192 sys-id-ext 1114)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN1115
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9307
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33883  (priority 32768 sys-id-ext 1115)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Te2/1               Desg FWD 4         128.257  P2p 
+Gi4/4               Desg FWD 4         128.772  P2p 
+Gi4/8               Desg FWD 4         128.776  P2p 
+Gi4/21              Desg FWD 4         128.789  P2p 
+Gi8/21              Desg FWD 4         128.1813 P2p 
+Gi9/12              Desg FWD 4         128.2060 P2p 
+Gi9/13              Desg FWD 4         128.2061 P2p 
+Po60                Desg FWD 1         128.3342 P2p 
+Po61                Desg FWD 1         128.3343 P2p 
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN1116
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9308
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9308   (priority 8192 sys-id-ext 1116)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN1117
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9309
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33885  (priority 32768 sys-id-ext 1117)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN1118
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9310
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9310   (priority 8192 sys-id-ext 1118)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN1119
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9311
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33887  (priority 32768 sys-id-ext 1119)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN1120
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    9312
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    9312   (priority 8192 sys-id-ext 1120)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN1215
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    25791
+             Address     002a.6a75.d43c
+             Cost        1
+             Port        3342 (Port-channel60)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    33983  (priority 32768 sys-id-ext 1215)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po60                Root FWD 1         128.3342 P2p 
+
+
+VLAN2001
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    10193
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    18385  (priority 16384 sys-id-ext 2001)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN2002
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    10194
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    18386  (priority 16384 sys-id-ext 2002)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN2003
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    10195
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    18387  (priority 16384 sys-id-ext 2003)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN2004
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    10196
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    18388  (priority 16384 sys-id-ext 2004)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN2005
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    10197
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    18389  (priority 16384 sys-id-ext 2005)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po62                Desg FWD 1         128.3344 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN3099
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    35867
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    35867  (priority 32768 sys-id-ext 3099)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po52                Desg FWD 3         128.3341 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN3101
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    11293
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    19485  (priority 16384 sys-id-ext 3101)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Gi8/27              Desg FWD 4         128.1819 P2p 
+Gi8/28              Desg FWD 4         128.1820 P2p 
+Po33                Root FWD 3         128.3345 P2p 
+
+
+VLAN3115
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    11307
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    11307  (priority 8192 sys-id-ext 3115)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po52                Desg FWD 3         128.3341 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN3116
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    11308
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    11308  (priority 8192 sys-id-ext 3116)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po52                Desg FWD 3         128.3341 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN3117
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    11309
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    11309  (priority 8192 sys-id-ext 3117)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po52                Desg FWD 3         128.3341 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN3121
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    35889
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    35889  (priority 32768 sys-id-ext 3121)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po52                Desg FWD 3         128.3341 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN3216
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    11408
+             Address     0027.0dca.7a40
+             This bridge is the root
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    11408  (priority 8192 sys-id-ext 3216)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po51                Desg FWD 3         128.3337 P2p 
+Po52                Desg FWD 3         128.3341 P2p 
+Po33                Desg FWD 3         128.3345 P2p 
+
+
+VLAN3219
+  Spanning tree enabled protocol rstp
+  Root ID    Priority    11411
+             Address     0027.0dfd.b380
+             Cost        3
+             Port        3345 (Port-channel33)
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+
+  Bridge ID  Priority    19603  (priority 16384 sys-id-ext 3219)
+             Address     0027.0dca.7a40
+             Hello Time   2 sec  Max Age 20 sec  Forward Delay 15 sec
+             Aging Time 480
+
+Interface           Role Sts Cost      Prio.Nbr Type
+------------------- ---- --- --------- -------- --------------------------------
+Po51                Desg FWD 3         128.3337 P2p 
+Po33                Root FWD 3         128.3345 P2p 
